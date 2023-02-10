@@ -16,11 +16,8 @@ export default function Home() {
         <h1>Md. Habibur Rahman Shohel</h1>
         <h1 className='uppercase text-center hover:text-white hover:bg-black'>Md. fardin khan</h1>
         <h1>Md. fardin khan</h1>
-<<<<<<< HEAD
         <h1>Md. Parvez Hossain</h1>
-=======
         <h1>Mahabubur Rahman</h1>
->>>>>>> da05ebb8c459192d4aefbec9aec2c76225775e6e
       </main>
     </>
   )
