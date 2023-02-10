@@ -24,7 +24,7 @@ export default function Home() {
           Mahabubur Rahman
         </h1>
         <h1 className="uppercase text-center hover:text-white hover:bg-black">
-          Naimur Rahman
+          Naimur Rahman is good
         </h1>
       </main>
     </>
