@@ -28,6 +28,9 @@ export default function Home() {
         <h1 className='uppercase text-center hover:text-white hover:bg-black'>
           Naimur Rahman
         </h1>
+        <h1 className='uppercase text-center hover:text-white hover:bg-black'>
+          Mahabub
+        </h1>
       </main>
     </>
   );
