@@ -14,6 +14,7 @@ export default function Home() {
       </Head>
       <main>
         <h1>Md. Habibur Rahman Shohel</h1>
+        <h1 className='text-3xl text-center font-semibold p-5 hover:text-red-500'>MD Naimur Rahman</h1>
       </main>
     </>
   )
