@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
       <main>
         <h1>Md. Habibur Rahman Shohel</h1>
-        <h1 className='uppercase text-center bg-slate-600 hover:text-white hover:bg-black transition-all'>Md. fardin khan</h1>
+        <h1>Md. fardin khan</h1>
       </main>
     </>
   )
