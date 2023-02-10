@@ -18,6 +18,7 @@ export default function Home() {
         <h1>Md. fardin khan</h1>
         <h1>Md. Parvez Hossain</h1>
         <h1>Mahabubur Rahman</h1>
+        <h1>Naimur Rahman</h1>
       </main>
     </>
   )
