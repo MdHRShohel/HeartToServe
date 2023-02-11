@@ -1,9 +1,11 @@
 import AntiDrugCampaign from "@/component/AntiDrugCampaign";
 import BecomeAVolunteer from "@/component/BecomeAVolunteer";
+import ContactUs from "@/component/ContactUs";
 import FreeCounselling from "@/component/FreeCounselling";
 import FundRaising from "@/component/FundRaising";
 import { Poppins } from "@next/font/google";
 import Head from "next/head";
+
 
 const poppins = Poppins({ weight: ["700", "400"], preload: false });
 
@@ -22,6 +24,7 @@ export default function Home() {
         <AntiDrugCampaign></AntiDrugCampaign>
         <FreeCounselling />
         <FundRaising></FundRaising>
+        <ContactUs></ContactUs>
       </main>
     </>
   );
