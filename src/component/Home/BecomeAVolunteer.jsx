@@ -21,7 +21,7 @@ export default () => {
           </div>
         </div>
       </div>
-      <div className='flex gap-4 m-10 lg:flex-row flex-col items-center container'>
+      <div className='flex gap-4 m-10 lg:flex-row flex-col items-center container mx-auto'>
         <div className='lg:w-[50%]'>
           <h1 className='sm:text-5xl uppercase font-semibold'>Requirements</h1>
           <div className='text-[0.9rem]'>
