@@ -1,5 +1,6 @@
 import AntiDrugCampaign from "@/component/AntiDrugCampaign";
 import Form from "@/component/Form";
+import FreeCounselling from "@/component/FreeCounselling";
 import FundRaising from "@/component/FundRaising";
 import { Poppins } from "@next/font/google";
 import Head from "next/head";
@@ -19,6 +20,7 @@ export default function Home() {
       <main className={`${poppins.className}`}>
         <Form></Form>
         <AntiDrugCampaign></AntiDrugCampaign>
+        <FreeCounselling/>
         <FundRaising></FundRaising>
       </main>
     </>
