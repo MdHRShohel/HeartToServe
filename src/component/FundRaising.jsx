@@ -14,9 +14,12 @@ function FundRaising() {
 			</h1>
 			<div className='mt-10 grid lg:grid-cols-2 gap-20'>
 				<div className='w-full'>
-					<div className='text-center text-xl text-red-500 font-bold mb-2'>
+					<div className='text-center text-2xl text-red-500 font-bold mb-2'>
 						<Typewriter
-							words={["Donate For Turkey Earthquake"]}
+							words={[
+								"Donate For Turkey Earthquake",
+								"Donate For Syria Earthquake",
+							]}
 							cursor
 							cursorStyle='...'
 							typeSpeed={100}
