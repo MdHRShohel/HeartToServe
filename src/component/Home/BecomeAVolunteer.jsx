@@ -5,7 +5,7 @@ export default () => {
     <div className=''>
       <div>
         <div
-          className='w-full md:h-[550px] h-[300px]'
+          className='w-full md:h-[550px] h-[300px] '
           style={{
             background:
               "linear-gradient(rgb(255 226 218 / 16%), rgb(255 226 218 / 21%)), url(https://i.ibb.co/4MrS1DZ/pexels-rodnae-productions-6646894-1.jpg)",
@@ -21,7 +21,7 @@ export default () => {
           </div>
         </div>
       </div>
-      <div className='flex gap-4 m-10 lg:flex-row flex-col items-center container'>
+      <div className='flex gap-4 m-10 lg:flex-row flex-col items-center container mx-auto'>
         <div className='lg:w-[50%]'>
           <h1 className='sm:text-5xl uppercase font-semibold'>Requirements</h1>
           <div className='text-[0.9rem]'>
