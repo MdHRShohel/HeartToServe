@@ -1,3 +1,4 @@
+import BloodDonation from "@/component/BloodDonation";
 import Form from "@/component/Form";
 import { Poppins } from "@next/font/google";
 import Head from "next/head";
@@ -16,6 +17,7 @@ export default function Home() {
       </Head>
       <main>
         <Form></Form>
+        <BloodDonation/>
       </main>
     </>
   );
