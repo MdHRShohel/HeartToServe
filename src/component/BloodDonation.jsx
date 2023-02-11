@@ -8,7 +8,7 @@ const BloodDonation = () => {
 
 <div className="grid md:grid-cols-2 gap-8 container mx-auto">
     
-    <div className="lg:flex  gap-3 bg-[#ffe2da]">
+    <div className="lg:flex  gap-3 bg-gray-50">
         <div className="">
             
             <img src="https://i.ibb.co/JnhpsJx/donation.jpg" className="w-96 h-64" alt="" />
@@ -17,7 +17,7 @@ const BloodDonation = () => {
         <div className="p-2">
             
            <div>
-           <p className="text-white font-semibold bg-red-500  py-2 px-4 w-40 text-center hover:cursor-pointer" >20 SEP, 2017</p>
+           <p className="text-black font-semibold  hover:cursor-pointer" >20 SEP, 2017 kichu lekhen</p>
            </div>
             <h1 className="text-2xl text-red-500 my-2">O- BLOOD DONORS NEEDED</h1>
 
@@ -30,14 +30,14 @@ const BloodDonation = () => {
                     <span> <ImLocation/></span>
                     <p>California, USA</p>
                 </div>
-                <button className=' bg-[#ffe2da] text-[#ff9370] font-semibold py-1 mt-4 px-3 rounded '>View Details</button>
+                <button className=' bg-gray-50 text-[#ff9370] font-semibold py-1 mt-4 px-3 rounded '>View Details</button>
             
             
         </div>
     </div>
 
 
-    <div className="lg:flex  gap-3 bg-[#ffe2da]">
+    <div className="lg:flex  gap-3 bg-gray-50">
         <div className="">
             
             <img src="https://i.ibb.co/XW7rY6j/you.jpg" className="w-96 h-64" alt="" />
@@ -46,7 +46,7 @@ const BloodDonation = () => {
         <div className="p-2">
             
            <div>
-           <p className="text-white font-semibold bg-black py-2 px-4 w-40 text-center hover:cursor-pointer" >14 JUNE, 2017</p>
+           <p className="text-black font-semibold hover:cursor-pointer" >14 JUNE, 2017</p>
            </div>
             <h1 className="text-2xl text-red-500 my-2">WORLD BLOOD DONORS DAY</h1>
 
@@ -59,7 +59,7 @@ const BloodDonation = () => {
                     <span> <ImLocation/></span>
                     <p>California, USA</p>
                 </div>
-                <button className=' bg-[#ffe2da] text-[#ff9370] font-semibold py-1 mt-4 px-3 rounded '>View Details</button>
+                <button className=' bg-gray-50 text-[#ff9370] font-semibold py-1 mt-4 px-3 rounded '>View Details</button>
             
             
         </div>
@@ -67,7 +67,7 @@ const BloodDonation = () => {
 
 
 
-    <div className="lg:flex  gap-3 bg-[#ffe2da]">
+    <div className="lg:flex  gap-3 bg-gray-50">
         <div className="">
             
             <img src="https://i.ibb.co/mGCMBNn/world.jpg" className="w-96 h-64" alt="" />
@@ -76,7 +76,7 @@ const BloodDonation = () => {
         <div className="p-2">
             
            <div>
-           <p className="text-white font-semibold bg-black py-2 px-4 w-40 text-center hover:cursor-pointer" >14 JUNE, 2017</p>
+           <p className="text-black font-semibold hover:cursor-pointer" >14 JUNE, 2017</p>
            </div>
             <h1 className="text-2xl text-red-500 my-2">YOU ARE SOMEBODY’S TYPE</h1>
 
@@ -89,7 +89,7 @@ const BloodDonation = () => {
                     <span> <ImLocation/></span>
                     <p>California, USA</p>
                 </div>
-                <button className=' bg-[#ffe2da] text-[#ff9370] font-semibold py-1 mt-4 px-3 rounded '>View Details</button>
+                <button className=' bg-gray-50 text-[#ff9370] font-semibold py-1 mt-4 px-3 rounded '>View Details</button>
             
             
         </div>
@@ -97,7 +97,7 @@ const BloodDonation = () => {
 
 
 
-    <div className="lg:flex  gap-3 bg-[#ffe2da]">
+    <div className="lg:flex  gap-3 bg-gray-50">
         <div className="">
             
             <img src="https://i.ibb.co/HdrY1r7/o.jpg" className="w-96 h-64" alt="" />
@@ -106,7 +106,7 @@ const BloodDonation = () => {
         <div className="p-2">
             
            <div>
-           <p className="text-white font-semibold bg-black py-2 px-4 w-40 text-center hover:cursor-pointer" >14 JUNE, 2017</p>
+           <p className="text-black font-semibold hover:cursor-pointer" >14 JUNE, 2017</p>
            </div>
             <h1 className="text-2xl text-red-500 my-2">DONATION - FEEL REAL PEACE</h1>
 
@@ -119,18 +119,12 @@ const BloodDonation = () => {
                     <span> <ImLocation/></span>
                     <p>California, USA</p>
                 </div>
-                <button className=' bg-[#ffe2da] text-[#ff9370] font-semibold py-1 mt-4 px-3 rounded '>View Details</button>
+                <button className=' bg-gray-50 text-[#ff9370] font-semibold py-1 mt-4 px-3 rounded '>View Details</button>
                 
             
             
         </div>
     </div>
-
-
-     
-
-
-
 
       </div>
      </div>
