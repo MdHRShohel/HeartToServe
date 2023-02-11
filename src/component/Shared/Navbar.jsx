@@ -1,4 +1,4 @@
-import logo from "../asset/logo.png";
+import logo from "../../asset/logo.png";
 
 import Link from "next/link";
 import Image from "next/image";
@@ -110,7 +110,7 @@ function Navbar() {
                 </svg>
               </Link>
             </div>
-            <div>
+            <div className="text-white bg-[#F36A4F] px-5 py-2">
               <Link href={"#"}>DONATE NOW</Link>
             </div>
           </div>
