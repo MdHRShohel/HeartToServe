@@ -1,4 +1,4 @@
-import { BsFillCheckCircleFill } from "react-icons/bs";
+import { BsCheckLg } from "react-icons/bs";
 
 export default () => {
   return (
@@ -21,11 +21,11 @@ export default () => {
           </div>
         </div>
       </div>
-      <div className='flex gap-4 m-10 lg:flex-row flex-col'>
+      <div className='flex gap-4 m-10 lg:flex-row flex-col items-center'>
         <div className='lg:w-[50%]'>
           <h1 className='sm:text-5xl uppercase font-semibold'>Requirements</h1>
           <div className='text-[0.9rem]'>
-            <p className='pt-4'>
+            <p className='py-10 '>
               Time is our most precious resource. So if you are considering
               volunteering, but wondering if it’s worth your time and effort,
               it’s important to remember that even though you won’t be earning a
@@ -35,19 +35,19 @@ export default () => {
               <div>
                 <ul className='flex flex-col gap-5'>
                   <li className='flex items-center gap-2'>
-                    <BsFillCheckCircleFill className='text-xl' /> Positive
+                    <BsCheckLg className='text-sm' /> Positive
                     attitude
                   </li>
                   <li className='flex items-center gap-2'>
-                    <BsFillCheckCircleFill className='text-xl' /> Time
+                    <BsCheckLg className='text-sm' /> Time
                     management
                   </li>
                   <li className='flex items-center gap-2'>
-                    <BsFillCheckCircleFill className='text-xl' /> Willingness to
+                    <BsCheckLg className='text-sm' /> Willingness to
                     help
                   </li>
                   <li className='flex items-center gap-2'>
-                    <BsFillCheckCircleFill className='text-xl' /> Strong work
+                    <BsCheckLg className='text-sm' /> Strong work
                     ethic
                   </li>
                 </ul>
@@ -56,17 +56,17 @@ export default () => {
               <div className='md:p-0 pt-3'>
                 <ul className='flex flex-col gap-5'>
                   <li className='flex items-center gap-2'>
-                    <BsFillCheckCircleFill className='text-xl' /> Compassion
+                    <BsCheckLg className='text-sm' /> Compassion
                   </li>
                   <li className='flex items-center gap-2'>
-                    <BsFillCheckCircleFill className='text-xl ' /> Leadership
+                    <BsCheckLg className='text-sm ' /> Leadership
                   </li>
                   <li className='flex items-center gap-2'>
-                    <BsFillCheckCircleFill className='text-xl' /> Be 18 years or
+                    <BsCheckLg className='text-sm' /> Be 18 years or
                     older
                   </li>
                   <li className='flex items-center gap-2'>
-                    <BsFillCheckCircleFill className='text-xl' /> Sign an oath
+                    <BsCheckLg className='text-sm' /> Sign an oath
                     of confidentiality
                   </li>
                 </ul>
@@ -77,7 +77,7 @@ export default () => {
         <div className='bg-[#ffe2da] lg:w-[50%]'>
           <div class='flex items-center justify-center p-10'>
             <div class='mx-auto w-full'>
-              <h1 className='uppercase font-bold sm:text-5xl'>JOIN US NOW</h1>
+              {/* <h1 className='uppercase font-bold sm:text-5xl'>JOIN US NOW</h1> */}
               <form action='#'>
                 <div class='mb-5'>
                   <label
@@ -90,7 +90,7 @@ export default () => {
                     name='name'
                     id='name'
                     placeholder='Full Name'
-                    className='w-full rounded-md border-transparent border-2 border-b-[#F36A4F] bg-transparent py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-b-[#6A64F1] focus:shadow-md'
+                    className='w-full  border-transparent border-2 border-b-[#F36A4F] bg-transparent py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-b-[#6A64F1] focus:shadow-md'
                   />
                 </div>
                 <div class='mb-5'>
@@ -104,7 +104,7 @@ export default () => {
                     name='email'
                     id='email'
                     placeholder='example@domain.com'
-                    className='w-full rounded-md border-transparent border-2 border-b-[#F36A4F] bg-transparent py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-b-[#6A64F1] focus:shadow-md'
+                    className='w-full  border-transparent border-2 border-b-[#F36A4F] bg-transparent py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-b-[#6A64F1] focus:shadow-md'
                   />
                 </div>
                 <div class='mb-5'>
@@ -118,7 +118,7 @@ export default () => {
                     name='address'
                     id='address'
                     placeholder='167/1/B/1 Dhaka..'
-                    className='w-full rounded-md border-transparent border-2 border-b-[#F36A4F] bg-transparent py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-b-[#6A64F1] focus:shadow-md'
+                    className='w-full  border-transparent border-2 border-b-[#F36A4F] bg-transparent py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-b-[#6A64F1] focus:shadow-md'
                   />
                 </div>
                 <div class='mb-5'>
@@ -127,51 +127,16 @@ export default () => {
                     class='mb-3 block text-base font-medium text-[#c2513b]'>
                     Blood Group
                   </label>
-                  <div className='flex sm:flex-row flex-col gap-4'>
-                    <div className='flex gap-2'>
-                      <input type='checkbox' />
-                      <label className='label' value='A+'>
-                        <span className='label-text text-base font-medium text-[#07074D]'>
-                          A+
-                        </span>
-                      </label>
-                    </div>
-                    <div className='flex gap-2'>
-                      <input type='checkbox' />
-                      <label className='label' value='B+'>
-                        <span className='label-text text-base font-medium text-[#07074D]'>
-                          B+
-                        </span>
-                      </label>
-                    </div>
-                    <div className='flex gap-2'>
-                      <input type='checkbox' />
-                      <label className='label' value='AB+'>
-                        <span className='label-text text-base font-medium text-[#07074D]'>
-                          AB+
-                        </span>
-                      </label>
-                    </div>
-                    <div className='flex gap-2'>
-                      <input type='checkbox' />
-                      <label className='label' value='O+'>
-                        <span className='label-text text-base font-medium text-[#07074D]'>
-                          O+
-                        </span>
-                      </label>
-                    </div>
-                    <div className='flex gap-2'>
-                      <input type='checkbox' />
-                      <label className='label' value='O-'>
-                        <span className='label-text text-base font-medium text-[#07074D]'>
-                          O-
-                        </span>
-                      </label>
-                    </div>
-                  </div>
+                  <input
+                    type='text'
+                    name='bloodGroup'
+                    id='bloodGroup'
+                    placeholder='A+..'
+                    className='w-full  border-transparent border-2 border-b-[#F36A4F] bg-transparent py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-b-[#6A64F1] focus:shadow-md'
+                  />
                 </div>
                 <div>
-                  <button class='hover:shadow-form rounded-md border-transparent border-2 border-b-[#c2513b] text-[#c2513b] py-3 px-8 text-base font-semibold outline-none'>
+                  <button class='hover:shadow-form bg-[#c2513b] text-white py-3 px-8 text-base font-semibold outline-none'>
                     Submit
                   </button>
                 </div>
