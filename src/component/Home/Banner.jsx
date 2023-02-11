@@ -1,15 +1,14 @@
 import Image from "next/image";
 import img1 from "../../asset/banner/img1.jpg";
-import img2 from "../../asset/banner/img2.jpg";
 import img3 from "../../asset/banner/img3.jpg";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
+import { Autoplay, Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
-import { Pagination, Autoplay } from "swiper";
 
 const Banner = () => {
   const bannerData = [
@@ -38,8 +37,8 @@ const Banner = () => {
           clickable: true,
         }}
         modules={[Pagination, Autoplay]}
-        onSlideChange={() => console.log("slide change")}
-        onSwiper={(swiper) => console.log(swiper)}
+        // onSlideChange={() => console.log("slide change")}
+        // onSwiper={(swiper) => console.log(swiper)}
       >
         {bannerData.map((banner, i) => {
           return (
