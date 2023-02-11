@@ -1,9 +1,9 @@
 const FreeCounselling = () => {
     return (
         <div>
-            <h1 className="text-center text-4xl font-semibold">Free Counselling</h1>
-            <div className="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
-            <div className="grid gap-8 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
+            <h1 className="text-center mb-8 font-bold text-3xl drop-shadow-lg">Free Counselling</h1>
+            <div className="container mx-auto">
+            <div className="grid gap-8 lg:grid-cols-3">
                 <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
                 <img
                     src="https://www.saraswatiborsad.org/wp-content/uploads/2021/07/Career-Counselling-1200x900.jpg"

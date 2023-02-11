@@ -50,14 +50,14 @@ export default () => {
                     <BsFillCheckCircleFill className='text-xl' /> Strong work
                     ethic
                   </li>
-                  <li className='flex items-center gap-2'>
-                    <BsFillCheckCircleFill className='text-xl' /> Compassion
-                  </li>
                 </ul>
               </div>
 
               <div className='md:p-0 pt-3'>
                 <ul className='flex flex-col gap-4'>
+                  <li className='flex items-center gap-2'>
+                    <BsFillCheckCircleFill className='text-xl' /> Compassion
+                  </li>
                   <li className='flex items-center gap-2'>
                     <BsFillCheckCircleFill className='text-xl ' /> Leadership
                   </li>
