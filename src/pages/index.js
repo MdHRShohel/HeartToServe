@@ -4,6 +4,7 @@ import BloodDonation from "@/component/BloodDonation";
 import ContactUs from "@/component/ContactUs";
 import FreeCounselling from "@/component/FreeCounselling";
 import FundRaising from "@/component/FundRaising";
+import SmallCounterBanner from "@/component/SmallCounterBanner";
 import YouthDevelopment from "@/component/YouthDevelopment";
 import { Poppins } from "@next/font/google";
 import Head from "next/head";
@@ -27,6 +28,7 @@ export default function Home() {
         <FreeCounselling />
         <BloodDonation />
         <YouthDevelopment />
+        <SmallCounterBanner></SmallCounterBanner>
         <FundRaising></FundRaising>
         <ContactUs></ContactUs>
       </main>
