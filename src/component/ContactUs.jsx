@@ -13,7 +13,7 @@ function ContactUs() {
 	};
 
 	return (
-		<div className='w-10/12 mx-auto my-20'>
+		<div className='w-10/12 mx-auto my-20 container'>
 			<h1 className='text-center font-bold text-3xl drop-shadow-lg'>
 				Get In Touch With Us
 			</h1>
@@ -22,14 +22,14 @@ function ContactUs() {
 					<Map
 						height={300}
 						defaultCenter={[23.8103, 90.4125]}
-						defaultZoom={8}>
+						defaultZoom={10}>
 						<Marker
 							width={50}
 							anchor={[23.8103, 90.4125]}
 						/>
 					</Map>
 				</div>
-				<div className='p-8'>
+				<div className='p-8 bg-gray-100'>
 					<h2 className='text-3xl font-medium'>Our Location</h2>
 					<div className='flex items-center mt-12'>
 						<BsFillTelephoneOutboundFill
@@ -55,7 +55,7 @@ function ContactUs() {
 						</p>
 					</div>
 				</div>
-				<div className='bg-gray-300 p-8'>
+				<div className='bg-gray-200 p-8 grid items-center'>
 					<h2 className='text-3xl font-medium'>About Us</h2>
 					<p className='mt-4'>Hello</p>
 					<p className='mt-4 text-xs'>

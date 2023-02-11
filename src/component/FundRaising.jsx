@@ -8,7 +8,7 @@ function FundRaising() {
 	const [fundMoney, setFundMoney] = useState("");
 
 	return (
-		<div className='w-10/12 mx-auto my-20'>
+		<div className='w-10/12 mx-auto my-20 container'>
 			<h1 className='text-center font-bold text-3xl drop-shadow-lg'>
 				Funding Poor People
 			</h1>
@@ -29,8 +29,7 @@ function FundRaising() {
 						Fundraising or fund-raising is the process of seeking and gathering
 						voluntary financial contributions by engaging individuals,
 						businesses, charitable foundations, or agencies. access funding, and train them to become
-						sustainable in the process. All our profits are invested in the
-						company, increase our reach as an organization.
+						sustainable in the process.
 					</p>
 					<div className='flex justify-between items-start mt-8'>
 						<div className='pr-10 text-center space-y-3'>
