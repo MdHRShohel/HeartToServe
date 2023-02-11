@@ -26,7 +26,7 @@ export default function Home() {
         <h1 className="uppercase text-center hover:text-white hover:bg-black">
           Naimur Rahman is good
         </h1>
-        <h1 className='text-3xl font-semibold text-center'>
+        <h1 className='text-3xl font-semibold text-center hover:bg-black'>
           Naimur Rahman. Yes I am Fine.
         </h1>
       </main>
