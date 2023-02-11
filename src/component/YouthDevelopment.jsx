@@ -15,7 +15,7 @@ const YouthDevelopment = () => {
         
     }, [])
     return (
-        <div className="container mx-auto py-16">
+        <div className="container py-16">
             <h2 className="text-center font-bold text-4xl mt-4 mb-10 text-[#ff9370]">Our Youth Development Programme</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                 {

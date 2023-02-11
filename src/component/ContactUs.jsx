@@ -6,7 +6,7 @@ import { Map, Marker } from "pigeon-maps";
 
 function ContactUs() {
 	return (
-		<div className='w-10/12 mx-auto my-20 container'>
+		<div className='w-10/12 my-20 container'>
 			<h1 className='text-center text-orange-500 font-bold text-3xl drop-shadow-lg'>
 				Get In Touch With Us
 			</h1>

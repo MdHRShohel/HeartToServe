@@ -2,7 +2,7 @@ import { BsCheckLg } from "react-icons/bs";
 
 export default () => {
   return (
-    <div className='container mx-auto'>
+    <div className='container'>
       <div>
         <div
           className='w-full md:h-[550px] h-[300px]'
@@ -76,7 +76,7 @@ export default () => {
               <form action='#'>
                 <div class='mb-5'>
                   <label
-                    for='name'
+                    htmlFor='name'
                     class='mb-2 mt-2 block text-base font-semibold text-[#c2513b]'>
                     Full Name
                   </label>
@@ -90,7 +90,7 @@ export default () => {
                 </div>
                 <div class='mb-5'>
                   <label
-                    for='email'
+                    htmlFor='email'
                     class='mb-1 block text-base font-semibold text-[#c2513b]'>
                     Email Address
                   </label>
@@ -104,7 +104,7 @@ export default () => {
                 </div>
                 <div class='mb-5'>
                   <label
-                    for='address'
+                    htmlFor='address'
                     class='mb-3 block text-base font-semibold text-[#c2513b]'>
                     Location
                   </label>
@@ -118,7 +118,7 @@ export default () => {
                 </div>
                 <div class='mb-5'>
                   <label
-                    for='bloodGroup'
+                    htmlFor='bloodGroup'
                     class='mb-3 block text-base font-semibold text-[#c2513b]'>
                     Blood Group
                   </label>

@@ -10,7 +10,7 @@ const AntiDrugCampaign = () => {
         .then(data => setCampaigns(data))
     },[])
     return (
-        <div className="container mx-auto">
+        <div className="container">
             <div className="px-4 py-16">
                 <div>
                     <h2 className="text-3xl text-[#303030] text-center mb-10 font-semibold">Anti-Drug Campaign's</h2>
