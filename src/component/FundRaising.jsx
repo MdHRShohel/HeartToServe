@@ -13,7 +13,7 @@ function FundRaising() {
 				Funding Poor People
 			</h1>
 			<div className='mt-10 grid lg:grid-cols-2 gap-20'>
-				<div className='w-50'>
+				<div className='w-full'>
 					<div className='text-center text-xl text-red-500 font-bold mb-2'>
 						<Typewriter
 							words={["Donate For Turkey Earthquake"]}
@@ -91,13 +91,13 @@ function FundRaising() {
 						</form>
 					</div>
 				</div>
-				<div className='w-50 relative'>
+				<div className='w-full relative'>
 					<img
 						src='https://i.ibb.co/2WDdsWp/a.jpg'
 						alt='fund raising'
-						className='w-full'
+						className='w-full h-full'
 					/>
-					<div className='grid grid-cols-4 gap-2 text-sm lg:w-11/12 uppercase text-white absolute -bottom-10 lg:-bottom-3 lg:left-auto lg:right-6'>
+					<div className='grid grid-cols-4 gap-2 text-sm lg:w-11/12 uppercase text-white absolute -bottom-10 lg:-bottom-10 lg:left-auto lg:right-6'>
 						<article className='flex flex-col justify-center items-center text-center bg-violet-400 p-3 shadow-lg'>
 							<AiFillHeart fontSize={30} />
 							<p>Help The Children</p>
