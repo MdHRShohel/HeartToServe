@@ -8,7 +8,7 @@ export default () => {
           className='w-full md:h-[550px] h-[300px] '
           style={{
             background:
-              "linear-gradient(rgb(255 226 218 / 16%), rgb(255 226 218 / 21%)), url(https://i.ibb.co/4MrS1DZ/pexels-rodnae-productions-6646894-1.jpg)",
+              "linear-gradient(rgb(26 25 24 / 16%), rgb(43 35 32 / 21%)), url(https://i.ibb.co/4MrS1DZ/pexels-rodnae-productions-6646894-1.jpg)",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
             backgroundSize: "cover",
