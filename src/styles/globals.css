@@ -1,3 +1,90 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* .hoverStyle {
+  background-image: linear-gradient(
+    transparent calc(100% - 1px),
+    currentColor 1px
+  );
+}
+
+a:hover {
+  background-size: 100% calc(100% - 3px);
+  color: currentColor;
+} */
+
+/* hover effect */
+
+.navHover {
+  position: relative;
+}
+
+.navHover::before {
+  content: "";
+  position: absolute;
+  background: #303003;
+  width: 0;
+  height: 3px;
+  bottom: -3px;
+  transition: 0.3s;
+}
+
+.navHover:hover::before {
+  width: 100%;
+}
+
+/* Menu Button 3 */
+.mobileBtn {
+  height: 32px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.mobileBtn span,
+.mobileBtn span::before,
+.mobileBtn span::after {
+  background: #303003;
+  content: "";
+  position: absolute;
+  width: 38px;
+  height: 5px;
+  margin-top: 13px;
+  border-radius: 5px;
+
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(deg);
+  transform: rotate(180deg);
+
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.mobileBtn span::before {
+  margin-top: -12px;
+}
+
+.mobileBtn span::after {
+  margin-top: 12px;
+}
+
+.mobileBtn.active span {
+  background: transparent;
+}
+
+.mobileBtn.active span::before {
+  margin-top: 0;
+
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.mobileBtn.active span::after {
+  transform: rotate(-45deg);
+  margin-top: 0;
+}
