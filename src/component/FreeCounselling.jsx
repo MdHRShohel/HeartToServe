@@ -12,7 +12,7 @@ const FreeCounselling = () => {
                 />
                 <div className="p-5 border border-t-0">
                      <p className="mb-3 text-xs font-semibold tracking-wide uppercase">
-                    <span className="transition-colors duration-200 text-blue-gray-900 hover:text-deep-purple-accent-700"> Date : 05 Feb 2023</span>
+                    <span className="transition-colors duration-200 text-[#F36A4F] hover:text-deep-purple-accent-700"> Date : 05 Feb 2023</span>
                     </p>
                     <a
                     href="/"
@@ -28,7 +28,7 @@ const FreeCounselling = () => {
                     <a
                     href="/"
                     aria-label=""
-                    className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+                    className="inline-flex items-center font-semibold text-[#F36A4F] hover:border-b hover:border-b-[#F36A4F] hover:text-[#f52d05] duration-300"
                     >
                     Read more
                     </a>
@@ -42,7 +42,7 @@ const FreeCounselling = () => {
                 />
                 <div className="p-5 border border-t-0">
                     <p className="mb-3 text-xs font-semibold tracking-wide uppercase">
-                    <span className="transition-colors duration-200 text-blue-gray-900 hover:text-deep-purple-accent-700"> Date : 31 Jan 2023</span>
+                    <span className="transition-colors duration-200 text-[#F36A4F]  hover:text-deep-purple-accent-700"> Date : 31 Jan 2023</span>
                     </p>
                     <a
                     href="/"
@@ -58,7 +58,7 @@ const FreeCounselling = () => {
                     <a
                     href="/"
                     aria-label=""
-                    className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+                    className="inline-flex items-center font-semibold text-[#F36A4F] hover:border-b hover:border-b-[#F36A4F] hover:text-[#f52d05] duration-300"
                     >
                     Read more
                     </a>
@@ -72,7 +72,7 @@ const FreeCounselling = () => {
                 />
                 <div className="p-5 border border-t-0">
                      <p className="mb-3 text-xs font-semibold tracking-wide uppercase">
-                    <span className="transition-colors duration-200 text-blue-gray-900 hover:text-deep-purple-accent-700"> Date : 28 Dec 2022</span>
+                    <span className="transition-colors duration-200 text-[#F36A4F] hover:text-deep-purple-accent-700"> Date : 28 Dec 2022</span>
                     </p>
                     <a
                     href="/"
@@ -88,7 +88,7 @@ const FreeCounselling = () => {
                     <a
                     href="/"
                     aria-label=""
-                    className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+                    className="inline-flex items-center font-semibold text-[#F36A4F] hover:border-b hover:border-b-[#F36A4F] hover:text-[#f52d05] duration-300"
                     >
                     Read more
                     </a>
