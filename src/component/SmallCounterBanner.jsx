@@ -5,7 +5,7 @@ import CountUp from "react-countup";
 
 function SmallCounterBanner() {
 	return (
-		<div className='mx-auto container'>
+		<div className='container'>
 			<div
 				className='px-16 py-8 flex justify-between items-center'
 				style={{

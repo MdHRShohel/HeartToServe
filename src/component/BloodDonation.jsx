@@ -6,7 +6,7 @@ const BloodDonation = () => {
      <div>
 
 
-<div className="grid md:grid-cols-2 gap-8 container mx-auto">
+<div className="grid md:grid-cols-2 gap-8 container">
     
     <div className="lg:flex  gap-3 bg-gray-50">
         <div className="">
