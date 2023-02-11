@@ -33,7 +33,7 @@ function Navbar() {
   return (
     <>
       {/* Navbar top */}
-      <div className="bg-[#f3f3f3] py-3">
+      <div className="bg-[#f3f3f3] py-3 hidden lg:block">
         <div className=" container mx-auto px-3 md:px-0 flex justify-between items-center">
           <div className="[&>*]:text-xs space-x-5">
             <a className="hoverStyle" href="tel:+6494461709">
@@ -89,16 +89,16 @@ function Navbar() {
       </div>
 
       {/* Navbar */}
-      <div className="container mx-auto  md:px-0 border-b-2 mb-4 py-3.5 ">
+      <div className="container mx-auto  md:px-0 border-b-2 mb-4 py-3.5 pt-5">
         <div className="flex justify-between items-center relative">
           <Link href={"/"}>
             <Image className="w-[100px]" src={logo} alt="" />
           </Link>
-          <div className="text-xl text-[#303030] font-bold space-x-6 hidden lg:block ">
+          <div className="text-md xl:text-xl text-[#303030] font-bold space-x-6 hidden lg:block ">
             {menuItems}
           </div>
 
-          <div className="  hidden lg:flex gap-4 justify-between items-center font-bold">
+          <div className="text-md xl:text-xl  hidden lg:flex gap-4 justify-between items-center font-bold">
             <div>
               <Link href={"#"}>
                 <svg
@@ -129,7 +129,7 @@ function Navbar() {
           <div
             className={` ${
               mobileBtn ? "hidden" : "block top-16"
-            } absolute  flex gap-3 flex-col text-xl text-[#303030] font-bold lg:hidden bg-white w-full py-5 px-5 border-b-4 transition-all duration-500`}
+            } absolute  flex gap-3 flex-col text-md text-[#303030] font-bold lg:hidden bg-white w-full py-5 px-5 border-b-4 transition-all duration-500`}
           >
             {menuItems}
           </div>
