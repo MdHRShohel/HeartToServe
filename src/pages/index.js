@@ -27,9 +27,7 @@ export default function Home() {
         <AntiDrugCampaign></AntiDrugCampaign>
         <FreeCounselling />
         <BloodDonation />
-        <SmallCounterBanner></SmallCounterBanner>
         <FundRaising></FundRaising>
-        <ContactUs></ContactUs>
       </main>
     </>
   );
