@@ -75,13 +75,14 @@ export default () => {
           </div>
         </div>
         <div className='bg-[#ffe2da] lg:w-[50%]'>
-          <div class='flex items-center justify-center p-12'>
+          <div class='flex items-center justify-center p-10'>
             <div class='mx-auto w-full'>
+              <h1 className='uppercase font-bold sm:text-5xl'>JOIN US NOW</h1>
               <form action='#'>
                 <div class='mb-5'>
                   <label
                     for='name'
-                    class='mb-3 block text-base font-medium text-[#07074D]'>
+                    class='mb-2 mt-2 block text-base font-medium text-[#c2513b]'>
                     Full Name
                   </label>
                   <input
@@ -89,13 +90,13 @@ export default () => {
                     name='name'
                     id='name'
                     placeholder='Full Name'
-                    class='w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md'
+                    className='w-full rounded-md border-transparent border-2 border-b-[#F36A4F] bg-transparent py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-b-[#6A64F1] focus:shadow-md'
                   />
                 </div>
                 <div class='mb-5'>
                   <label
                     for='email'
-                    class='mb-3 block text-base font-medium text-[#07074D]'>
+                    class='mb-1 block text-base font-medium text-[#c2513b]'>
                     Email Address
                   </label>
                   <input
@@ -103,16 +104,30 @@ export default () => {
                     name='email'
                     id='email'
                     placeholder='example@domain.com'
-                    class='w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md'
+                    className='w-full rounded-md border-transparent border-2 border-b-[#F36A4F] bg-transparent py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-b-[#6A64F1] focus:shadow-md'
+                  />
+                </div>
+                <div class='mb-5'>
+                  <label
+                    for='address'
+                    class='mb-3 block text-base font-medium text-[#c2513b]'>
+                    Address
+                  </label>
+                  <input
+                    type='text'
+                    name='address'
+                    id='address'
+                    placeholder='167/1/B/1 Dhaka..'
+                    className='w-full rounded-md border-transparent border-2 border-b-[#F36A4F] bg-transparent py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-b-[#6A64F1] focus:shadow-md'
                   />
                 </div>
                 <div class='mb-5'>
                   <label
                     for='bloodGroup'
-                    class='mb-3 block text-base font-medium text-[#07074D]'>
+                    class='mb-3 block text-base font-medium text-[#c2513b]'>
                     Blood Group
                   </label>
-                  <div className="flex flex-row gap-4">
+                  <div className='flex sm:flex-row flex-col gap-4'>
                     <div className='flex gap-2'>
                       <input type='checkbox' />
                       <label className='label' value='A+'>
@@ -156,7 +171,7 @@ export default () => {
                   </div>
                 </div>
                 <div>
-                  <button class='hover:shadow-form rounded-md bg-[#6A64F1] py-3 px-8 text-base font-semibold text-white outline-none'>
+                  <button class='hover:shadow-form rounded-md border-transparent border-2 border-b-[#c2513b] text-[#c2513b] py-3 px-8 text-base font-semibold outline-none'>
                     Submit
                   </button>
                 </div>
