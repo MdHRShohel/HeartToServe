@@ -4,6 +4,7 @@ import BloodDonation from "@/component/BloodDonation";
 import ContactUs from "@/component/ContactUs";
 import FreeCounselling from "@/component/FreeCounselling";
 import FundRaising from "@/component/FundRaising";
+import Navbar from "@/component/navbar";
 import SmallCounterBanner from "@/component/SmallCounterBanner";
 import YouthDevelopment from "@/component/YouthDevelopment";
 import { Poppins } from "@next/font/google";
@@ -26,7 +27,9 @@ export default function Home() {
         <AntiDrugCampaign></AntiDrugCampaign>
         <FreeCounselling />
         <BloodDonation />
+        <SmallCounterBanner></SmallCounterBanner>
         <FundRaising></FundRaising>
+        <ContactUs></ContactUs>
       </main>
     </>
   );
