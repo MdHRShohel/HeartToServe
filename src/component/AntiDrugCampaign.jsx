@@ -14,24 +14,23 @@ const AntiDrugCampaign = () => {
             />
             </div>
             <div className="absolute top-5 left-0 flex justify-center items-center text-[#9b8db7] bg-[#f0e8f8] px-[6px] py-[2px]">
-              <p className="text-5xl font-bold">11</p>
+              <p className="text-5xl font-bold mr-1">04</p>
               <div className="font-semibold text-xs leading-4">
-                <p>Jun</p>
+                <p>Feb</p>
                 <p>2023</p>
               </div>
             </div>
           </div>
           <div className="bg-[#f6f6f6] px-5 py-4 text-[#303030]">
             
-            <h2 className="text-xl font-bold leading-5 mb-3">Diving to the deep</h2>
+            <h2 className="text-xl font-bold leading-5 mb-3">Anti-Drug Campaign</h2>
 
             <p className="mb-4 text-gray-700 text-sm leading-6">
-              Sed ut perspiciatis unde omnis iste natus error sit sed quia
-              consequuntur magni voluptatem doloremque.
+              On Feb 05 2023, me and my team started a campaign for Anti-Drug campaign for aware people about drugs...
             </p>
             <div className="flex">
                <button
-              className="inline-flex items-center font-semibold hover:border-b hover:border-black hover:duration-300"
+              className="inline-flex items-center font-semibold hover:border-b hover:border-[#ff9370] hover:text-[#ff9370] hover:duration-300"
             >
               Learn more
             </button>
