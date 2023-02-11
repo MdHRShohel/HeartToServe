@@ -25,7 +25,6 @@ export default function Home() {
         <Navbar />
         <BecomeAVolunteer></BecomeAVolunteer>
         <AntiDrugCampaign></AntiDrugCampaign>
-        <YouthDevelopment></YouthDevelopment>
         <FreeCounselling />
         <BloodDonation />
         <FundRaising></FundRaising>
