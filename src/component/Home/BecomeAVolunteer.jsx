@@ -2,13 +2,13 @@ import { BsCheckLg } from "react-icons/bs";
 
 export default () => {
   return (
-    <div className='container'>
+    <div className=''>
       <div>
         <div
-          className='w-full md:h-[550px] h-[300px]'
+          className='w-full md:h-[550px] h-[300px] '
           style={{
             background:
-              "linear-gradient(rgb(255 226 218 / 16%), rgb(255 226 218 / 21%)), url(https://i.ibb.co/4MrS1DZ/pexels-rodnae-productions-6646894-1.jpg)",
+              "linear-gradient(rgb(26 25 24 / 16%), rgb(43 35 32 / 21%)), url(https://i.ibb.co/4MrS1DZ/pexels-rodnae-productions-6646894-1.jpg)",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
             backgroundSize: "cover",
@@ -21,7 +21,7 @@ export default () => {
           </div>
         </div>
       </div>
-      <div className='flex gap-4 m-10 lg:flex-row flex-col items-center'>
+      <div className='flex gap-4 m-10 lg:flex-row flex-col items-center container mx-auto'>
         <div className='lg:w-[50%]'>
           <h1 className='sm:text-5xl uppercase font-semibold'>Requirements</h1>
           <div className='text-[0.9rem]'>
@@ -70,14 +70,14 @@ export default () => {
           </div>
         </div>
         <div className='bg-[#ffe2da] lg:w-[50%] w-full lg:mt-0 mt-6'>
-          <div class='flex items-center justify-center sm:p-10 p-4'>
-            <div class='mx-auto w-full'>
+          <div className='flex items-center justify-center sm:p-10 p-4'>
+            <div className='mx-auto w-full'>
               {/* <h1 className='uppercase font-bold sm:text-5xl'>JOIN US NOW</h1> */}
               <form action='#'>
-                <div class='mb-5'>
+                <div className='mb-5'>
                   <label
                     htmlFor='name'
-                    class='mb-2 mt-2 block text-base font-semibold text-[#c2513b]'>
+                    className='mb-2 mt-2 block text-base font-semibold text-[#c2513b]'>
                     Full Name
                   </label>
                   <input
@@ -88,10 +88,10 @@ export default () => {
                     className='w-full  border-transparent border-2 border-b-[#F36A4F] bg-transparent py-3 sm:px-6 text-base font-medium text-[#6B7280] outline-none focus:border-b-[#6A64F1] focus:shadow-md'
                   />
                 </div>
-                <div class='mb-5'>
+                <div className='mb-5'>
                   <label
                     htmlFor='email'
-                    class='mb-1 block text-base font-semibold text-[#c2513b]'>
+                    className='mb-1 block text-base font-semibold text-[#c2513b]'>
                     Email Address
                   </label>
                   <input
@@ -102,10 +102,10 @@ export default () => {
                     className='w-full  border-transparent border-2 border-b-[#F36A4F] bg-transparent py-3 sm:px-6 text-base font-medium text-[#6B7280] outline-none focus:border-b-[#6A64F1] focus:shadow-md'
                   />
                 </div>
-                <div class='mb-5'>
+                <div className='mb-5'>
                   <label
                     htmlFor='address'
-                    class='mb-3 block text-base font-semibold text-[#c2513b]'>
+                    className='mb-3 block text-base font-semibold text-[#c2513b]'>
                     Location
                   </label>
                   <input
@@ -116,10 +116,10 @@ export default () => {
                     className='w-full  border-transparent border-2 border-b-[#F36A4F] bg-transparent py-3 sm:px-6 text-base font-medium text-[#6B7280] outline-none focus:border-b-[#6A64F1] focus:shadow-md'
                   />
                 </div>
-                <div class='mb-5'>
+                <div className='mb-5'>
                   <label
                     htmlFor='bloodGroup'
-                    class='mb-3 block text-base font-semibold text-[#c2513b]'>
+                    className='mb-3 block text-base font-semibold text-[#c2513b]'>
                     Blood Group
                   </label>
                   <input
@@ -131,7 +131,7 @@ export default () => {
                   />
                 </div>
                 <div>
-                  <button class='hover:shadow-form bg-[#c2513b] text-white py-3 px-8 text-base font-semibold outline-none'>
+                  <button className='hover:shadow-form bg-[#c2513b] text-white py-3 px-8 text-base font-semibold outline-none'>
                     Submit
                   </button>
                 </div>
