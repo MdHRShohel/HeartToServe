@@ -5,8 +5,8 @@ const BloodDonation = () => {
         
      <div className='p-2 lg:p-0'>
         <div className='justify-center items-center text-center mt-16 mb-12'>
-            <h1 className='text-xl md:text-3xl font-bold mb-3  drop-shadow-lg'>DONATION CAMPAIGNS</h1>
-            <h2 className='md:font-semibold'>Campaigns to encourage new donors to join and existing to continue to give blood.</h2>
+            <h1 className='text-center text-orange-500 font-bold text-3xl drop-shadow-lg'>DONATION CAMPAIGNS</h1>
+            
         </div>
 
 
@@ -21,14 +21,14 @@ const BloodDonation = () => {
         <div className="p-2">
             
            <div>
-           <p className="text-black font-semibold  hover:cursor-pointer" >20 SEP, 2017 kichu lekhen</p>
+           <p className="text-black font-semibold  hover:cursor-pointer" >20 SEP, 2017 </p>
            </div>
-            <h1 className="text-lg md:text-2xl text-orange-500 my-2">O- BLOOD DONORS NEEDED</h1>
+            <h1 className="text-lg md:text-xl text-[#303030] my-2 font-semibold">O- BLOOD DONORS NEEDED</h1>
 
-            <p className="">O Negative blood cells are called “universal” meaning they can be transfused to almost any patient in need and blood cells are safest.</p>
+            <p className="text-sm">O Negative blood cells are called “universal” meaning they can be transfused to almost any patient in need and blood cells are safest.</p>
 
            
-                <div className="mt-4 flex items-center md:gap-2">
+                <div className="mt-4 flex items-center md:gap-2 text-sm ">
                     <span> <AiOutlineClockCircle/></span>
                     <p>10.00am-3.00pm</p> |
                     <span> <ImLocation/></span>
@@ -52,12 +52,12 @@ const BloodDonation = () => {
            <div>
            <p className="text-black font-semibold hover:cursor-pointer" >14 JUNE, 2017</p>
            </div>
-            <h1 className="text-lg md:text-2xl text-orange-500 my-2">WORLD BLOOD DONORS DAY</h1>
+            <h1 className="text-lg md:text-xl text-[#303030] my-2 font-semibold">WORLD BLOOD DONORS DAY</h1>
 
-            <p className="">Every year, on 14 June, countries around the world celebrate World Blood Donor Day. The event serves to thank voluntary.</p>
+            <p className="text-sm">Every year, on 14 June, countries around the world celebrate World Blood Donor Day. The event serves to thank voluntary.</p>
 
            
-                <div className="mt-4 flex items-center md:gap-2">
+                <div className="mt-4 flex items-center md:gap-2 text-sm">
                     <span> <AiOutlineClockCircle/></span>
                     <p>10.00am-3.00pm</p> |
                     <span> <ImLocation/></span>
@@ -82,12 +82,12 @@ const BloodDonation = () => {
            <div>
            <p className="text-black font-semibold hover:cursor-pointer" >14 JUNE, 2017</p>
            </div>
-            <h1 className="text-lg md:text-2xl text-orange-500 my-2">YOU ARE SOMEBODY’S TYPE</h1>
+            <h1 className="text-lg md:text-xl text-[#303030] my-2 font-semibold">YOU ARE SOMEBODY’S TYPE</h1>
 
-            <p className="">Many people has same blood group like you. so donate now and bring smiles in their face and encourage others for donate blood.</p>
+            <p className="text-sm">Many people has same blood group like you. so donate now and bring smiles in their face and encourage others for donate blood.</p>
 
            
-                <div className="mt-4 flex items-center md:gap-2">
+                <div className="mt-4 flex items-center md:gap-2 text-sm">
                     <span> <AiOutlineClockCircle/></span>
                     <p>10.00am-3.00pm</p> |
                     <span> <ImLocation/></span>
@@ -112,12 +112,12 @@ const BloodDonation = () => {
            <div>
            <p className="text-black font-semibold hover:cursor-pointer" >14 JUNE, 2017</p>
            </div>
-            <h1 className="text-lg md:text-2xl text-orange-500 my-2">DONATION - FEEL REAL PEACE</h1>
+            <h1 className="text-lg md:text-xl text-[#303030] my-2 font-semibold">DONATION - FEEL REAL PEACE</h1>
 
-            <p className="">You're the real hero because you can gift a new life for patient.So donate your blood and enjoy a precious life. Don't fear, it's really easy.</p>
+            <p className="text-sm">You're the real hero because you can gift a new life for patient.So donate your blood and enjoy a precious life. Don't fear, it's really easy.</p>
 
            
-                <div className="mt-4 flex items-center md:gap-2">
+                <div className="mt-4 flex items-center md:gap-2 text-sm">
                     <span> <AiOutlineClockCircle/></span>
                     <p>10.00am-3.00pm</p> |
                     <span> <ImLocation/></span>

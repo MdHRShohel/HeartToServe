@@ -15,7 +15,7 @@ const Team = () => {
         <div className="container">
             <div className="px-4 py-16">
                 <div>
-                    <h2 className="text-3xl text-[#303030] text-center mb-10 font-semibold">
+                    <h2 className="text-center text-orange-500 font-bold text-3xl drop-shadow-lg mb-10 ">
                         Meet Our Team Member's</h2>
                 </div>
                 {/* <div className="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-4"> */}

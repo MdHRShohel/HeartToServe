@@ -1,7 +1,7 @@
 const FreeCounselling = () => {
     return (
         <div className="mb-8">
-            <h1 className="text-center mb-8 font-bold text-3xl drop-shadow-lg">Free Counselling</h1>
+            <h1 className="text-center text-orange-500 font-bold text-3xl drop-shadow-lg mb-10">Free Counselling</h1>
             <div className="container">
             <div className="grid gap-8 lg:grid-cols-3">
                 <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
