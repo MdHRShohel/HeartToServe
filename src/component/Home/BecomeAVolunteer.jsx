@@ -70,14 +70,14 @@ export default () => {
           </div>
         </div>
         <div className='bg-[#ffe2da] lg:w-[50%] w-full lg:mt-0 mt-6'>
-          <div class='flex items-center justify-center sm:p-10 p-4'>
-            <div class='mx-auto w-full'>
+          <div className='flex items-center justify-center sm:p-10 p-4'>
+            <div className='mx-auto w-full'>
               {/* <h1 className='uppercase font-bold sm:text-5xl'>JOIN US NOW</h1> */}
               <form action='#'>
-                <div class='mb-5'>
+                <div className='mb-5'>
                   <label
                     htmlFor='name'
-                    class='mb-2 mt-2 block text-base font-semibold text-[#c2513b]'>
+                    className='mb-2 mt-2 block text-base font-semibold text-[#c2513b]'>
                     Full Name
                   </label>
                   <input
@@ -88,10 +88,10 @@ export default () => {
                     className='w-full  border-transparent border-2 border-b-[#F36A4F] bg-transparent py-3 sm:px-6 text-base font-medium text-[#6B7280] outline-none focus:border-b-[#6A64F1] focus:shadow-md'
                   />
                 </div>
-                <div class='mb-5'>
+                <div className='mb-5'>
                   <label
                     htmlFor='email'
-                    class='mb-1 block text-base font-semibold text-[#c2513b]'>
+                    className='mb-1 block text-base font-semibold text-[#c2513b]'>
                     Email Address
                   </label>
                   <input
@@ -102,10 +102,10 @@ export default () => {
                     className='w-full  border-transparent border-2 border-b-[#F36A4F] bg-transparent py-3 sm:px-6 text-base font-medium text-[#6B7280] outline-none focus:border-b-[#6A64F1] focus:shadow-md'
                   />
                 </div>
-                <div class='mb-5'>
+                <div className='mb-5'>
                   <label
                     htmlFor='address'
-                    class='mb-3 block text-base font-semibold text-[#c2513b]'>
+                    className='mb-3 block text-base font-semibold text-[#c2513b]'>
                     Location
                   </label>
                   <input
@@ -116,10 +116,10 @@ export default () => {
                     className='w-full  border-transparent border-2 border-b-[#F36A4F] bg-transparent py-3 sm:px-6 text-base font-medium text-[#6B7280] outline-none focus:border-b-[#6A64F1] focus:shadow-md'
                   />
                 </div>
-                <div class='mb-5'>
+                <div className='mb-5'>
                   <label
                     htmlFor='bloodGroup'
-                    class='mb-3 block text-base font-semibold text-[#c2513b]'>
+                    className='mb-3 block text-base font-semibold text-[#c2513b]'>
                     Blood Group
                   </label>
                   <input
@@ -131,7 +131,7 @@ export default () => {
                   />
                 </div>
                 <div>
-                  <button class='hover:shadow-form bg-[#c2513b] text-white py-3 px-8 text-base font-semibold outline-none'>
+                  <button className='hover:shadow-form bg-[#c2513b] text-white py-3 px-8 text-base font-semibold outline-none'>
                     Submit
                   </button>
                 </div>

@@ -5,6 +5,7 @@ import ContactUs from "./ContactUs";
 import FreeCounselling from "./FreeCounselling";
 import FundRaising from "./FundRaising";
 import SmallCounterBanner from "./SmallCounterBanner";
+import Team from "./Team";
 import YouthDevelopment from "./YouthDevelopment";
 
 function HomeContainer() {
@@ -17,6 +18,7 @@ function HomeContainer() {
       <FundRaising />
       <YouthDevelopment />
       <SmallCounterBanner />
+      <Team/>
       <ContactUs />
      
     </>
