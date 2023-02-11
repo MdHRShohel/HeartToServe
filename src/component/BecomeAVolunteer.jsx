@@ -31,9 +31,9 @@ export default () => {
               it’s important to remember that even though you won’t be earning a
               wage, the skills you gain are priceless
             </p>
-            <div className=' m-3 md:flex gap-5'>
+            <div className=' mt-4 md:flex gap-8'>
               <div>
-                <ul className='flex flex-col gap-4'>
+                <ul className='flex flex-col gap-5'>
                   <li className='flex items-center gap-2'>
                     <BsFillCheckCircleFill className='text-xl' /> Positive
                     attitude
@@ -54,7 +54,7 @@ export default () => {
               </div>
 
               <div className='md:p-0 pt-3'>
-                <ul className='flex flex-col gap-4'>
+                <ul className='flex flex-col gap-5'>
                   <li className='flex items-center gap-2'>
                     <BsFillCheckCircleFill className='text-xl' /> Compassion
                   </li>
@@ -74,7 +74,109 @@ export default () => {
             </div>
           </div>
         </div>
-        <div className='bg-[#ffe2da] lg:w-[50%]'>Form</div>
+        <div className='bg-[#ffe2da] lg:w-[50%]'>
+          <div class='flex items-center justify-center p-12'>
+            <div class='mx-auto w-full'>
+              <form action='#'>
+                <div class='mb-5'>
+                  <label
+                    for='name'
+                    class='mb-3 block text-base font-medium text-[#07074D]'>
+                    Full Name
+                  </label>
+                  <input
+                    type='text'
+                    name='name'
+                    id='name'
+                    placeholder='Full Name'
+                    class='w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md'
+                  />
+                </div>
+                <div class='mb-5'>
+                  <label
+                    for='email'
+                    class='mb-3 block text-base font-medium text-[#07074D]'>
+                    Email Address
+                  </label>
+                  <input
+                    type='email'
+                    name='email'
+                    id='email'
+                    placeholder='example@domain.com'
+                    class='w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md'
+                  />
+                </div>
+                <div class='mb-5'>
+                  <label
+                    for='bloodGroup'
+                    class='mb-3 block text-base font-medium text-[#07074D]'>
+                    Blood Group
+                  </label>
+                  <div className="flex flex-row gap-4">
+                    <div className='flex gap-2'>
+                      <input type='checkbox' />
+                      <label className='label' value='A+'>
+                        <span className='label-text text-base font-medium text-[#07074D]'>
+                          A+
+                        </span>
+                      </label>
+                    </div>
+                    <div className='flex gap-2'>
+                      <input type='checkbox' />
+                      <label className='label' value='B+'>
+                        <span className='label-text text-base font-medium text-[#07074D]'>
+                          B+
+                        </span>
+                      </label>
+                    </div>
+                    <div className='flex gap-2'>
+                      <input type='checkbox' />
+                      <label className='label' value='AB+'>
+                        <span className='label-text text-base font-medium text-[#07074D]'>
+                          AB+
+                        </span>
+                      </label>
+                    </div>
+                    <div className='flex gap-2'>
+                      <input type='checkbox' />
+                      <label className='label' value='O+'>
+                        <span className='label-text text-base font-medium text-[#07074D]'>
+                          O+
+                        </span>
+                      </label>
+                    </div>
+                    <div className='flex gap-2'>
+                      <input type='checkbox' />
+                      <label className='label' value='O-'>
+                        <span className='label-text text-base font-medium text-[#07074D]'>
+                          O-
+                        </span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class='mb-5'>
+                  <label
+                    for='message'
+                    class='mb-3 block text-base font-medium text-[#07074D]'>
+                    Message
+                  </label>
+                  <textarea
+                    rows='4'
+                    name='message'
+                    id='message'
+                    placeholder='Type your message'
+                    class='w-full resize-none rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md'></textarea>
+                </div>
+                <div>
+                  <button class='hover:shadow-form rounded-md bg-[#6A64F1] py-3 px-8 text-base font-semibold text-white outline-none'>
+                    Submit
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
