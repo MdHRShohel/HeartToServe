@@ -4,14 +4,6 @@ import { FaLocationArrow } from "react-icons/fa";
 import { Map, Marker } from "pigeon-maps";
 
 function ContactUs() {
-	const defaultProps = {
-		center: {
-			lat: 10.99835602,
-			lng: 77.01502627,
-		},
-		zoom: 11,
-	};
-
 	return (
 		<div className='w-10/12 mx-auto my-20 container'>
 			<h1 className='text-center font-bold text-3xl drop-shadow-lg'>
@@ -34,21 +26,21 @@ function ContactUs() {
 					<div className='flex items-center mt-12'>
 						<BsFillTelephoneOutboundFill
 							fontSize={30}
-							className='mr-4 text-teal-300'
+							className='mr-4 text-teal-500'
 						/>
 						<p className='text-sm'>+880 111 222 3333</p>
 					</div>
 					<div className='flex items-center mt-6'>
 						<MdMarkEmailUnread
 							fontSize={30}
-							className='mr-4 text-teal-300'
+							className='mr-4 text-teal-500'
 						/>
 						<p className='text-sm'>contact@hearttoSave.com</p>
 					</div>
 					<div className='flex items-center mt-6'>
 						<FaLocationArrow
 							fontSize={30}
-							className='mr-4 text-teal-300'
+							className='mr-4 text-teal-500'
 						/>
 						<p className='text-sm'>
 							Tejturi Bazar West, Panthapath, Dhaka 1215
@@ -56,7 +48,7 @@ function ContactUs() {
 					</div>
 				</div>
 				<div className='bg-gray-200 p-8 grid items-center'>
-					<h2 className='text-3xl font-medium'>About Us</h2>
+					<h2 className='text-3xl font-medium'>Make a Change</h2>
 					<p className='mt-4'>Hello</p>
 					<p className='mt-4 text-xs'>
 						This is a{" "}
