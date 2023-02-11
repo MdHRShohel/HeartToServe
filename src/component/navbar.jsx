@@ -33,8 +33,8 @@ function Navbar() {
   return (
     <>
       {/* Navbar top */}
-      <div className="bg-[#f3f3f3] py-3 hidden lg:block">
-        <div className=" container px-4 md:px-0 flex justify-between items-center">
+      <div className="bg-[#f3f3f3] py-3 px-4 md:px-8 hidden lg:block">
+        <div className="px-4 md:px-0 flex justify-between items-center">
           <div className="[&>*]:text-xs space-x-5">
             <a className="hoverStyle" href="tel:+6494461709">
               156-677-124-442-2887
@@ -89,7 +89,7 @@ function Navbar() {
       </div>
 
       {/* Navbar */}
-      <div className="container  md:px-3 border-b-2 mb-4 py-3.5 pt-5">
+      <div className="px-4 md:px-8 border-b-2 mb-4 py-3.5 pt-5">
         <div className="flex justify-between items-center relative">
           <Link href={"/"}>
             <Image className="w-[100px]" src={logo} alt="" />
