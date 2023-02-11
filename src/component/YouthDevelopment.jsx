@@ -10,7 +10,6 @@ const YouthDevelopment = () => {
         fetch("developments.json")
             .then(res => res.json())
             .then(data => {
-                console.log(data)
                 setProgrammes(data)
             })
         
