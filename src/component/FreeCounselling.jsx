@@ -23,7 +23,7 @@ const FreeCounselling = () => {
                     Career Counseling
                     </a>
                     <p className="mb-2 text-gray-700 text-justify">
-                    Counseling psychologists help people recognize their strengths and find resources to cope with everyday problems and adversity. Counseling psychologists focus on interactions between people and their environment, and on educational and career development.
+                    Counseling psychologists help people recognize their strengths and find resources to cope with ...
                     </p>
                     <a
                     href="/"
@@ -53,7 +53,7 @@ const FreeCounselling = () => {
                     Family Counseling
                     </a>
                     <p className="mb-2 text-gray-700 text-justify">
-                    Family therapy services are often very helpful in helping individuals and depression, grief, loss, anger and mental health issues. Working with the whole family together creates healing opportunities that might not otherwise occur in individual therapy.
+                    Family therapy services are often very helpful in helping individuals and depression, grief...
                     </p>
                     <a
                     href="/"
@@ -83,7 +83,7 @@ const FreeCounselling = () => {
                     Mood Disorders
                     </a>
                     <p className="mb-2 text-gray-700 text-justify">
-                    A mood disorder is a mental health condition that primarily affects your emotional state. It’s a disorder in which you experience long periods of extreme happiness, extreme sadness or both. <br/>Two of the most common mood disorders are depression and bipolar disorder.
+                    A mood disorder is a mental health condition that primarily affects your emotional ...
                     </p>
                     <a
                     href="/"
