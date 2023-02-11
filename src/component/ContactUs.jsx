@@ -22,23 +22,23 @@ function ContactUs() {
 						/>
 					</Map>
 				</div>
-				<div className='p-8 bg-gray-200 grid items-center  h-[350px]'>
-					<h2 className='text-3xl font-medium'>Our Location</h2>
-					<div className='flex items-center mt-12'>
+				<div className='p-12 bg-gray-100 grid items-center  h-[350px]'>
+					<h2 className='text-3xl font-semibold text-[#303030]'>Location</h2>
+					<div className='flex items-center mt-8'>
 						<BsFillTelephoneOutboundFill
 							fontSize={30}
 							className='mr-4 text-teal-500'
 						/>
 						<p className='text-sm'>+880 111 222 3333</p>
 					</div>
-					<div className='flex items-center mt-6'>
+					<div className='flex items-center mt-2'>
 						<MdMarkEmailUnread
 							fontSize={30}
 							className='mr-4 text-teal-500'
 						/>
 						<p className='text-sm'>contact@hearttoSave.com</p>
 					</div>
-					<div className='flex items-center mt-6'>
+					<div className='flex items-center mt-2'>
 						<FaLocationArrow
 							fontSize={30}
 							className='mr-4 text-teal-500'
@@ -53,9 +53,9 @@ function ContactUs() {
 					<h2 className='text-3xl font-bold'>Saving Lives</h2>
 					<p className='mt-4 text-xs font-semibold'>
 						This is a{" "}
-						<span className='text-violet-600'>Volunteer Organization</span> for
+						<span className='text-[#f52d05]'>Volunteer Organization</span> for
 						help people. we are working as volunteer. our target to help{" "}
-						<span className='text-violet-600'>poor people</span>.
+						<span className='text-[#f52d05]'>poor people</span>.
 					</p>
 					<button className='bg-[#ffe2da] hover:bg-[#ffd3c6] duration-300 w-full text-[#ff9370] font-semibold py-2 mt-4 px-3 rounded '>
 						Read More
