@@ -47,7 +47,7 @@ function Navbar() {
             </span>
           </div>
           {/* Social Icons */}
-          <div className="flex gap-8 items-center ">
+          <div className="flex gap-5 items-center ">
             <a
               className="flex justify-center rounded-full hover:bg-[#f0e8f8] w-6 h-6"
               href="#"
@@ -89,16 +89,16 @@ function Navbar() {
       </div>
 
       {/* Navbar */}
-      <div className="px-4 md:px-8 border-b-2 mb-4 py-3.5 pt-5 sticky top-0 z-50 bg-white">
+      <div className="px-4 md:px-8 border-b-2 mb-4 py-3.5 pt-5 sticky top-0 z-50 bg-white navbar">
         <div className="flex justify-between items-center relative">
           <Link href={"/"}>
             <Image className="w-[100px]" src={logo} alt="" />
           </Link>
-          <div className="text-md xl:text-xl text-[#303030] font-bold space-x-6 hidden lg:block ">
+          <div className="text-md xl:text-xl text-[#303030] space-x-7 hidden lg:block ">
             {menuItems}
           </div>
 
-          <div className="text-md xl:text-xl  hidden lg:flex gap-7 justify-between items-center font-bold">
+          <div className="text-md xl:text-xl  hidden lg:flex gap-7 justify-between items-center">
             <div>
               <Link href={"#"}>
                 <svg
@@ -110,7 +110,7 @@ function Navbar() {
                 </svg>
               </Link>
             </div>
-            <div className="text-white bg-[#F36A4F] px-6 py-2 rounded-lg hover:bg-[#c2513b] transition-all duration-300">
+            <div className="text-white tracking-wider bg-[#F36A4F] px-6 py-2 rounded-lg hover:bg-[#c2513b] transition-all duration-300">
               <Link href={"#"}>DONATE NOW</Link>
             </div>
           </div>
@@ -129,7 +129,7 @@ function Navbar() {
           <div
             className={` ${
               mobileBtn ? "hidden" : "block top-16"
-            } absolute  flex gap-3 flex-col text-md text-[#303030] font-bold lg:hidden bg-white w-full py-5 px-5 border-b-4 transition-all duration-500`}
+            } absolute  flex gap-3 flex-col text-md text-[#303030]  lg:hidden bg-white w-full py-5 px-5 border-b-4 transition-all duration-500`}
           >
             {menuItems}
           </div>

@@ -2,18 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* .hoverStyle {
-  background-image: linear-gradient(
-    transparent calc(100% - 1px),
-    currentColor 1px
-  );
-}
-
-a:hover {
-  background-size: 100% calc(100% - 3px);
-  color: currentColor;
-} */
-
 /* hover effect */
 
 .navHover {
@@ -87,4 +75,12 @@ a:hover {
 .mobileBtn.active span::after {
   transform: rotate(-45deg);
   margin-top: 0;
+}
+
+/* Navbar and banner */
+
+.banner h1,
+.banner button,
+.navbar a {
+  font-family: anton;
 }

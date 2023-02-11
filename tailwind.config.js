@@ -9,7 +9,11 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        Anton: ["Anton", "sans - serif"],
+      },
+    },
     container: {
       // you can configure the container to be centered
       center: true,
