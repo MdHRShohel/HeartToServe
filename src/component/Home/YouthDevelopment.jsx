@@ -38,7 +38,7 @@ const YouthDevelopment = () => {
                                     aria-label="Article"
                                     className="inline-block mb-3 text-black transition-colors duration-200 hover:text-deep-purple-accent-700"
                                     >
-                                            <p className="text-xl font-bold leading-5 px-6 mb-4">{programme.name}</p>
+                                            <p className="text-lg font-bold leading-5 px-6 mb-4">{programme.name}</p>
                                     </a>
                                     <div className="flex justify-between">
                                         <p className="text-gray-700 px-6">
