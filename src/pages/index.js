@@ -1,7 +1,9 @@
-import { Inter } from "@next/font/google";
+import Form from "@/component/Form";
+import { Poppins } from "@next/font/google";
 import Head from "next/head";
 
-const inter = Inter({ subsets: ["latin"] });
+// const Poppins = Poppins({ weight: 700 });
+
 
 export default function Home() {
   return (
@@ -13,25 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h1>Md. Habibur Rahman Shohel</h1>
-        <h1 className="uppercase text-center hover:text-white hover:bg-black">
-          Md. fardin khan
-        </h1>
-        <h1 className="uppercase text-center hover:text-white hover:bg-black">
-          Md. Parvez
-        </h1>
-        <h1 className="uppercase text-center hover:text-white hover:bg-black">
-          Mahabubur Rahman
-        </h1>
-        <h1 className="uppercase text-center hover:text-white hover:bg-black">
-          Naimur Rahman is good
-        </h1>
-        <h1 className='text-3xl font-semibold text-center hover:bg-black hover:text-white'>
-          Naimur Rahman. Yes I am Fine.
-        </h1>
-        <h1 className='text-3xl font-semibold text-center'>
-         Sajib Ahmed. Yes I am not Fine.
-        </h1>
+        <Form></Form>
       </main>
     </>
   );
