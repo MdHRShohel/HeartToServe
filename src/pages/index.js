@@ -16,7 +16,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${poppins.className}`}>
-        <Form></Form>
+        {/* <Form></Form> */}
         <AntiDrugCampaign></AntiDrugCampaign>
       </main>
     </>
