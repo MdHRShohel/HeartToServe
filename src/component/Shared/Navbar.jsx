@@ -29,7 +29,7 @@ function Navbar() {
     </>
   );
 
-  console.log(mobileBtn);
+  // console.log(mobileBtn);
   return (
     <>
       {/* Navbar top */}
