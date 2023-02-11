@@ -12,7 +12,7 @@ function FundRaising() {
 			<h1 className='text-center text-orange-500 font-bold text-3xl drop-shadow-lg'>
 				Funding Poor People
 			</h1>
-			<div className='mt-10 grid lg:grid-cols-2 gap-20'>
+			<div className='mt-10 grid lg:grid-cols-2 gap-20 items-center'>
 				<div className='w-full'>
 					<div className='text-center text-2xl text-red-500 font-bold mb-2'>
 						<Typewriter
