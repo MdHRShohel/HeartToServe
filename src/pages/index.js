@@ -1,9 +1,10 @@
 import AntiDrugCampaign from "@/component/AntiDrugCampaign";
 import Form from "@/component/Form";
+import FundRaising from "@/component/FundRaising";
 import { Poppins } from "@next/font/google";
 import Head from "next/head";
 
-const poppins = Poppins({ weight:["700","400"],preload:false });
+const poppins = Poppins({ weight: ["700", "400"], preload: false });
 
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <main className={`${poppins.className}`}>
         <Form></Form>
         <AntiDrugCampaign></AntiDrugCampaign>
+        <FundRaising></FundRaising>
       </main>
     </>
   );
