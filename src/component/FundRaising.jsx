@@ -74,18 +74,18 @@ function FundRaising() {
 							<input
 								type='number'
 								placeholder='$'
-								className='w-full border-2 border-l-gray-900 py-2 px-4 rounded-r-lg'
+								className='w-full border-2 outline-0 border-l-orange-500 py-2 px-4 rounded-r-lg'
 								defaultValue={fundMoney}
 							/>
 							<input
 								type='text'
 								placeholder='Your Phone Number'
-								className='w-full border-2 border-l-gray-900 mt-2 py-2 px-4 rounded-r-lg'
+								className='w-full border-2 outline-0 border-l-orange-500 mt-2 py-2 px-4 rounded-r-lg'
 							/>
 							<input
 								type='email'
 								placeholder='Your Email'
-								className='w-full border-2 border-l-gray-900 mt-2 py-2 px-4 rounded-r-lg'
+								className='w-full border-2 outline-0 border-l-orange-500 mt-2 py-2 px-4 rounded-r-lg'
 							/>
 							<button className='bg-[#ffe2da] hover:bg-[#ffd3c6] duration-300 w-full text-[#ff9370] font-semibold py-2 mt-4 px-3 rounded '>
 								Donate Now
