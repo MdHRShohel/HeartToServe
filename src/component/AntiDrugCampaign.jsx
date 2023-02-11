@@ -54,6 +54,12 @@ const AntiDrugCampaign = () => {
             ))
         }
       </div>
+      <div className="flex items-center justify-center">
+        <button 
+      className="font-semibold mx-auto text-center text-lg text-[#f52d05] mt-6 border-b border-b-[#f52d05]">
+        See More
+        </button>
+      </div>
     </div>
         </div>
     );
