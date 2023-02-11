@@ -2,7 +2,7 @@ import { BsCheckLg } from "react-icons/bs";
 
 export default () => {
   return (
-    <div className='container'>
+    <div className=''>
       <div>
         <div
           className='w-full md:h-[550px] h-[300px]'
@@ -21,7 +21,7 @@ export default () => {
           </div>
         </div>
       </div>
-      <div className='flex gap-4 m-10 lg:flex-row flex-col items-center'>
+      <div className='flex gap-4 m-10 lg:flex-row flex-col items-center container'>
         <div className='lg:w-[50%]'>
           <h1 className='sm:text-5xl uppercase font-semibold'>Requirements</h1>
           <div className='text-[0.9rem]'>
