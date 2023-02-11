@@ -1,10 +1,11 @@
 import AntiDrugCampaign from "@/component/AntiDrugCampaign";
 import BecomeAVolunteer from "@/component/BecomeAVolunteer";
 import BloodDonation from "@/component/BloodDonation";
-import Footer from "@/component/footer";
+import ContactUs from "@/component/ContactUs";
 import FreeCounselling from "@/component/FreeCounselling";
 import FundRaising from "@/component/FundRaising";
-import Navbar from "@/component/navbar";
+import SmallCounterBanner from "@/component/SmallCounterBanner";
+import YouthDevelopment from "@/component/YouthDevelopment";
 import { Poppins } from "@next/font/google";
 import Head from "next/head";
 
@@ -26,7 +27,6 @@ export default function Home() {
         <FreeCounselling />
         <BloodDonation />
         <FundRaising></FundRaising>
-        <Footer />
       </main>
     </>
   );
