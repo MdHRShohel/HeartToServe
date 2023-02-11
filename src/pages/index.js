@@ -13,25 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h1>Md. Habibur Rahman Shohel</h1>
-        <h1 className="uppercase text-center hover:text-white hover:bg-black">
-          Md. fardin khan
-        </h1>
-        <h1 className="uppercase text-center hover:text-white hover:bg-black cursor-pointer">
-          
-        </h1>
-        <h1 className="uppercase text-center hover:text-white hover:bg-black">
-          Mahabubur Rahman
-        </h1>
-        <h1 className="uppercase text-center hover:text-white hover:bg-black">
-          Naimur Rahman is good
-        </h1>
-        <h1 className='text-3xl font-semibold text-center'>
-          Naimur Rahman. Yes I am Fine.
-        </h1>
-        <h1 className='text-3xl font-semibold text-center'>
-         Sajib Ahmed. Yes I am not Fine.
-        </h1>
+       
       </main>
     </>
   );

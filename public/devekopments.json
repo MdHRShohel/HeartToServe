@@ -1,0 +1,38 @@
+[
+    {
+        "id" : 1,
+        "name" : "Leadership Training Program",
+        "img" : "../../HeartToServe/src/assets/leadership.png",
+        "description": "This program can help young people develop their leadership skills and help them to become better communicators, problem solvers and decision makers. The program can include interactive workshops, role-playing activities, team building exercises and mentor-mentee sessions."
+    },
+    {
+        "id" : 2,
+        "name" : "Entrepreneurship Program",
+        "img": "../../HeartToServe/src/assets/leadership.png",
+        "description": "This program can teach young people how to turn their ideas into businesses. It can include business plan writing workshops, mentorship from successful entrepreneurs, and access to resources and funding."
+    },
+    {
+        "id" : 3,
+        "name" : "Sports Program",
+        "img": "../../HeartToServe/src/assets/running.png",
+        "description": "This program can be used to encourage young people to develop physical and mental skills through sports. The program can include team sports, individual sports, training sessions, and community games."
+    },
+    {
+        "id" : 4,
+        "name" : "Creative Arts Program",
+        "img": "../../HeartToServe/src/assets/idea.png",
+        "description": "This program can be used to help young people express themselves through various forms of arts like painting, drawing, music, theater, and dance. The program can include workshops, master classes and competitions."
+    },
+    {
+        "id" : 5,
+        "name" : "Career Development Program",
+        "img": "../../HeartToServe/src/assets/success.png",
+        "description": "This program can help young people make informed choices about their careers by providing them with hands-on work experience, internships, mentorship and access to resources."
+    },
+    {
+        "id" : 6,
+        "name" : "Technology Program",
+        "img": "../../HeartToServe/src/assets/technology.png",
+        "description": "This program can be used to help young people develop technical skills like coding, app development, and digital marketing. The program can include workshops, hackathons and mentorship from experts in the field."
+    }
+]
