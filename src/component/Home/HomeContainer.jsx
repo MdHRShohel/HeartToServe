@@ -3,6 +3,7 @@ import Banner from "./Banner";
 import BecomeAVolunteer from "./BecomeAVolunteer";
 import BloodDonation from "./BloodDonation";
 import ContactUs from "./ContactUs";
+import CoPartners from "./CoPartners";
 import FreeCounselling from "./FreeCounselling";
 import FundRaising from "./FundRaising";
 import SmallCounterBanner from "./SmallCounterBanner";
@@ -21,6 +22,7 @@ function HomeContainer() {
       <YouthDevelopment />
       <SmallCounterBanner />
       <Team/>
+      <CoPartners/>
       <ContactUs />
     </>
   );
