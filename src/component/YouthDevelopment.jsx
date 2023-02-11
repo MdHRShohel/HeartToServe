@@ -16,7 +16,7 @@ const YouthDevelopment = () => {
         
     }, [])
     return (
-        <div className="container mx-auto">
+        <div className="container mx-auto py-16">
             <h2 className="text-center font-bold text-4xl mt-4 mb-10 text-[#ff9370]">Our Youth Development Programme</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                 {
@@ -39,7 +39,7 @@ const YouthDevelopment = () => {
                                     aria-label="Article"
                                     className="inline-block mb-3 text-black transition-colors duration-200 hover:text-deep-purple-accent-700"
                                     >
-                                            <p className="text-2xl font-bold leading-5 px-6 mb-4">{programme.name}</p>
+                                            <p className="text-xl font-bold leading-5 px-6 mb-4">{programme.name}</p>
                                     </a>
                                     <div className="flex justify-between">
                                         <p className="text-gray-700 px-6">
@@ -49,10 +49,10 @@ const YouthDevelopment = () => {
                                           Rating: {programme.rating}
                                         </p>
                                     </div>
-                                    <div className="px-6 w-full">
+                                </div>
+                                    <div className="w-full">
                                         <button className=' bg-[#ffe2da] hover:bg-[#ffae97] text-[#fe8158] hover:text-white font-semibold py-3 mt-6 px-3 rounded w-full'>View Details</button>
                                     </div>
-                                </div>
                                 </div>
                                
                               
