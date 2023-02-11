@@ -12,7 +12,7 @@ const FreeCounselling = () => {
                 />
                 <div className="p-5 border border-t-0">
                      <p className="mb-3 text-xs font-semibold tracking-wide uppercase">
-                    <span className="transition-colors duration-200 text-blue-gray-900 hover:text-deep-purple-accent-700"> Date : 05 Feb 2023</span>
+                    <span className="transition-colors duration-200 text-[#F36A4F] hover:text-deep-purple-accent-700"> Date : 05 Feb 2023</span>
                     </p>
                     <a
                     href="/"
@@ -23,12 +23,12 @@ const FreeCounselling = () => {
                     Career Counseling
                     </a>
                     <p className="mb-2 text-gray-700 text-justify">
-                    Counseling psychologists help people recognize their strengths and find resources to cope with everyday problems and adversity. Counseling psychologists focus on interactions between people and their environment, and on educational and career development.
+                    Counseling psychologists help people recognize their strengths and find resources to cope with ...
                     </p>
                     <a
                     href="/"
                     aria-label=""
-                    className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+                    className="inline-flex items-center font-semibold text-[#F36A4F] hover:border-b hover:border-b-[#F36A4F] hover:text-[#f52d05] duration-300"
                     >
                     Read more
                     </a>
@@ -42,7 +42,7 @@ const FreeCounselling = () => {
                 />
                 <div className="p-5 border border-t-0">
                     <p className="mb-3 text-xs font-semibold tracking-wide uppercase">
-                    <span className="transition-colors duration-200 text-blue-gray-900 hover:text-deep-purple-accent-700"> Date : 31 Jan 2023</span>
+                    <span className="transition-colors duration-200 text-[#F36A4F]  hover:text-deep-purple-accent-700"> Date : 31 Jan 2023</span>
                     </p>
                     <a
                     href="/"
@@ -53,12 +53,12 @@ const FreeCounselling = () => {
                     Family Counseling
                     </a>
                     <p className="mb-2 text-gray-700 text-justify">
-                    Family therapy services are often very helpful in helping individuals and depression, grief, loss, anger and mental health issues. Working with the whole family together creates healing opportunities that might not otherwise occur in individual therapy.
+                    Family therapy services are often very helpful in helping individuals and depression, grief...
                     </p>
                     <a
                     href="/"
                     aria-label=""
-                    className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+                    className="inline-flex items-center font-semibold text-[#F36A4F] hover:border-b hover:border-b-[#F36A4F] hover:text-[#f52d05] duration-300"
                     >
                     Read more
                     </a>
@@ -72,7 +72,7 @@ const FreeCounselling = () => {
                 />
                 <div className="p-5 border border-t-0">
                      <p className="mb-3 text-xs font-semibold tracking-wide uppercase">
-                    <span className="transition-colors duration-200 text-blue-gray-900 hover:text-deep-purple-accent-700"> Date : 28 Dec 2022</span>
+                    <span className="transition-colors duration-200 text-[#F36A4F] hover:text-deep-purple-accent-700"> Date : 28 Dec 2022</span>
                     </p>
                     <a
                     href="/"
@@ -83,12 +83,12 @@ const FreeCounselling = () => {
                     Mood Disorders
                     </a>
                     <p className="mb-2 text-gray-700 text-justify">
-                    A mood disorder is a mental health condition that primarily affects your emotional state. It’s a disorder in which you experience long periods of extreme happiness, extreme sadness or both. <br/>Two of the most common mood disorders are depression and bipolar disorder.
+                    A mood disorder is a mental health condition that primarily affects your emotional ...
                     </p>
                     <a
                     href="/"
                     aria-label=""
-                    className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+                    className="inline-flex items-center font-semibold text-[#F36A4F] hover:border-b hover:border-b-[#F36A4F] hover:text-[#f52d05] duration-300"
                     >
                     Read more
                     </a>
