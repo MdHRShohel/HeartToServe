@@ -28,6 +28,9 @@ export default function Home() {
         <FreeCounselling />
         <BloodDonation />
         <FundRaising></FundRaising>
+        <YouthDevelopment></YouthDevelopment>
+        <SmallCounterBanner></SmallCounterBanner>
+        <ContactUs></ContactUs>
       </main>
     </>
   );
