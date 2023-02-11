@@ -17,8 +17,8 @@ export default function Home() {
         <h1 className="uppercase text-center hover:text-white hover:bg-black">
           Md. fardin khan
         </h1>
-        <h1 className="uppercase text-center hover:text-white hover:bg-black">
-          Md. Parvez
+        <h1 className="uppercase text-center hover:text-white hover:bg-black cursor-pointer">
+          
         </h1>
         <h1 className="uppercase text-center hover:text-white hover:bg-black">
           Mahabubur Rahman
