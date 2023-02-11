@@ -20,7 +20,7 @@ const YouthDevelopment = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                 {
                     programmes?.map(programme => <>
-                        <div className="px-4 py-3 md:px-24 lg:px-8">
+                        <div className="px-4 py-3 lg:px-3">
                             <div className="grid gap-5 sm:max-w-sm sm:mx-auto lg:max-w-full">
                                 <div className="overflow-hidden bg-slate-50 hover:bg-slate-100  transition-shadow duration-300  rounded-lg">
                                 <PhotoProvider>
