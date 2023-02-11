@@ -13,7 +13,7 @@ function ContactUs() {
 	};
 
 	return (
-		<div className='w-10/12 mx-auto my-20'>
+		<div className='w-10/12 mx-auto my-20 container'>
 			<h1 className='text-center font-bold text-3xl drop-shadow-lg'>
 				Get In Touch With Us
 			</h1>
@@ -22,7 +22,7 @@ function ContactUs() {
 					<Map
 						height={300}
 						defaultCenter={[23.8103, 90.4125]}
-						defaultZoom={8}>
+						defaultZoom={10}>
 						<Marker
 							width={50}
 							anchor={[23.8103, 90.4125]}
