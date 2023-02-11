@@ -2,7 +2,7 @@ import { BsCheckLg } from "react-icons/bs";
 
 export default () => {
   return (
-    <div className='container mx-auto'>
+    <div className='container'>
       <div>
         <div
           className='w-full md:h-[550px] h-[300px]'
