@@ -98,7 +98,7 @@ function Navbar() {
             {menuItems}
           </div>
 
-          <div className="text-md xl:text-xl  hidden lg:flex gap-4 justify-between items-center font-bold">
+          <div className="text-md xl:text-xl  hidden lg:flex gap-7 justify-between items-center font-bold">
             <div>
               <Link href={"#"}>
                 <svg
@@ -110,7 +110,7 @@ function Navbar() {
                 </svg>
               </Link>
             </div>
-            <div className="text-white bg-[#F36A4F] px-5 py-2">
+            <div className="text-white bg-[#F36A4F] px-6 py-2 rounded-lg hover:bg-[#c2513b] transition-all duration-300">
               <Link href={"#"}>DONATE NOW</Link>
             </div>
           </div>
