@@ -2,6 +2,7 @@ import { useState } from "react";
 import { AiFillHeart } from "react-icons/ai";
 import { FaDonate, FaHandHoldingHeart } from "react-icons/fa";
 import { BiWorld } from "react-icons/bi";
+import { Typewriter } from "react-simple-typewriter";
 
 function FundRaising() {
 	const [fundMoney, setFundMoney] = useState("");
@@ -13,12 +14,25 @@ function FundRaising() {
 			</h1>
 			<div className='mt-10 grid lg:grid-cols-2 gap-20'>
 				<div className='w-50'>
+					<div className='text-center text-xl text-red-500 font-bold mb-2'>
+						<Typewriter
+							words={["Donate For Turkey Earthquake"]}
+							cursor
+							cursorStyle='...'
+							typeSpeed={100}
+							deleteSpeed={50}
+							delaySpeed={1000}
+							loop={true}
+						/>
+					</div>
 					<p className='text-justify'>
 						Fundraising or fund-raising is the process of seeking and gathering
 						voluntary financial contributions by engaging individuals,
-						businesses, charitable foundations, or governmental agencies.
+						businesses, charitable foundations, or agencies. access funding, and train them to become
+						sustainable in the process. All our profits are invested in the
+						company, increase our reach as an organization.
 					</p>
-					<div className='flex justify-between items-start mt-10'>
+					<div className='flex justify-between items-start mt-8'>
 						<div className='pr-10 text-center space-y-3'>
 							<article className='bg-pink-200 hover:bg-pink-300 duration-300 cursor-pointer py-2 px-4 rounded-md'>
 								<p>Monthly</p>
@@ -71,11 +85,7 @@ function FundRaising() {
 								placeholder='Your Email'
 								className='w-full border-2 border-l-gray-900 mt-2 py-2 px-4 rounded-r-lg'
 							/>
-							<button
-								type='button'
-								data-mdb-ripple='true'
-								data-mdb-ripple-color='light'
-								className='inline-block mt-4 w-full px-6 py-3 bg-blue-600 text-white font-medium leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out'>
+							<button className=' bg-[#ffe2da] w-full text-[#ff9370] font-semibold py-2 mt-4 px-3 rounded '>
 								Donate Now
 							</button>
 						</form>
@@ -83,24 +93,24 @@ function FundRaising() {
 				</div>
 				<div className='w-50 relative'>
 					<img
-						src='https://i.ibb.co/qjHQT2T/joel-muniz-BEr-JJL-Ksj-A-unsplash.jpg'
+						src='https://i.ibb.co/2WDdsWp/a.jpg'
 						alt='fund raising'
 						className='w-full'
 					/>
-					<div className='grid grid-cols-4 gap-2 text-sm lg:w-11/12 uppercase text-white absolute -bottom-10 lg:-bottom-12 lg:left-auto lg:right-6'>
-						<article className='flex flex-col justify-center items-center text-center bg-violet-600 p-3 shadow-lg'>
+					<div className='grid grid-cols-4 gap-2 text-sm lg:w-11/12 uppercase text-white absolute -bottom-10 lg:-bottom-3 lg:left-auto lg:right-6'>
+						<article className='flex flex-col justify-center items-center text-center bg-violet-400 p-3 shadow-lg'>
 							<AiFillHeart fontSize={30} />
 							<p>Help The Children</p>
 						</article>
-						<article className='flex flex-col justify-center items-center text-center bg-green-600 p-3 shadow-lg'>
+						<article className='flex flex-col justify-center items-center text-center bg-green-400 p-3 shadow-lg'>
 							<FaDonate fontSize={30} />
 							<p>Please Donate</p>
 						</article>
-						<article className='flex flex-col justify-center items-center text-center bg-amber-600 p-3 shadow-lg'>
+						<article className='flex flex-col justify-center items-center text-center bg-amber-400 p-3 shadow-lg'>
 							<FaHandHoldingHeart fontSize={30} />
 							<p>Became Volunteer</p>
 						</article>
-						<article className='flex flex-col justify-center items-center text-center bg-blue-600 p-3 shadow-lg'>
+						<article className='flex flex-col justify-center items-center text-center bg-blue-400 p-3 shadow-lg'>
 							<BiWorld fontSize={30} />
 							<p>World Poverty</p>
 						</article>
