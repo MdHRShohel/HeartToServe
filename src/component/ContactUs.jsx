@@ -29,7 +29,7 @@ function ContactUs() {
 						/>
 					</Map>
 				</div>
-				<div className='p-8'>
+				<div className='p-8 bg-gray-100'>
 					<h2 className='text-3xl font-medium'>Our Location</h2>
 					<div className='flex items-center mt-12'>
 						<BsFillTelephoneOutboundFill
@@ -55,7 +55,7 @@ function ContactUs() {
 						</p>
 					</div>
 				</div>
-				<div className='bg-gray-300 p-8'>
+				<div className='bg-gray-200 p-8 grid items-center'>
 					<h2 className='text-3xl font-medium'>About Us</h2>
 					<p className='mt-4'>Hello</p>
 					<p className='mt-4 text-xs'>
