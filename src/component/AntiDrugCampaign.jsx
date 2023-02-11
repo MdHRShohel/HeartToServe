@@ -13,7 +13,7 @@ const AntiDrugCampaign = () => {
               alt=""
             />
             </div>
-            <div className="absolute top-5 left-0 flex justify-center items-center text-[#9b8db7] bg-[#f0e8f8] px-[6px] py-[2px]">
+            <div className="absolute top-5 left-0 flex justify-center items-center text-[#f47655] bg-[#ffe2da] px-[6px] py-[2px]">
               <p className="text-5xl font-bold mr-1">04</p>
               <div className="font-semibold text-xs leading-4">
                 <p>Feb</p>
