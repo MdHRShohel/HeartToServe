@@ -1,4 +1,5 @@
 import AntiDrugCampaign from "./AntiDrugCampaign";
+import Banner from "./Banner";
 import BecomeAVolunteer from "./BecomeAVolunteer";
 import BloodDonation from "./BloodDonation";
 import ContactUs from "./ContactUs";
@@ -10,6 +11,7 @@ import YouthDevelopment from "./YouthDevelopment";
 function HomeContainer() {
   return (
     <>
+      <Banner />
       <BecomeAVolunteer />
       <AntiDrugCampaign />
       <FreeCounselling />
@@ -18,7 +20,6 @@ function HomeContainer() {
       <YouthDevelopment />
       <SmallCounterBanner />
       <ContactUs />
-     
     </>
   );
 }
