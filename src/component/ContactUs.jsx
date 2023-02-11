@@ -1,18 +1,19 @@
 import { BsFillTelephoneOutboundFill } from "react-icons/bs";
 import { MdMarkEmailUnread } from "react-icons/md";
 import { FaLocationArrow } from "react-icons/fa";
+import { TbHeartbeat } from "react-icons/tb";
 import { Map, Marker } from "pigeon-maps";
 
 function ContactUs() {
 	return (
 		<div className='w-10/12 mx-auto my-20 container'>
-			<h1 className='text-center font-bold text-3xl drop-shadow-lg'>
+			<h1 className='text-center text-orange-500 font-bold text-3xl drop-shadow-lg'>
 				Get In Touch With Us
 			</h1>
 			<div className='mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
-				<div className='bg-black'>
+				<div className=''>
 					<Map
-						height={300}
+						height={350}
 						defaultCenter={[23.8103, 90.4125]}
 						defaultZoom={10}>
 						<Marker
@@ -21,7 +22,7 @@ function ContactUs() {
 						/>
 					</Map>
 				</div>
-				<div className='p-8 bg-gray-100'>
+				<div className='p-8 bg-gray-200 grid items-center  h-[350px]'>
 					<h2 className='text-3xl font-medium'>Our Location</h2>
 					<div className='flex items-center mt-12'>
 						<BsFillTelephoneOutboundFill
@@ -47,17 +48,17 @@ function ContactUs() {
 						</p>
 					</div>
 				</div>
-				<div className='bg-gray-200 p-8 grid items-center'>
-					<h2 className='text-3xl font-medium'>Make a Change</h2>
-					<p className='mt-4'>Hello</p>
-					<p className='mt-4 text-xs'>
+				<div className='bg-[#FFE2DA] text-[#ff9370] p-8 grid items-center h-[350px]'>
+					<TbHeartbeat fontSize={80} />
+					<h2 className='text-3xl font-bold'>Saving Lives</h2>
+					<p className='mt-4 text-xs font-semibold'>
 						This is a{" "}
-						<span className='text-orange-600'>Volunteer Organization</span> for
+						<span className='text-violet-600'>Volunteer Organization</span> for
 						help people. we are working as volunteer. our target to help{" "}
-						<span className='text-orange-600'>poor people</span>.
+						<span className='text-violet-600'>poor people</span>.
 					</p>
-					<button className=' bg-teal-400 text-black font-semibold py-2 mt-6 px-3 rounded '>
-						Donate Now
+					<button className='bg-[#ffe2da] hover:bg-[#ffd3c6] duration-300 w-full text-[#ff9370] font-semibold py-2 mt-4 px-3 rounded '>
+						Read More
 					</button>
 				</div>
 			</div>

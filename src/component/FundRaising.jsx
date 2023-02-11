@@ -9,7 +9,7 @@ function FundRaising() {
 
 	return (
 		<div className='w-10/12 mx-auto my-20 container'>
-			<h1 className='text-center font-bold text-3xl drop-shadow-lg'>
+			<h1 className='text-center text-orange-500 font-bold text-3xl drop-shadow-lg'>
 				Funding Poor People
 			</h1>
 			<div className='mt-10 grid lg:grid-cols-2 gap-20'>
