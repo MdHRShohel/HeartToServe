@@ -43,7 +43,7 @@ function SmallCounterBanner() {
 				</div>
 
 				<div className="hidden md:block">
-					<span className='flex text-orange-400 font-bold text-sm md:text-3xl items-center justify-center'>
+					<span className='flex text-orange-400 font-bold text-sm md:text-3xl items-center justify-center '>
 						<RiHandCoinFill fontSize={50} />
 						<CountUp
 							end={5082}
