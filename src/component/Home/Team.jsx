@@ -36,7 +36,6 @@ const Team = () => {
                             spaceBetween: 50,
                         },
                     }}
-                    loop={true}
                     speed={1000}
                     autoplay={{
                         delay: 2500,
