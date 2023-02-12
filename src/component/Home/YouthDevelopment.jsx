@@ -12,7 +12,7 @@ const YouthDevelopment = () => {
             .then(data => {
                 setProgrammes(data)
             })
-        
+
     }, [])
     return (
         <div className="container py-16">
@@ -23,40 +23,40 @@ const YouthDevelopment = () => {
                         <div className="px-4 py-3 lg:px-3">
                             <div className="grid gap-5 sm:max-w-sm sm:mx-auto lg:max-w-full">
                                 <div className="overflow-hidden bg-slate-50 hover:bg-slate-100  transition-shadow duration-300  rounded-lg">
-                                <PhotoProvider>
-                                    <PhotoView src={programme.img}>
-                                        <img src={programme.img}
-                                        className="object-cover w-full h-64 rounded cursor-pointer"
-                                        alt=""/>
-                                    </PhotoView>
-                                </PhotoProvider>
-                                
-                                <div className="py-5">
-                                   
-                                    <a
-                                    href="/"
-                                    aria-label="Article"
-                                    className="inline-block mb-3 text-black transition-colors duration-200 hover:text-deep-purple-accent-700"
-                                    >
+                                    <PhotoProvider>
+                                        <PhotoView src={programme.img}>
+                                            <img src={programme.img}
+                                                className="object-cover w-full h-64 rounded cursor-pointer"
+                                                alt="" />
+                                        </PhotoView>
+                                    </PhotoProvider>
+
+                                    <div className="py-5">
+
+                                        <a
+                                            href="/"
+                                            aria-label="Article"
+                                            className="inline-block mb-3 text-black transition-colors duration-200 hover:text-deep-purple-accent-700"
+                                        >
                                             <p className="text-lg font-bold leading-5 px-6 mb-4">{programme.name}</p>
-                                    </a>
-                                    <div className="flex justify-between">
-                                        <p className="text-gray-700 px-6">
-                                           Duration: {programme.description}
-                                        </p>
-                                        <p className="text-gray-700 px-6">
-                                          Rating: {programme.rating}
-                                        </p>
+                                        </a>
+                                        <div className="flex justify-between">
+                                            <p className="text-gray-700 px-6">
+                                                Duration: {programme.description}
+                                            </p>
+                                            <p className="text-gray-700 px-6">
+                                                Rating: {programme.rating}
+                                            </p>
+                                        </div>
                                     </div>
-                                </div>
                                     <div className="w-full">
-                                        <button className=' bg-[#ffe2da] hover:bg-[#ffae97] text-[#fe8158] hover:text-white font-semibold py-3 mt-6 px-3 rounded w-full'>View Details</button>
+                                        <button className=' bg-[#ffe2da] hover:bg-[#ffae97] text-[#fe8158] hover:text-white font-semibold py-3 mt-6 px-3 rounded w-full duration-300'>View Details</button>
                                     </div>
                                 </div>
-                               
-                              
+
+
                             </div>
-                              
+
                         </div>
                     </>)
                 }

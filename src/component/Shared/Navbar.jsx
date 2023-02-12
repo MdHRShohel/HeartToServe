@@ -120,24 +120,6 @@ function Navbar() {
 					<div className='text-md xl:text-lg text-[#303030] space-x-7 hidden lg:block '>
 						{menuItems}
 					</div>
-					<Drawer
-						open={isOpen}
-						onClose={toggleDrawer}
-						direction='top'
-						className='bla bla bla'>
-						<div className=' flex justify-center items-center h-full'>
-							<input
-								type='text'
-								className='border-2 w-6/12 rounded-l-lg py-2 px-6 border-orange-500 outline-indigo-500'
-								placeholder='Search Here'
-							/>
-							<label
-								htmlFor=''
-								className='bg-[#ffe2da] rounded-r-lg hover:bg-[#ffd3c6] duration-300 text-[#ff9370] font-semibold py-3 cursor-pointer  px-3'>
-								Search
-							</label>
-						</div>
-					</Drawer>
 					<div className='text-md xl:text-xl  hidden lg:flex gap-7 justify-between items-center'>
 						<div>
 							<Link
@@ -151,29 +133,46 @@ function Navbar() {
 								</svg>
 							</Link>
 						</div>
-						<div className='tracking-wider px-6 py-2 rounded-lg border border-black hover:bg-[#F36A4F] hover:text-white hover:border-current transition-all duration-300'>
+						<div className='tracking-wider px-6 py-2 rounded-lg border border-black hover:bg-[#F36A4F] hover:text-white hover:border-current transition-all duration-200'>
 							<Link href={"#"}>DONATE NOW</Link>
 						</div>
 					</div>
 
 					{/* custom hamburger button */}
 					<div
-						className={`mobileBtn lg:hidden ${
-							mobileBtn ? "mobileBtn" : "active"
-						} `}
+						className={`mobileBtn lg:hidden ${mobileBtn ? "mobileBtn" : "active"
+							} `}
 						onClick={() => setMobileBtn(!mobileBtn)}>
 						<span></span>
 					</div>
 
 					{/* mobile menu */}
 					<div
-						className={` ${
-							mobileBtn ? "hidden" : "block top-16"
-						} absolute  flex gap-3 flex-col text-md text-[#303030]  lg:hidden bg-white w-full py-5 px-5 border-b-4 transition-all duration-500`}>
+						className={` ${mobileBtn ? "hidden" : "block top-16"
+							} absolute  flex gap-3 flex-col text-md text-[#303030]  lg:hidden bg-white w-full py-5 px-5 border-b-4 transition-all duration-500`}>
 						{menuItems}
 					</div>
 				</div>
 			</div>
+
+			<Drawer
+				open={isOpen}
+				onClose={toggleDrawer}
+				direction='top'
+				className='bla bla bla'>
+				<div className=' flex justify-center items-center h-full'>
+					<input
+						type='text'
+						className='border-2 w-6/12 rounded-l-lg py-2 px-6 border-orange-500 outline-orange-400'
+						placeholder='Search Here'
+					/>
+					<label
+						htmlFor=''
+						className='bg-[#ffe2da] rounded-r-lg hover:bg-[#ffd3c6] duration-300 text-[#ff9370] font-semibold py-2.5 cursor-pointer  px-3'>
+						Search
+					</label>
+				</div>
+			</Drawer>
 		</>
 	);
 }
