@@ -277,6 +277,45 @@ const Team = () => {
                         </div>
                     </SwiperSlide>
 
+                    <SwiperSlide>
+                        <div className="overflow-hidden transition-shadow duration-300 bg-white rounded">
+                            <div className="relative">
+                                <div className="overflow-hidden hover:filter hover:brightness-50 duration-300">
+                                    <img
+                                        src={"https://i.ibb.co/3Sbj2LK/54423194-2183764681953440-9127356419455057920-n.jpg"}
+                                        className="object-cover h-72 rounded rounded-t hover:scale-105 duration-300 w-full"
+                                        alt=""
+                                    />
+                                </div>
+                                <div className="absolute bottom-5 left-0 flex justify-center items-center text-[#f47655] bg-[#ffe2da] px-[6px] py-[2px]">
+                                    <p className="text-xl font-bold mr-1">VP</p>
+                                </div>
+                            </div>
+                            <div className="px-1 py-4 text-[#303030]">
+
+                                <h2 className="text-lg font-bold leading-5 mb-2">Mofazzal Hossen</h2>
+                                <p className="text-sm font-bold mr-1 mb-2">Vice President</p>
+                                <div className="flex items-center gap-3">
+                                    <a href="https://www.facebook.com/rony688488" target="_blank"
+                                        className="inline-flex items-center font-semibold bg-[#F36A4F] text-white hover:bg-[#f52d05] duration-300 p-2 rounded-full"
+                                    >
+                                        <FaFacebookF />
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/mofazzel/" target="_blank"
+                                        className="inline-flex items-center font-semibold bg-[#F36A4F] text-white hover:bg-[#f52d05] duration-300 p-2 rounded-full"
+                                    >
+                                        <FaLinkedin />
+                                    </a>
+                                    <a href="https://twitter.com/MofazzelHosse12" target="_blank"
+                                        className="inline-flex items-center font-semibold bg-[#F36A4F] text-white hover:bg-[#f52d05] duration-300 p-2 rounded-full"
+                                    >
+                                        <FaTwitter />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+
                 </Swiper>
                 {/* </div> */}
             </div>
