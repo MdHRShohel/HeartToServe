@@ -27,9 +27,9 @@ const UrgentHelp = () => {
                             </div>
                             <div className="flex flex-col items-start">
                                 <h1 className="font-semibold">Water For All</h1>
-                                <div className="md:flex gap-4">
-                                   <p className="">Goal: 320000$</p> 
-                                   <p> Raised: 55600$</p>
+                                <div className="md:flex gap-2">
+                                   <p className="text-sm">Goal:320000$</p> 
+                                   <p className="text-sm">Raised:55600$</p>
                                 </div>
                                 <div className="flex justify-start">
                                     <button className=' font-semibold text-orange-500 hover:underline hover:text-[#f52d05] duration-300 my-1 '>View Details</button>
@@ -42,9 +42,9 @@ const UrgentHelp = () => {
                             </div>
                             <div className="flex flex-col  items-start">
                                 <h1 className="font-semibold">Water Wells</h1>
-                                <div className="md:flex gap-4">
-                                   <p>Goal: 900000$</p> 
-                                   <p> Raised: 55600$</p>
+                                <div className="md:flex gap-2">
+                                   <p className="text-sm">Raised:55600$</p>
+                                   <p className="text-sm">Goal:900000$</p> 
                                 </div>
                                 <div className="flex justify-start">
                                     <button className=' font-semibold text-orange-500 hover:underline hover:text-[#f52d05] duration-300 my-1 '>View Details</button>
@@ -57,9 +57,9 @@ const UrgentHelp = () => {
                             </div>
                             <div className="flex flex-col  items-start">
                                 <h1 className="font-semibold">Child Support</h1>
-                                <div className="md:flex gap-4">
-                                   <p>Goal: 150000$</p> 
-                                   <p> Raised: 55600$</p>
+                                <div className="md:flex gap-2">
+                                   <p className="text-sm">Goal:150000$</p> 
+                                   <p className="text-sm"> Raised:55600$</p>
                                 </div>
                                 <div className="flex justify-start">
                                     <button className=' font-semibold text-orange-500 hover:underline hover:text-[#f52d05] duration-300 my-1 '>View Details</button>
