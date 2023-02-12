@@ -110,7 +110,7 @@ const BloodDonation = () => {
         <div className="p-2">
             
            <div>
-           <p className="text-black font-semibold hover:cursor-pointer" >14 JUNE, 2020</p>
+           <p className="text-black font-semibold hover:cursor-pointer" >14 JUNE, 2022</p>
            </div>
             <h1 className="text-lg font-bold leading-5 my-3 text-[#303030]">DONATION - FEEL REAL PEACE</h1>
 
