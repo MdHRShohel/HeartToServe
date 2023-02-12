@@ -27,7 +27,7 @@ const Banner = () => {
     },
   ];
   return (
-    <section>
+    <section className="mb-5">
       <Swiper
         loop={true}
         autoplay={{ delay: 2500 }}
@@ -64,7 +64,6 @@ const Banner = () => {
             </SwiperSlide>
           );
         })}
-        ...
       </Swiper>
     </section>
   );

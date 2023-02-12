@@ -2,7 +2,7 @@ import { BsCheckLg } from "react-icons/bs";
 
 export default () => {
   return (
-    <div className="">
+    <div className="px-3 md:px-0 my-12">
       <div>
         <div
           className='w-full md:h-[550px] h-[300px] '
