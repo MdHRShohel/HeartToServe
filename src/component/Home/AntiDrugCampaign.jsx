@@ -17,8 +17,8 @@ const AntiDrugCampaign = () => {
         </div>
         <div className="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {
-            campaigns.map(campaign => (
-              <div className="overflow-hidden transition-shadow duration-300 bg-white rounded h-auto">
+            campaigns.map((campaign, i) => (
+              <div key={i} className="overflow-hidden transition-shadow duration-300 bg-white rounded h-auto">
                 <div className="relative">
                   <div className="overflow-hidden hover:filter hover:brightness-50 duration-300">
                     <img
