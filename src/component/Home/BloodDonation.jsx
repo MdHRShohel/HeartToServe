@@ -10,12 +10,12 @@ const BloodDonation = () => {
         </div>
 
 
-<div className="grid xl:grid-cols-2 gap-8 container">
+        <div className="grid xl:grid-cols-2 gap-8 container">
     
     <div className="md:flex  gap-3 bg-gray-50 hover:-translate-y-1 duration-500 ">
         <div className="">
             
-            <img src="https://i.ibb.co/JnhpsJx/donation.jpg" className="w-full md:w-[730px] h-64" alt="" />
+            <img src="https://i.ibb.co/pQdnWvV/pexels-photo-12193105.webp" className="w-full md:w-[750px] h-64" alt="" />
         </div>
 
         <div className="p-2">
@@ -44,7 +44,7 @@ const BloodDonation = () => {
     <div className="md:flex  gap-3 bg-gray-50 hover:-translate-y-1 duration-500">
         <div className="">
             
-            <img src="https://i.ibb.co/XW7rY6j/you.jpg" className="w-full md:w-[650px] h-64" alt="" />
+            <img src="https://i.ibb.co/PYP5JHF/pexels-photo-6940861.webp" className="w-full md:w-[650px] h-64" alt="" />
         </div>
 
         <div className="p-2">
@@ -74,7 +74,7 @@ const BloodDonation = () => {
     <div className="md:flex  gap-3 bg-gray-50 hover:-translate-y-1 duration-500">
         <div className="">
             
-            <img src="https://i.ibb.co/mGCMBNn/world.jpg" className="w-full md:w-[700px] h-64" alt="" />
+            <img src="https://i.ibb.co/JRdcJWw/pexels-photo-7691986.webp" className="w-full md:w-[720px] h-64" alt="" />
         </div>
 
         <div className="p-2">
@@ -104,7 +104,7 @@ const BloodDonation = () => {
     <div className="md:flex  gap-3 bg-gray-50 hover:-translate-y-1 duration-500">
         <div className="">
             
-            <img src="https://i.ibb.co/HdrY1r7/o.jpg" className="w-full md:w-[720px] h-64" alt="" />
+            <img src="https://i.ibb.co/JzyCRYS/pexels-photo-6995247.jpg" className="w-full md:w-[720px] h-64" alt="" />
         </div>
 
         <div className="p-2">
