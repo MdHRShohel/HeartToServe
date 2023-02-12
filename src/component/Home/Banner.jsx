@@ -56,7 +56,7 @@ const Banner = () => {
                   </p>
                   <a href='#volunteer'>
                     <button className='text-white tracking-[0.04rem] text-lg bg-[#F36A4F] px-6 py-2 mt-4 rounded-lg hover:bg-[#c2513b] transition-all duration-300'>
-                      Become Volunteer
+                      
                     </button>
                   </a>
                 </div>
