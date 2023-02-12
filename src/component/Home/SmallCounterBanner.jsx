@@ -56,7 +56,7 @@ function SmallCounterBanner() {
 				</div>
 
 				<div  className="hidden md:block">
-					<span className='flex text-orange-400 font-bold text-sm md:text-3xlitems-center justify-center'>
+					<span className='flex text-orange-400 font-bold text-sm md:text-3xl items-center justify-center'>
 						<RiBook2Fill fontSize={50} />
 						<CountUp
 							end={47895}
