@@ -35,7 +35,7 @@ export default () => {
   };
 
   return (
-    <div className='px-3 md:px-0 my-12' id="volunteer">
+    <div className='container px-3 md:px-0 my-12' id="volunteer">
       <div
         className='flex items-center justify-center md:h-[500px] h-[300px]'
         style={{
