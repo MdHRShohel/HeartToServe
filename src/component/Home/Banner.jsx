@@ -42,7 +42,7 @@ const Banner = () => {
 								<div className='img-gradient'>
 									<Image
 										className='h-[600px] xl:h-[800px] w-full rounded-md object-cover filter brightness-75'
-										alt=''
+										alt='bannerImage'
 										src={banner.img}
 									/>
 								</div>
