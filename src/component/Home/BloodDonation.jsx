@@ -104,13 +104,13 @@ const BloodDonation = () => {
     <div className="md:flex  gap-3 bg-gray-50 hover:-translate-y-1 duration-500">
         <div className="">
             
-            <img src="https://i.ibb.co/JzyCRYS/pexels-photo-6995247.jpg" className="w-full md:w-[720px] h-64" alt="" />
+            <img src="https://images.unsplash.com/photo-1581594549595-35f6edc7b762?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" className="w-full md:w-[720px] h-64" alt="" />
         </div>
 
         <div className="p-2">
             
            <div>
-           <p className="text-black font-semibold hover:cursor-pointer" >14 JUNE, 2017</p>
+           <p className="text-black font-semibold hover:cursor-pointer" >14 JUNE, 2022</p>
            </div>
             <h1 className="text-lg font-bold leading-5 my-3 text-[#303030]">DONATION - FEEL REAL PEACE</h1>
 

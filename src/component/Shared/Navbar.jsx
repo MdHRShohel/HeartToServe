@@ -1,5 +1,4 @@
-import logo from "../../asset/logo.png";
-
+import logo from "../../asset/a.png";
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
@@ -40,7 +39,6 @@ function Navbar() {
     setIsOpen((prevState) => !prevState);
   };
 
-  // console.log(mobileBtn);
   return (
     <>
       {/* Navbar top */}
@@ -48,14 +46,12 @@ function Navbar() {
         <div className="px-4 md:px-0 flex justify-between items-center container">
           <div className="[&>*]:text-xs space-x-5">
             <a className="hoverStyle" href="tel:+6494461709">
-              156-677-124-442-2887
+              +880 1938 688488
             </a>
             <a className="hoverStyle" href="mailto:dogood@qodeinteractive.com">
-              dogood@qodeinteractive.com
+              bonefire@donation.com
             </a>
-            <span className="hoverStyle">
-              184 Main Collins Street Victoria 8007
-            </span>
+            <span className="hoverStyle">Nikanjia-2 Dhaka, Bangladesh</span>
           </div>
           {/* Social Icons */}
           <div className="flex gap-5 items-center ">
@@ -102,8 +98,11 @@ function Navbar() {
       {/* Navbar */}
       <div className="px-4 md:px-8 border-b-2 mb-4 py-3.5 pt-5 sticky top-0 z-50 bg-white navbar">
         <div className="flex justify-between items-center relative container">
-          <Link href={"/"}>
-            <Image className="w-[100px]" src={logo} alt="" />
+          <Link href={"/"} className="flex justify-center items-center">
+            <Image className="w-[60px]" src={logo} alt="" />
+            <p className="uppercase leading-4 ml-1">
+              Heart <br /> To <br /> Serve
+            </p>
           </Link>
           <div className="text-md xl:text-lg text-[#303030] space-x-7 hidden lg:block ">
             {menuItems}
