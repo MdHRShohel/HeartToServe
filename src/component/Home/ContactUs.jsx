@@ -48,7 +48,7 @@ function ContactUs() {
 						</p>
 					</div>
 				</div>
-				<div className='bg-[#FFE2DA] text-[#ff9370] p-8 grid items-center h-[350px]'>
+				<div className='bg-[#FFE2DA] text-[#ff9370] p-8 grid items-center h-[350px] md:col-span-2 lg:col-span-1'>
 					<TbHeartbeat fontSize={80} />
 					<h2 className='text-3xl font-bold'>Saving Lives</h2>
 					<p className='mt-4 text-xs font-semibold'>
