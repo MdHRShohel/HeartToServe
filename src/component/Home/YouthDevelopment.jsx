@@ -16,7 +16,7 @@ const YouthDevelopment = () => {
     }, [])
     return (
         <div className="container py-16">
-            <h2 className="text-center text-orange-500 font-bold text-3xl drop-shadow-lg mb-10">Our Youth Development Programme</h2>
+            <h2 className="text-center text-orange-500 font-bold text-2xl md:text-3xl drop-shadow-lg mb-10">Our Youth Development Programme</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                 {
                     programmes?.map(programme => <>
