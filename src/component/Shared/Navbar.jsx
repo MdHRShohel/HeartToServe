@@ -54,7 +54,7 @@ function Navbar() {
 	return (
 		<>
 			{/* Navbar top */}
-			<div className='bg-[#f3f3f3] py-3 px-4 md:px-8 hidden lg:block '>
+			<div className='bg-[#f3f3f3] py-3 px-4 md:px-8 hidden lg:block container'>
 				<div className='px-4 md:px-0 flex justify-between items-center'>
 					<div className='[&>*]:text-xs space-x-5'>
 						<a
@@ -109,7 +109,7 @@ function Navbar() {
 
 			{/* Navbar */}
 			<div className='px-4 md:px-8 border-b-2 mb-4 py-3.5 pt-5 sticky top-0 z-50 bg-white navbar'>
-				<div className='flex justify-between items-center relative'>
+				<div className='flex justify-between items-center relative container'>
 					<Link href={"/"}>
 						<Image
 							className='w-[100px]'
