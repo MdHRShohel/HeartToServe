@@ -6,25 +6,29 @@ const UrgentHelp = () => {
                 <div className="text-center lg:text-left">
                     <p className="text-[#303030] text-xl" >URGENT HELP</p>
                     <h1 className="text-3xl font-bold leading-5 my-3 text-[#303030]">CHECK THE CAUSES</h1>
-                    <p className="mb-4 text-gray-700 text-lg lg:text-lg lg:w-full block mx-auto text-justify leading-6 p-6 lg:p-0">Pellentesque maximus pharetra tristique. Vestibulum eget odio blandit, finibus felis non, efficitur diam. Sed condimentum pellentesque eros. Etiam posuere turpis in ultricies ullamcorper.</p>
+                    <p className="mb-4 hidden md:block text-gray-700 text-md lg:text-lg lg:w-full p-6 lg:p-0 text-justify">Pellentesque maximus pharetra tristique. Vestibulum eget odio blandit, finibus felis non, efficitur diam. Sed condimentum pellentesque eros. Etiam posuere turpis in ultricies ullamcorper.</p>
+
+                    <p className="mb-4 md:hidden text-gray-700 text-md lg:text-lg lg:w-full p-6 lg:p-0 text-justify">Pellentesque maximus pharetra tristique. Vestibulum eget odio blandit, finibus felis non, efficitur diam.</p>
+
                     <div className="flex items-center justify-center lg:justify-start gap-4 mb-6">
                         <img src="https://i.ibb.co/9pqJ4pN/rounded.jpg" className="w-10 h-10 rounded-full" alt="" />
                         <p className="font-mono text-xl">Jenna Ortega</p>
                     </div>
                 </div>
-                <div className="mb-6 flex items-center">
-                    <div className="hidden lg:block">
+                <div className="mb-6 lg:flex items-center">
+                    <div className="">
                         <img src="https://i.ibb.co/fHsCjf0/bedi.jpg" className=" w-full h-full md:w-72 md:h-96" alt="" />
                     </div>
-                    <div className="hidden lg:block">
+
+                    <div className="mt-2 md:mt-0">
                         <div className="flex gap-3 lg:-ml-6 mb-4">
                             <div>
                                 <img src="https://i.ibb.co/wCn9wPF/abuidda1.jpg" className="w-20 h-20" alt="" />
                             </div>
                             <div className="flex flex-col items-start">
                                 <h1 className="font-semibold">Water For All</h1>
-                                <div className="flex gap-4">
-                                   <p>Goal: 320000$</p> 
+                                <div className="md:flex gap-4 ">
+                                   <p className="">Goal: 320000$</p> 
                                    <p> Raised: 55600$</p>
                                 </div>
                                 <div className="flex justify-start">
@@ -38,7 +42,7 @@ const UrgentHelp = () => {
                             </div>
                             <div className="flex flex-col  items-start">
                                 <h1 className="font-semibold">Water Wells</h1>
-                                <div className="flex gap-4">
+                                <div className="md:flex gap-4">
                                    <p>Goal: 900000$</p> 
                                    <p> Raised: 55600$</p>
                                 </div>
@@ -53,7 +57,7 @@ const UrgentHelp = () => {
                             </div>
                             <div className="flex flex-col  items-start">
                                 <h1 className="font-semibold">Child Support</h1>
-                                <div className="flex gap-4">
+                                <div className="md:flex gap-4">
                                    <p>Goal: 150000$</p> 
                                    <p> Raised: 55600$</p>
                                 </div>
@@ -63,6 +67,7 @@ const UrgentHelp = () => {
                         </div>
                         </div>
                     </div>
+                    
                 </div>
             </div>
             <div className="grid grid-cols-1 justify-center md:grid-cols-2 gap-4 pt-0 px-6 pb-6 lg:p-6 lg:gap-8 mb-10">
