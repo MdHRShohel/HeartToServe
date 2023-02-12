@@ -16,8 +16,10 @@
     "react-countup": "^6.4.1",
     "react-dom": "18.2.0",
     "react-icons": "^4.7.1",
+    "react-modern-drawer": "^1.2.0",
     "react-photo-view": "^1.2.3",
-    "react-simple-typewriter": "^5.0.1"
+    "react-simple-typewriter": "^5.0.1",
+    "swiper": "^9.0.4"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
