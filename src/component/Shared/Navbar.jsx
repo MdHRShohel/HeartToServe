@@ -128,7 +128,7 @@ function Navbar() {
 						<div className=' flex justify-center items-center h-full'>
 							<input
 								type='text'
-								className='border-2 w-6/12 rounded-l-lg py-2 px-6 border-orange-500 outline-indigo-500'
+								className='border-2 w-6/12 rounded-l-lg py-2 px-6 border-orange-500 outline-orange-400'
 								placeholder='Search Here'
 							/>
 							<label
