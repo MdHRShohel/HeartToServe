@@ -6,7 +6,7 @@ const UrgentHelp = () => {
                 <div className="text-center lg:text-left">
                     <p className="text-[#303030] text-xl" >URGENT HELP</p>
                     <h1 className="text-3xl font-bold leading-5 my-3 text-[#303030]">CHECK THE CAUSES</h1>
-                    <p className="mb-4 text-gray-700 text-xl lg:text-lg lg:w-full block mx-auto text-justify leading-6 p-6">Pellentesque maximus pharetra tristique. Vestibulum eget odio blandit, finibus felis non, efficitur diam. Sed condimentum pellentesque eros. Etiam posuere turpis in ultricies ullamcorper.</p>
+                    <p className="mb-4 text-gray-700 text-xl lg:text-lg lg:w-full block mx-auto text-justify leading-6 p-6 lg:p-0">Pellentesque maximus pharetra tristique. Vestibulum eget odio blandit, finibus felis non, efficitur diam. Sed condimentum pellentesque eros. Etiam posuere turpis in ultricies ullamcorper.</p>
                     <div className="flex items-center justify-center lg:justify-start gap-4 mb-6">
                         <img src="https://i.ibb.co/9pqJ4pN/rounded.jpg" className="w-10 h-10 rounded-full" alt="" />
                         <p className="font-mono text-xl">Jenna Ortega</p>
