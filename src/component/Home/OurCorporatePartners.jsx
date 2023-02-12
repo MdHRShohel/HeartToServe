@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-const OurCorporatePatter = () => {
+const OurCorporatePartners = () => {
   return (
     <div className=''>
       <div className='grid lg:grid-cols-2 items-center container px-2 md:px-0'>
@@ -59,4 +59,4 @@ const OurCorporatePatter = () => {
   );
 };
 
-export default OurCorporatePatter;
+export default OurCorporatePartners;

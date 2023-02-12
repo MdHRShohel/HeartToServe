@@ -6,7 +6,7 @@ import ContactUs from "./ContactUs";
 import DoNotNeedTrash from "./DoNotNeedTrash";
 import FreeCounselling from "./FreeCounselling";
 import FundRaising from "./FundRaising";
-import OurCorporatePatter from "./OurCorporatePatter";
+import OurCorporatePartners from "./OurCorporatePartners";
 import SmallCounterBanner from "./SmallCounterBanner";
 import Team from "./Team";
 import UrgentHelp from "./UrgentHelp";
@@ -26,7 +26,7 @@ function HomeContainer() {
 			<DoNotNeedTrash />
 			<Team />
 			<UrgentHelp />
-			<OurCorporatePatter></OurCorporatePatter>
+			<OurCorporatePartners></OurCorporatePartners>
 			<ContactUs />
 		</>
 	);
