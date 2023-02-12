@@ -36,24 +36,6 @@ export default () => {
 
 	return (
 		<div className='px-3 md:px-0 my-12'>
-			<div>
-				<div
-					className='w-full md:h-[550px] h-[300px] '
-					style={{
-						background:
-							"linear-gradient(rgb(26 25 24 / 16%), rgb(43 35 32 / 21%)), url(https://i.ibb.co/4MrS1DZ/pexels-rodnae-productions-6646894-1.jpg)",
-						backgroundRepeat: "no-repeat",
-						backgroundPosition: "center",
-						backgroundSize: "cover",
-						width: "100%",
-					}}>
-					<div className='flex justify-center items-center md:h-[550px] h-[300px]'>
-						<h1 className='uppercase font-bold  text-white text-2xl md:text-6xl'>
-							Become a Volunter
-						</h1>
-					</div>
-				</div>
-			</div>
 			<div className='flex gap-4 m-10 lg:flex-row flex-col items-center container mx-auto'>
 				<div className='lg:w-[50%]'>
 					<h1 className='sm:text-5xl uppercase font-semibold'>Requirements</h1>
