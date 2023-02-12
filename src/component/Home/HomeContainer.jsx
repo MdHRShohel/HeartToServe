@@ -16,18 +16,18 @@ function HomeContainer() {
 	return (
 		<>
 			<Banner />
-			<BecomeAVolunteer />
+			<YouthDevelopment />
+			<SmallCounterBanner />
 			<AntiDrugCampaign />
+			<FundRaising />
 			<FreeCounselling />
 			<BloodDonation />
-			<FundRaising />
-			<YouthDevelopment />
+			<BecomeAVolunteer />
 			<DoNotNeedTrash />
-			<SmallCounterBanner />
 			<Team />
+			<UrgentHelp />
 			<CoPartners />
 			<ContactUs />
-			<UrgentHelp />
 		</>
 	);
 }

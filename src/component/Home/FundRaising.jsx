@@ -11,7 +11,7 @@ function FundRaising() {
 	const state = useSelector((state) => state.formData);
 
 	return (
-		<div className='w-10/12 my-20 container'>
+		<div className='w-10/12 mb-20 container'>
 			<h1 className='text-center text-orange-500 font-bold text-3xl drop-shadow-lg'>
 				Funding Poor People
 			</h1>
@@ -37,8 +37,8 @@ function FundRaising() {
 						businesses, charitable foundations, or agencies. access funding, and
 						train them to become sustainable in the process.
 					</p>
-					<div className='flex justify-between items-start mt-8'>
-						<div className='pr-10 text-center space-y-3'>
+					<div className='md:flex justify-between items-start mt-8'>
+						<div className='md:pr-10 text-center space-y-3 mb-8 md:mb-0'>
 							<article className='bg-pink-200 hover:bg-pink-300 duration-300 cursor-pointer py-2 px-4 rounded-md'>
 								<p>Monthly</p>
 								<h4>
