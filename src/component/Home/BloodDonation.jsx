@@ -104,7 +104,7 @@ const BloodDonation = () => {
     <div className="md:flex  gap-3 bg-gray-50 hover:-translate-y-1 duration-500">
         <div className="">
             
-            <img src="https://i.ibb.co/JzyCRYS/pexels-photo-6995247.jpg" className="w-full md:w-[720px] h-64" alt="" />
+            <img src="https://images.unsplash.com/photo-1581594549595-35f6edc7b762?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" className="w-full md:w-[720px] h-64" alt="" />
         </div>
 
         <div className="p-2">
