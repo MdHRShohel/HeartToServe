@@ -54,8 +54,8 @@ function Navbar() {
 	return (
 		<>
 			{/* Navbar top */}
-			<div className='bg-[#f3f3f3] py-3 px-4 md:px-8 hidden lg:block container'>
-				<div className='px-4 md:px-0 flex justify-between items-center'>
+			<div className='bg-[#f3f3f3] py-3 px-4 md:px-8 hidden lg:block'>
+				<div className='px-4 md:px-0 flex justify-between items-center container'>
 					<div className='[&>*]:text-xs space-x-5'>
 						<a
 							className='hoverStyle'
