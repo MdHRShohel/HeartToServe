@@ -31,7 +31,7 @@ function FundRaising() {
 							loop={true}
 						/>
 					</div>
-					<p className='text-justify'>
+					<p className='text-justify mb-4 text-gray-700 text-lg leading-6'>
 						Fundraising or fund-raising is the process of seeking and gathering
 						voluntary financial contributions by engaging individuals,
 						businesses, charitable foundations, or agencies. access funding, and
