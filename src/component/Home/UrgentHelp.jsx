@@ -20,14 +20,14 @@ const UrgentHelp = () => {
                         <img src="https://i.ibb.co/fHsCjf0/bedi.jpg" className=" w-full h-full md:w-72 md:h-96" alt="" />
                     </div>
 
-                    <div className="mt-2 md:mt-0 lg:-ml-20">
+                    <div className="mt-2 md:mt-0 lg:-ml-10">
                         <div className="flex gap-3  mb-4">
                             <div>
                                 <img src="https://i.ibb.co/wCn9wPF/abuidda1.jpg" className="w-20 h-20" alt="" />
                             </div>
                             <div className="flex flex-col items-start">
                                 <h1 className="font-semibold">Water For All</h1>
-                                <div className="md:flex gap-4 ">
+                                <div className="md:flex gap-4">
                                    <p className="">Goal: 320000$</p> 
                                    <p> Raised: 55600$</p>
                                 </div>
@@ -76,7 +76,7 @@ const UrgentHelp = () => {
 
             <div className="grid grid-cols-1 justify-center md:grid-cols-2 gap-4 pt-0 p-2 pb-6 lg:p-6 lg:gap-8 mb-10">
                 <div className="md:flex items-center gap-6 shadow-lg p-2 lg:p-12 rounded-lg">
-                    <div className="md:-ml-8 lg:-ml-10">
+                    <div className="md:-ml-4 lg:-ml-8">
                         <img src="https://i.ibb.co/N39SGyD/one.png" alt="" />
 
                     </div>
@@ -86,7 +86,7 @@ const UrgentHelp = () => {
                     </div>
                 </div>
                 <div className="md:flex items-center gap-6 shadow-lg p-2 lg:p-12 rounded-lg">
-                    <div className="md:-ml-8 lg:-ml-10">
+                    <div className="md:-ml-4 lg:-ml-8">
                         <img src="https://i.ibb.co/KK1YHy3/two.png" alt="" />
 
                     </div>
