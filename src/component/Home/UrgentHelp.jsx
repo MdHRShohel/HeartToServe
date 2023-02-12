@@ -2,7 +2,7 @@
 const UrgentHelp = () => {
     return (
         <div className="container mx-auto p-2 md:p-0">
-            <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 justify-center items-center">
                 <div className="text-center lg:text-left">
                     <p className="text-[#303030] text-xl" >URGENT HELP</p>
                     <h1 className="text-3xl font-bold leading-5 my-3 text-[#303030]">CHECK THE CAUSES</h1>
