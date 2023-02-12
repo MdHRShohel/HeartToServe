@@ -8,7 +8,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 // import required modules
-import { Pagination, Autoplay, FreeMode } from "swiper";
+import { Pagination, Autoplay } from "swiper";
 
 const Team = () => {
     return (
@@ -37,12 +37,12 @@ const Team = () => {
                         },
                     }}
                     loop={true}
-                    speed={1200}
+                    speed={1000}
                     autoplay={{
                         delay: 2500,
                         disableOnInteraction: false,
                     }}
-                    modules={[Pagination, Autoplay, FreeMode]}
+                    modules={[Pagination, Autoplay]}
                     className="mySwiper"
                 >
                     <SwiperSlide>
