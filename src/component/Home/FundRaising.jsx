@@ -3,9 +3,12 @@ import { AiFillHeart } from "react-icons/ai";
 import { FaDonate, FaHandHoldingHeart } from "react-icons/fa";
 import { BiWorld } from "react-icons/bi";
 import { Typewriter } from "react-simple-typewriter";
+import { useSelector } from "react-redux";
 
 function FundRaising() {
 	const [fundMoney, setFundMoney] = useState("");
+
+	const state = useSelector((state) => state.formData);
 
 	return (
 		<div className='w-10/12 my-20 container'>
@@ -28,7 +31,7 @@ function FundRaising() {
 							loop={true}
 						/>
 					</div>
-					<p className='text-justify'>
+					<p className='text-justify mb-4 text-gray-700 text-lg leading-6'>
 						Fundraising or fund-raising is the process of seeking and gathering
 						voluntary financial contributions by engaging individuals,
 						businesses, charitable foundations, or agencies. access funding, and
@@ -86,6 +89,7 @@ function FundRaising() {
 								type='email'
 								placeholder='Your Email'
 								className='w-full border-2 outline-0 border-l-orange-500 mt-2 py-2 px-4 rounded-r-lg'
+								defaultValue={state?.email}
 							/>
 							<button className='bg-[#ffe2da]  hover:bg-[#ffd3c6] duration-300 w-full text-[#ff9370] font-semibold py-2 mt-4 px-3 rounded '>
 								Donate Now
