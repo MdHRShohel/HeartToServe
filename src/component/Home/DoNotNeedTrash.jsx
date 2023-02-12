@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { TfiTrash } from "react-icons/tfi";
+import { RiContrastDrop2Line } from "react-icons/ri";
 
 function DoNotNeedTrash() {
 	return (
@@ -21,14 +23,14 @@ function DoNotNeedTrash() {
 						<img
 							src='https://images.unsplash.com/photo-1503596476-1c12a8ba09a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80'
 							alt=''
-							className='absolute top-28 border-4 border-white rounded-full right-[-80px] w-6/12'
+							className='absolute top-28 border-4 border-white rounded-full right-[-80px] w-6/12 '
 						/>
 					</div>
 				</div>
 				<div className=''>
-					<div
-						className='w-32 h-32 rounded-full mb-8 hidden'
-						style={{ border: "30px solid #FAD3E7" }}></div>
+					<div className='w-32 h-32 rounded-full mb-8 text-[#ffc6e3]'>
+						<TfiTrash fontSize={120} />
+					</div>
 					<h1 className='text-5xl font-bold text-slate-900'>
 						If nature doesn't need trash
 					</h1>
