@@ -28,10 +28,10 @@ function DoNotNeedTrash() {
 					</div>
 				</div>
 				<div className=''>
-					<div className='w-32 h-32 rounded-full mb-8 text-[#ffc6e3]'>
-						<TfiTrash fontSize={120} />
+					<div className='w-20 h-20 rounded-full mb-8 text-[#ffc6e3]'>
+						<TfiTrash fontSize={120} className="w-full h-full" />
 					</div>
-					<h1 className='text-5xl font-bold text-slate-900'>
+					<h1 className='text-5xl leading-[60px] font-bold text-slate-900'>
 						If nature doesn't need trash
 					</h1>
 					<p className='mt-4 text-gray-600'>

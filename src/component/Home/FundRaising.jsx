@@ -11,7 +11,7 @@ function FundRaising() {
 	const state = useSelector((state) => state.formData);
 
 	return (
-		<div className='w-10/12 my-20 container'>
+		<div className='w-10/12 mb-20 container'>
 			<h1 className='text-center text-orange-500 font-bold text-3xl drop-shadow-lg'>
 				Funding Poor People
 			</h1>
