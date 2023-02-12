@@ -64,7 +64,8 @@ const Banner = () => {
 					);
 				})}
 			</Swiper>
-			);
+		</section>
+	);
 };
 
-			export default Banner;
+export default Banner;
