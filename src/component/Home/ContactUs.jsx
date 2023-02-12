@@ -27,28 +27,28 @@ function ContactUs() {
 					<div className='flex items-center mt-8'>
 						<BsFillTelephoneOutboundFill
 							fontSize={30}
-							className='mr-4 text-teal-500'
+							className='mr-4 text-orange-500'
 						/>
 						<p className='text-sm'>+880 111 222 3333</p>
 					</div>
 					<div className='flex items-center mt-2'>
 						<MdMarkEmailUnread
 							fontSize={30}
-							className='mr-4 text-teal-500'
+							className='mr-4 text-orange-500'
 						/>
 						<p className='text-sm'>contact@hearttoSave.com</p>
 					</div>
 					<div className='flex items-center mt-2'>
 						<FaLocationArrow
 							fontSize={30}
-							className='mr-4 text-teal-500'
+							className='mr-4 text-orange-500'
 						/>
 						<p className='text-sm'>
 							Tejturi Bazar West, Panthapath, Dhaka 1215
 						</p>
 					</div>
 				</div>
-				<div className='bg-[#FFE2DA] text-[#ff9370] p-8 grid items-center h-[350px]'>
+				<div className='bg-[#FFE2DA] text-[#ff9370] p-8 grid items-center h-[350px] md:col-span-2 lg:col-span-1'>
 					<TbHeartbeat fontSize={80} />
 					<h2 className='text-3xl font-bold'>Saving Lives</h2>
 					<p className='mt-4 text-xs font-semibold'>

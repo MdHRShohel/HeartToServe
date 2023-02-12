@@ -1,7 +1,7 @@
 const FreeCounselling = () => {
     return (
-        <div className="mb-8">
-            <h1 className="text-center mb-8 font-bold text-3xl drop-shadow-lg">Free Counselling</h1>
+        <div className="mb-8 p-2 md:p-0">
+            <h1 className="text-center text-orange-500 font-bold text-3xl drop-shadow-lg mb-10">Free Counselling</h1>
             <div className="container">
             <div className="grid gap-8 lg:grid-cols-3">
                 <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
@@ -22,7 +22,7 @@ const FreeCounselling = () => {
                     >
                     Career Counseling
                     </a>
-                    <p className="mb-2 text-gray-700 text-justify">
+                    <p className="mb-4 text-gray-700 text-sm leading-6 text-justify">
                     Counseling psychologists help people recognize their strengths and find resources to cope with ...
                     </p>
                     <a
@@ -52,7 +52,7 @@ const FreeCounselling = () => {
                     >
                     Family Counseling
                     </a>
-                    <p className="mb-2 text-gray-700 text-justify">
+                    <p className="mb-4 text-gray-700 text-sm leading-6 text-justify">
                     Family therapy services are often very helpful in helping individuals and depression, grief...
                     </p>
                     <a
@@ -82,7 +82,7 @@ const FreeCounselling = () => {
                     >
                     Mood Disorders
                     </a>
-                    <p className="mb-2 text-gray-700 text-justify">
+                    <p className="mb-4 text-gray-700 text-sm leading-6 text-justify">
                     A mood disorder is a mental health condition that primarily affects your emotional ...
                     </p>
                     <a

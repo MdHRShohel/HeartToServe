@@ -1,6 +1,6 @@
-import footerLogo from "../../asset/logofooter-01.png"
 import Image from "next/image";
-import { FaFacebook, FaLinkedin, FaInstagram, FaTwitter} from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import footerLogo from "../../asset/logofooter-01.png";
 
 function Footer() {
   return (
@@ -34,7 +34,7 @@ function Footer() {
         </div>
         <div className='mb-5'>
           <h2 className='text-lg font-bold mb-3'>Subscribe Our NewsLetter</h2>
-          <div class='mb-5'>
+          <div className='mb-5'>
             <input
               type='email'
               name='email'
@@ -43,7 +43,7 @@ function Footer() {
               className='w-full  border-transparent border-2 border-b-[#F36A4F] bg-transparent py-3 sm:px-6 text-base font-medium text-[#6B7280] outline-none focus:border-b-[#6A64F1] focus:shadow-md'
             />
           </div>
-          <button class='hover:shadow-form bg-[#c2513b] text-white py-3 px-8 text-base font-semibold outline-none'>
+          <button className='hover:shadow-form bg-[#c2513b] text-white py-3 px-8 text-base font-semibold outline-none'>
             Sign Up
           </button>
         </div>
