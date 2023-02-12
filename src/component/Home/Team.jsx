@@ -37,7 +37,7 @@ const Team = () => {
                         },
                     }}
                     autoplay={{
-                        delay: 2000,
+                        delay: 2500,
                         disableOnInteraction: false,
                     }}
                     modules={[Pagination, Autoplay]}
@@ -224,6 +224,45 @@ const Team = () => {
                                         <FaFacebookF />
                                     </a>
                                     <a href="https://www.linkedin.com/in/naimur-rahman2001/" target="_blank"
+                                        className="inline-flex items-center font-semibold bg-[#F36A4F] text-white hover:bg-[#f52d05] duration-300 p-2 rounded-full"
+                                    >
+                                        <FaLinkedin />
+                                    </a>
+                                    <a href="https://twitter.com/" target="_blank"
+                                        className="inline-flex items-center font-semibold bg-[#F36A4F] text-white hover:bg-[#f52d05] duration-300 p-2 rounded-full"
+                                    >
+                                        <FaTwitter />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <div className="overflow-hidden transition-shadow duration-300 bg-white rounded">
+                            <div className="relative">
+                                <div className="overflow-hidden hover:filter hover:brightness-50 duration-300">
+                                    <img
+                                        src={"https://images-ext-2.discordapp.net/external/gLhBBH38A2aPPEevZXwuC12jCx8C0mtgAwc6EIrEjio/https/i.ibb.co/dsYn471/269809561-142393021484628-3183151668269593478-n.jpg"}
+                                        className="object-cover h-72 rounded rounded-t hover:scale-105 duration-300 w-full"
+                                        alt=""
+                                    />
+                                </div>
+                                <div className="absolute bottom-5 left-0 flex justify-center items-center text-[#f47655] bg-[#ffe2da] px-[6px] py-[2px]">
+                                    <p className="text-xl font-bold mr-1">CFO</p>
+                                </div>
+                            </div>
+                            <div className="px-1 py-4 text-[#303030]">
+
+                                <h2 className="text-lg font-bold leading-5 mb-2">Mahabubur Rahman</h2>
+                                <p className="text-sm font-bold mr-1 mb-2">Chief Financial Officer</p>
+                                <div className="flex items-center gap-3">
+                                    <a href="https://www.facebook.com/mahabub.r03" target="_blank"
+                                        className="inline-flex items-center font-semibold bg-[#F36A4F] text-white hover:bg-[#f52d05] duration-300 p-2 rounded-full"
+                                    >
+                                        <FaFacebookF />
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/mahabuburr/" target="_blank"
                                         className="inline-flex items-center font-semibold bg-[#F36A4F] text-white hover:bg-[#f52d05] duration-300 p-2 rounded-full"
                                     >
                                         <FaLinkedin />

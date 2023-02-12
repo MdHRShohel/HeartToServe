@@ -94,7 +94,7 @@ function Navbar() {
           <Link href={"/"}>
             <Image className="w-[100px]" src={logo} alt="" />
           </Link>
-          <div className="text-md xl:text-xl text-[#303030] space-x-7 hidden lg:block ">
+          <div className="text-md xl:text-lg text-[#303030] space-x-7 hidden lg:block ">
             {menuItems}
           </div>
 
@@ -110,16 +110,15 @@ function Navbar() {
                 </svg>
               </Link>
             </div>
-            <div className="text-white tracking-wider bg-[#F36A4F] px-6 py-2 rounded-lg hover:bg-[#c2513b] transition-all duration-300">
+            <div className="tracking-wider px-6 py-2 rounded-lg border border-black hover:bg-[#F36A4F] hover:text-white hover:border-current transition-all duration-300">
               <Link href={"#"}>DONATE NOW</Link>
             </div>
           </div>
 
           {/* custom hamburger button */}
           <div
-            className={`mobileBtn lg:hidden ${
-              mobileBtn ? "mobileBtn" : "active"
-            } `}
+            className={`mobileBtn lg:hidden ${mobileBtn ? "mobileBtn" : "active"
+              } `}
             onClick={() => setMobileBtn(!mobileBtn)}
           >
             <span></span>
@@ -127,9 +126,8 @@ function Navbar() {
 
           {/* mobile menu */}
           <div
-            className={` ${
-              mobileBtn ? "hidden" : "block top-16"
-            } absolute  flex gap-3 flex-col text-md text-[#303030]  lg:hidden bg-white w-full py-5 px-5 border-b-4 transition-all duration-500`}
+            className={` ${mobileBtn ? "hidden" : "block top-16"
+              } absolute  flex gap-3 flex-col text-md text-[#303030]  lg:hidden bg-white w-full py-5 px-5 border-b-4 transition-all duration-500`}
           >
             {menuItems}
           </div>

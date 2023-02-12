@@ -37,8 +37,8 @@ const Banner = () => {
           clickable: true,
         }}
         modules={[Pagination, Autoplay]}
-        // onSlideChange={() => console.log("slide change")}
-        // onSwiper={(swiper) => console.log(swiper)}
+      // onSlideChange={() => console.log("slide change")}
+      // onSwiper={(swiper) => console.log(swiper)}
       >
         {bannerData.map((banner, i) => {
           return (
