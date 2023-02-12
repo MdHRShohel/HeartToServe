@@ -4,7 +4,7 @@ function DoNotNeedTrash() {
 	return (
 		<div className='container my-20 w-10/12'>
 			<div className='grid grid-cols-1 lg:grid-cols-2 items-center'>
-				<div className='relative w-6/12 hidden lg:block'>
+				<div className='relative w-8/12 hidden lg:block'>
 					<img
 						src='https://images.unsplash.com/photo-1607536143324-9ea8ceaecdbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80'
 						alt=''
@@ -24,7 +24,7 @@ function DoNotNeedTrash() {
 				<div className=''>
 					<div
 						className='w-32 h-32 rounded-full mb-8'
-						style={{ border: "30px solid #F0EEED" }}></div>
+						style={{ border: "30px solid #FAD3E7" }}></div>
 					<h1 className='text-5xl font-bold text-slate-900'>
 						If nature doesn't need trash
 					</h1>
