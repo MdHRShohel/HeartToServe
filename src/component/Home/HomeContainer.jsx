@@ -16,7 +16,6 @@ function HomeContainer() {
 	return (
 		<>
 			<Banner />
-			<BecomeAVolunteer />
 			<AntiDrugCampaign />
 			<FreeCounselling />
 			<BloodDonation />
@@ -27,6 +26,7 @@ function HomeContainer() {
 			<Team />
 			<CoPartners />
 			<ContactUs />
+			<BecomeAVolunteer />
 			<UrgentHelp />
 		</>
 	);
