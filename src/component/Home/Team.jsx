@@ -21,7 +21,6 @@ const Team = () => {
         </div>
         {/* <div className="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-4"> */}
         <Swiper
-          loop={true}
           slidesPerView={1}
           spaceBetween={10}
           breakpoints={{
@@ -38,6 +37,7 @@ const Team = () => {
               spaceBetween: 50,
             },
           }}
+          loop={true}
           speed={1000}
           autoplay={{
             delay: 2500,
