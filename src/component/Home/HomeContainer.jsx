@@ -8,6 +8,7 @@ import FreeCounselling from "./FreeCounselling";
 import FundRaising from "./FundRaising";
 import SmallCounterBanner from "./SmallCounterBanner";
 import Team from "./Team";
+import UrgentHelp from "./UrgentHelp";
 import YouthDevelopment from "./YouthDevelopment";
 
 function HomeContainer() {
@@ -24,6 +25,7 @@ function HomeContainer() {
       <Team/>
       <CoPartners/>
       <ContactUs />
+      <UrgentHelp/>
     </>
   );
 }
