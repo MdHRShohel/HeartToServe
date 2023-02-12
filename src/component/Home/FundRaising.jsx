@@ -12,12 +12,12 @@ function FundRaising() {
 
 	return (
 		<div className='w-10/12 mb-20 container'>
-			<h1 className='text-center text-orange-500 font-bold text-3xl drop-shadow-lg'>
+			<h1 className='text-center text-orange-500 font-bold text-2xl md:text-3xl drop-shadow-lg'>
 				Funding Poor People
 			</h1>
 			<div className='mt-10 grid lg:grid-cols-2 gap-20 items-center'>
 				<div className='w-full'>
-					<div className='text-center text-2xl text-red-500 font-bold mb-2'>
+					<div className='text-center text-md md:text-2xl text-red-500 font-bold mb-2'>
 						<Typewriter
 							words={[
 								"Donate For Turkey Earthquake",
@@ -31,11 +31,16 @@ function FundRaising() {
 							loop={true}
 						/>
 					</div>
-					<p className='text-justify mb-4 text-gray-700 text-lg leading-6'>
+					<p className='hidden md:block text-justify mb-4 text-gray-700 text-lg leading-6'>
 						Fundraising or fund-raising is the process of seeking and gathering
 						voluntary financial contributions by engaging individuals,
 						businesses, charitable foundations, or agencies. access funding, and
 						train them to become sustainable in the process.
+					</p>
+
+					<p className='md:hidden text-justify mb-4 text-gray-700 text-lg leading-6'>
+						Fundraising or fund-raising is the process of seeking and gathering
+						voluntary...
 					</p>
 					<div className='md:flex justify-between items-start mt-8'>
 						<div className='md:pr-10 text-center space-y-3 mb-8 md:mb-0'>

@@ -13,7 +13,7 @@ const AntiDrugCampaign = () => {
     <div className="container">
       <div className="px-4 py-16">
         <div>
-          <h2 className="text-center text-orange-500 font-bold text-3xl drop-shadow-lg mb-10">Anti-Drug Campaign's</h2>
+          <h2 className="text-center text-orange-500 font-bold text-2xl md:text-3xl drop-shadow-lg mb-10">Anti-Drug Campaign's</h2>
         </div>
         <div className="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {
