@@ -30,12 +30,9 @@ const Banner = () => {
     <section>
       <Swiper
         loop={true}
-        autoplay={{ delay: 3000 }}
+        autoplay={{ delay: 2500 }}
         spaceBetween={30}
         slidesPerView={1}
-        pagination={{
-          clickable: true,
-        }}
         modules={[Pagination, Autoplay]}
       // onSlideChange={() => console.log("slide change")}
       // onSwiper={(swiper) => console.log(swiper)}
@@ -43,16 +40,16 @@ const Banner = () => {
         {bannerData.map((banner, i) => {
           return (
             <SwiperSlide key={i}>
-              <div className="text-center   banner">
+              <div className="text-center banner">
                 <div className="img-gradient">
                   <Image
-                    className="h-[500px] w-full rounded-md object-cover"
+                    className="h-[600px] w-full rounded-md object-cover filter brightness-75"
                     alt=""
                     src={banner.img}
                   />
                 </div>
 
-                <div className="text-white absolute flex-col justify-evenly transform -translate-y-1/2 right-5 top-1/2">
+                <div className="text-white absolute flex-col justify-evenly transform -translate-y-1/2 right-5 left-5 top-1/2">
                   <h1 className="text-3xl md:text-6xl lg:text-7xl tracking-wide font-Anton mb-4">
                     {banner.title}
                   </h1>
