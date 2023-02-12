@@ -120,24 +120,6 @@ function Navbar() {
 					<div className='text-md xl:text-lg text-[#303030] space-x-7 hidden lg:block '>
 						{menuItems}
 					</div>
-					<Drawer
-						open={isOpen}
-						onClose={toggleDrawer}
-						direction='top'
-						className='bla bla bla'>
-						<div className=' flex justify-center items-center h-full'>
-							<input
-								type='text'
-								className='border-2 w-6/12 rounded-l-lg py-2 px-6 border-orange-500 outline-orange-400'
-								placeholder='Search Here'
-							/>
-							<label
-								htmlFor=''
-								className='bg-[#ffe2da] rounded-r-lg hover:bg-[#ffd3c6] duration-300 text-[#ff9370] font-semibold py-3 cursor-pointer  px-3'>
-								Search
-							</label>
-						</div>
-					</Drawer>
 					<div className='text-md xl:text-xl  hidden lg:flex gap-7 justify-between items-center'>
 						<div>
 							<Link
@@ -174,6 +156,25 @@ function Navbar() {
 					</div>
 				</div>
 			</div>
+
+			<Drawer
+				open={isOpen}
+				onClose={toggleDrawer}
+				direction='top'
+				className='bla bla bla'>
+				<div className=' flex justify-center items-center h-full'>
+					<input
+						type='text'
+						className='border-2 w-6/12 rounded-l-lg py-2 px-6 border-orange-500 outline-orange-400'
+						placeholder='Search Here'
+					/>
+					<label
+						htmlFor=''
+						className='bg-[#ffe2da] rounded-r-lg hover:bg-[#ffd3c6] duration-300 text-[#ff9370] font-semibold py-2.5 cursor-pointer  px-3'>
+						Search
+					</label>
+				</div>
+			</Drawer>
 		</>
 	);
 }
