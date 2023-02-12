@@ -17,7 +17,7 @@ function SmallCounterBanner() {
 					width: "100%",
 				}}>
 				<div>
-					<span className='flex text-orange-400 font-bold md:text-3xl items-center justify-center'>
+					<span className='flex text-orange-400 font-bold text-3xl items-center justify-center'>
 						<MdBloodtype fontSize={50} />
 						<CountUp
 							end={15876}
