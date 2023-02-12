@@ -38,7 +38,7 @@ function DoNotNeedTrash() {
 						accumulating on beaches and within gyres
 					</p>
 					<button className='tracking-wider px-6 py-2 mt-8 rounded-lg border border-black hover:bg-[#F36A4F] cursor-pointer hover:text-white hover:border-current transition-all duration-200'>
-						<Link href={"#"}>DONATE NOW</Link>
+						<Link href={"#"}>Learn More</Link>
 					</button>
 				</div>
 			</div>
