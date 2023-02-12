@@ -4,26 +4,30 @@ function DoNotNeedTrash() {
 	return (
 		<div className='container my-20 w-10/12'>
 			<div className='grid grid-cols-1 lg:grid-cols-2 items-center'>
-				<div className='relative w-8/12 hidden lg:block'>
+				<div className='relative w-[75%] hidden lg:block'>
 					<img
 						src='https://images.unsplash.com/photo-1607536143324-9ea8ceaecdbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80'
 						alt=''
 						className='rounded-md shadow-xl'
 					/>
-					<img
-						src='https://images.unsplash.com/photo-1510251197878-a2e6d2cb590c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80'
-						alt=''
-						className='rounded-full absolute bottom-5 left-32 border-4 border-white z-10'
-					/>
-					<img
-						src='https://images.unsplash.com/photo-1503596476-1c12a8ba09a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80'
-						alt=''
-						className='absolute top-16 border-4 border-white rounded-full left-64 w-8/12'
-					/>
+					<div>
+						<img
+							src='https://images.unsplash.com/photo-1510251197878-a2e6d2cb590c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80'
+							alt=''
+							className='rounded-full absolute bottom-16 left-52 border-4 border-white z-10 w-10/12'
+						/>
+					</div>
+					<div>
+						<img
+							src='https://images.unsplash.com/photo-1503596476-1c12a8ba09a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80'
+							alt=''
+							className='absolute top-28 border-4 border-white rounded-full right-[-80px] w-6/12'
+						/>
+					</div>
 				</div>
 				<div className=''>
 					<div
-						className='w-32 h-32 rounded-full mb-8'
+						className='w-32 h-32 rounded-full mb-8 hidden'
 						style={{ border: "30px solid #FAD3E7" }}></div>
 					<h1 className='text-5xl font-bold text-slate-900'>
 						If nature doesn't need trash
