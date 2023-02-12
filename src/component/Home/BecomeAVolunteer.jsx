@@ -6,53 +6,81 @@ import { useDispatch, useSelector } from "react-redux";
 import BecomeVolunteerDrawer from "../Others/BecomeVolunteerDrawer";
 
 export default () => {
-  return (
-    <div className="px-3 md:px-0 my-12">
-      <div>
-        <div
-          className='w-full md:h-[550px] h-[300px] '
-          style={{
-            background:
-              "linear-gradient(rgb(26 25 24 / 16%), rgb(43 35 32 / 21%)), url(https://i.ibb.co/4MrS1DZ/pexels-rodnae-productions-6646894-1.jpg)",
-            backgroundRepeat: "no-repeat",
-            backgroundPosition: "center",
-            backgroundSize: "cover",
-            width: "100%",
-          }}>
-          <div className='flex justify-center items-center md:h-[550px] h-[300px]'>
-            <h1 className='uppercase font-bold  text-white text-2xl md:text-6xl'>
-              Become a Volunter
-            </h1>
-          </div>
-        </div>
-      </div>
-      <div className="flex gap-4 m-10 lg:flex-row flex-col items-center container mx-auto">
-        <div className="lg:w-[50%]">
-          <h1 className="sm:text-5xl uppercase font-semibold">Requirements</h1>
-          <div className="text-[0.9rem]">
-            <p className="py-10 ">
-              Time is our most precious resource. So if you are considering
-              volunteering, but wondering if it’s worth your time and effort,
-              it’s important to remember that even though you won’t be earning a
-              wage, the skills you gain are priceless
-            </p>
-            <div className=" mt-4 md:flex gap-8">
-              <div>
-                <ul className="flex flex-col gap-5">
-                  <li className="flex items-center gap-2">
-                    <BsCheckLg className="text-sm" /> Positive attitude
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <BsCheckLg className="text-sm" /> Time management
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <BsCheckLg className="text-sm" /> Willingness to help
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <BsCheckLg className="text-sm" /> Strong work ethic
-                  </li>
-                </ul>
-              </div>
+	const dispatch = useDispatch();
+
+	const [isOpen, setIsOpen] = useState(false);
+	const state = useSelector((state) => state.formData);
+
+	const handleFormSubmit = (e) => {
+		e.preventDefault();
+
+		const form = e.target;
+		const name = form.name.value;
+		const email = form.email.value;
+		const address = form.address.value;
+		const bloodGroup = form.bloodGroup.value;
+
+		const formValue = {
+			name,
+			email,
+			address,
+			bloodGroup,
+		};
+		dispatch(addToForm(formValue));
+		form.reset();
+	};
+
+	const toggleDrawer = () => {
+		setIsOpen((prevState) => !prevState);
+	};
+
+	return (
+		<div className='px-3 md:px-0 my-12'>
+			<div>
+				<div
+					className='w-full md:h-[550px] h-[300px] '
+					style={{
+						background:
+							"linear-gradient(rgb(26 25 24 / 16%), rgb(43 35 32 / 21%)), url(https://i.ibb.co/4MrS1DZ/pexels-rodnae-productions-6646894-1.jpg)",
+						backgroundRepeat: "no-repeat",
+						backgroundPosition: "center",
+						backgroundSize: "cover",
+						width: "100%",
+					}}>
+					<div className='flex justify-center items-center md:h-[550px] h-[300px]'>
+						<h1 className='uppercase font-bold  text-white text-2xl md:text-6xl'>
+							Become a Volunter
+						</h1>
+					</div>
+				</div>
+			</div>
+			<div className='flex gap-4 m-10 lg:flex-row flex-col items-center container mx-auto'>
+				<div className='lg:w-[50%]'>
+					<h1 className='sm:text-5xl uppercase font-semibold'>Requirements</h1>
+					<div className='text-[0.9rem]'>
+						<p className='py-10 '>
+							Time is our most precious resource. So if you are considering
+							volunteering, but wondering if it’s worth your time and effort,
+							it’s important to remember that even though you won’t be earning a
+							wage, the skills you gain are priceless
+						</p>
+						<div className=' mt-4 md:flex gap-8'>
+							<div>
+								<ul className='flex flex-col gap-5'>
+									<li className='flex items-center gap-2'>
+										<BsCheckLg className='text-sm' /> Positive attitude
+									</li>
+									<li className='flex items-center gap-2'>
+										<BsCheckLg className='text-sm' /> Time management
+									</li>
+									<li className='flex items-center gap-2'>
+										<BsCheckLg className='text-sm' /> Willingness to help
+									</li>
+									<li className='flex items-center gap-2'>
+										<BsCheckLg className='text-sm' /> Strong work ethic
+									</li>
+								</ul>
+							</div>
 
 							<div className='md:p-0 pt-3'>
 								<ul className='flex flex-col gap-5'>
