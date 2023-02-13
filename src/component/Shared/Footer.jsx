@@ -7,10 +7,10 @@ import logo from "../../asset/a.png";
 function Footer() {
 	const state = useSelector((state) => state.formData);
 	return (
-		<div className='bg-[#020202eb] text-white cursor-pointer'>
-			<div className='container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 items-start p-12 justify-center'>
+		<div className='bg-[#020202eb] text-white '>
+			<div className='container mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 items-start p-12 justify-center'>
 				<div className=''>
-					<Link href={"/"} className="flex justify-center items-center">
+					<Link href={"/"} className="flex mb-4 md:mb-0 items-center">
             <Image className="w-[60px]" src={logo} alt="" />
             <p className="uppercase leading-4 ml-1">
               Heart <br /> To <br /> Serve
