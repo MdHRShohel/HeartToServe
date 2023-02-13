@@ -111,11 +111,11 @@ function FundRaising() {
 					<div className='grid grid-cols-4 gap-2 text-sm lg:w-11/12 uppercase text-white absolute -bottom-10 lg:-bottom-10 lg:left-auto lg:right-6'>
 						<article className='flex flex-col justify-center items-center text-center bg-violet-400 p-3 shadow-lg'>
 							<AiFillHeart fontSize={30} />
-							<p>Help The Children</p>
+							<p className="">Help The Children</p>
 						</article>
-						<article className='flex flex-col justify-center items-center text-center bg-green-400 p-3 shadow-lg'>
+						<article className='flex flex-col justify-center items-center text-center bg-green-400 p-3 shadow-lg '>
 							<FaDonate fontSize={30} />
-							<p>Please Donate</p>
+							<p className="">Please Donate</p>
 						</article>
 						<article className='flex flex-col justify-center items-center text-center bg-amber-400 p-3 shadow-lg'>
 							<FaHandHoldingHeart fontSize={30} />
