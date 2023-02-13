@@ -18,7 +18,7 @@ const AntiDrugCampaign = () => {
         <div className="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {
             campaigns.map((campaign, i) => (
-              <div key={i} className="overflow-hidden transition-shadow duration-300 bg-white rounded h-auto">
+              <div key={i} className="overflow-hidden transition-shadow duration-300 bg-white rounded  h-full relative">
                 <div className="relative">
                   <div className="overflow-hidden hover:filter hover:brightness-50 duration-300">
                     <img
@@ -42,9 +42,9 @@ const AntiDrugCampaign = () => {
                   <p className="mb-4 text-gray-700 text-sm leading-6">
                     {campaign.desc.slice(0, 80) + '...'}
                   </p>
-                  <div className="flex">
+                  <div className="">
                     <button
-                      className="inline-flex items-center font-semibold text-[#F36A4F] hover:border-b hover:border-b-[#F36A4F] hover:text-[#f52d05] duration-300"
+                      className="inline-flex items-center font-semibold text-[#F36A4F] hover:border-b hover:border-b-[#F36A4F] hover:text-[#f52d05] duration-300 "
                     >
                       Read more
                     </button>

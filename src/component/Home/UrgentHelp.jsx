@@ -26,7 +26,7 @@ const UrgentHelp = () => {
                             <div>
                                 <img src="https://i.ibb.co/wCn9wPF/abuidda1.jpg" className="w-full md:w-16 md:h-16" alt="" />
                             </div>
-                            <div className="flex flex-col items-start">
+                            <div className="flex flex-col items-start p-2 md:p-0">
                                 <h1 className="font-semibold">Water For All</h1>
                                 <div className="flex gap-2">
                                    <p className="text-sm">Goal:320000$</p> 
@@ -42,7 +42,7 @@ const UrgentHelp = () => {
                             <div>
                                 <img src="https://i.ibb.co/z5kK4mT/abuidda2.jpg" className="w-full md:w-16 md:h-16" alt="" />
                             </div>
-                            <div className="flex flex-col  items-start">
+                            <div className="flex flex-col  items-start p-2 md:p-0">
                                 <h1 className="font-semibold">Water Wells</h1>
                                 <div className="flex gap-2">
                                    <p className="text-sm">Raised:55600$</p>
@@ -58,7 +58,7 @@ const UrgentHelp = () => {
                             <div>
                                 <img src="https://i.ibb.co/n7n3CbG/fani.jpg" className="w-full md:w-16 md:h-16" alt="" />
                             </div>
-                            <div className="flex flex-col  items-start">
+                            <div className="flex flex-col  items-start p-2 md:p-0">
                                 <h1 className="font-semibold">Child Support</h1>
                                 <div className="flex gap-2">
                                    <p className="text-sm">Goal:150000$</p> 
