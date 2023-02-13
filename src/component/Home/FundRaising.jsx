@@ -123,7 +123,7 @@ function FundRaising() {
 						</article>
 						<article className='flex flex-col justify-center items-center text-center bg-blue-400 p-3 shadow-lg'>
 							<BiWorld fontSize={30} />
-							<p className="text-xs md:text-sm">World Poverty</p>
+							<p className="text-xs md:text-sm">Worlds Poverty</p>
 						</article>
 					</div>
 				</div>
