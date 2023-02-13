@@ -39,7 +39,6 @@ function Navbar() {
     setIsOpen((prevState) => !prevState);
   };
 
-  // console.log(mobileBtn);
   return (
     <>
       {/* Navbar top */}
