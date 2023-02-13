@@ -26,7 +26,7 @@ function HomeContainer() {
 			<DoNotNeedTrash />
 			<Team />
 			<UrgentHelp />
-			<OurCorporatePartners></OurCorporatePartners>
+			<OurCorporatePartners/>
 			<ContactUs />
 		</>
 	);

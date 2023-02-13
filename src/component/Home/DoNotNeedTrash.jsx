@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { TfiTrash } from "react-icons/tfi";
-import { RiContrastDrop2Line } from "react-icons/ri";
 
 function DoNotNeedTrash() {
 	return (
@@ -28,7 +27,7 @@ function DoNotNeedTrash() {
 					</div>
 				</div>
 				<div className=''>
-					<div className='w-20 h-20 rounded-full mb-8 text-[#ffc6e3]'>
+					<div className='w-12 h-12 rounded-full mb-8 text-[#F36A4F]'>
 						<TfiTrash fontSize={120} className="w-full h-full" />
 					</div>
 					<h1 className='text-5xl leading-[60px] font-bold text-slate-900'>

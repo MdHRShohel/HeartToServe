@@ -55,11 +55,11 @@ const Team = () => {
 									/>
 								</div>
 								<div className='absolute bottom-5 left-0 flex justify-center items-center text-[#f47655] bg-[#ffe2da] px-[6px] py-[2px]'>
-									<p className='text-xl font-bold mr-1'>Director</p>
+									<p className='text-md font-bold mr-1'>Director</p>
 								</div>
 							</div>
 							<div className='px-1 py-4 text-[#303030]'>
-								<h2 className='text-lg font-bold leading-5 mb-2'>
+								<h2 className='text-md font-bold leading-5 mb-2'>
 									MD. Habibur Rahman
 								</h2>
 								<p className='text-sm font-bold mr-1 mb-2'>Managing Director</p>
@@ -99,11 +99,11 @@ const Team = () => {
 									/>
 								</div>
 								<div className='absolute bottom-5 left-0 flex justify-center items-center text-[#f47655] bg-[#ffe2da] px-[6px] py-[2px]'>
-									<p className='text-xl font-bold mr-1'>Manager</p>
+									<p className='text-md font-bold mr-1'>Manager</p>
 								</div>
 							</div>
 							<div className='px-1 py-4 text-[#303030]'>
-								<h2 className='text-lg font-bold leading-5 mb-2'>
+								<h2 className='text-md font-bold leading-5 mb-2'>
 									Md. Parvez Hossain
 								</h2>
 								<p className='text-sm font-bold mr-1 mb-2'>
@@ -143,11 +143,11 @@ const Team = () => {
 									/>
 								</div>
 								<div className='absolute bottom-5 left-0 flex justify-center items-center text-[#f47655] bg-[#ffe2da] px-[6px] py-[2px]'>
-									<p className='text-xl font-bold mr-1'>CEO</p>
+									<p className='text-md font-bold mr-1'>CEO</p>
 								</div>
 							</div>
 							<div className='px-1 py-4 text-[#303030]'>
-								<h2 className='text-lg font-bold leading-5 mb-2'>
+								<h2 className='text-md font-bold leading-5 mb-2'>
 									MD. Sajib Ahmed
 								</h2>
 								<p className='text-sm font-bold mr-1 mb-2'>
@@ -189,15 +189,15 @@ const Team = () => {
 									/>
 								</div>
 								<div className='absolute bottom-5 left-0 flex justify-center items-center text-[#f47655] bg-[#ffe2da] px-[6px] py-[2px]'>
-									<p className='text-xl font-bold mr-1'>IT Manager</p>
+									<p className='text-md font-bold mr-1'>IT Manager</p>
 								</div>
 							</div>
 							<div className='px-1 py-4 text-[#303030]'>
-								<h2 className='text-lg font-bold leading-5 mb-2'>
+								<h2 className='text-md font-bold leading-5 mb-2'>
 									MD. Fardin Khan
 								</h2>
 								<p className='text-sm font-bold mr-1 mb-2'>
-									Information Technology Manager
+									 Technology Manager
 								</p>
 								<div className='flex items-center gap-3'>
 									<a
@@ -235,11 +235,11 @@ const Team = () => {
 									/>
 								</div>
 								<div className='absolute bottom-5 left-0 flex justify-center items-center text-[#f47655] bg-[#ffe2da] px-[6px] py-[2px]'>
-									<p className='text-xl font-bold mr-1'>Manager</p>
+									<p className='text-md font-bold mr-1'>Manager</p>
 								</div>
 							</div>
 							<div className='px-1 py-4 text-[#303030]'>
-								<h2 className='text-lg font-bold leading-5 mb-2'>
+								<h2 className='text-md font-bold leading-5 mb-2'>
 									MD. Naimur Rahman
 								</h2>
 								<p className='text-sm font-bold mr-1 mb-2'>
@@ -282,11 +282,11 @@ const Team = () => {
 									/>
 								</div>
 								<div className='absolute bottom-5 left-0 flex justify-center items-center text-[#f47655] bg-[#ffe2da] px-[6px] py-[2px]'>
-									<p className='text-xl font-bold mr-1'>CTO</p>
+									<p className='text-md font-bold mr-1'>CTO</p>
 								</div>
 							</div>
 							<div className='px-1 py-4 text-[#303030]'>
-								<h2 className='text-lg font-bold leading-5 mb-2'>
+								<h2 className='text-md font-bold leading-5 mb-2'>
 									Mahbubur Rahman
 								</h2>
 								<p className='text-sm font-bold mr-1 mb-2'>Chief Tech officer</p>
@@ -327,11 +327,11 @@ const Team = () => {
 									/>
 								</div>
 								<div className='absolute bottom-5 left-0 flex justify-center items-center text-[#f47655] bg-[#ffe2da] px-[6px] py-[2px]'>
-									<p className='text-xl font-bold mr-1'>VP</p>
+									<p className='text-md font-bold mr-1'>VP</p>
 								</div>
 							</div>
 							<div className='px-1 py-4 text-[#303030]'>
-								<h2 className='text-lg font-bold leading-5 mb-2'>
+								<h2 className='text-md font-bold leading-5 mb-2'>
 									Mofazzal Hossen
 								</h2>
 								<p className='text-sm font-bold mr-1 mb-2'>Vice President</p>

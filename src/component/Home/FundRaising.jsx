@@ -11,13 +11,13 @@ function FundRaising() {
 	const state = useSelector((state) => state.formData);
 
 	return (
-		<div className='w-10/12 mb-20 container'>
-			<h1 className='text-center text-orange-500 font-bold text-3xl drop-shadow-lg'>
+		<div className='p-2 md:p-0 mb-20 container'>
+			<h1 className='text-center text-orange-500 font-bold text-2xl md:text-3xl drop-shadow-lg'>
 				Funding Poor People
 			</h1>
 			<div className='mt-10 grid lg:grid-cols-2 gap-20 items-center'>
 				<div className='w-full'>
-					<div className='text-center text-2xl text-red-500 font-bold mb-2'>
+					<div className='text-center text-md md:text-2xl text-red-500 font-bold mb-2'>
 						<Typewriter
 							words={[
 								"Donate For Turkey Earthquake",
@@ -31,11 +31,16 @@ function FundRaising() {
 							loop={true}
 						/>
 					</div>
-					<p className='text-justify mb-4 text-gray-700 text-lg leading-6'>
+					<p className='hidden md:block text-justify mb-4 text-gray-700 text-lg leading-6'>
 						Fundraising or fund-raising is the process of seeking and gathering
 						voluntary financial contributions by engaging individuals,
 						businesses, charitable foundations, or agencies. access funding, and
 						train them to become sustainable in the process.
+					</p>
+
+					<p className='md:hidden text-justify mb-4 text-gray-700 text-lg leading-6'>
+						Fundraising or fund-raising is the process of seeking and gathering
+						voluntary...
 					</p>
 					<div className='md:flex justify-between items-start mt-8'>
 						<div className='md:pr-10 text-center space-y-3 mb-8 md:mb-0'>
@@ -103,22 +108,22 @@ function FundRaising() {
 						alt='fund raising'
 						className='w-full h-full'
 					/>
-					<div className='grid grid-cols-4 gap-2 text-sm lg:w-11/12 uppercase text-white absolute -bottom-10 lg:-bottom-10 lg:left-auto lg:right-6'>
+					<div className='grid grid-cols-4 gap-2 text-sm lg:w-11/12 uppercase text-white absolute -bottom-10 lg:-bottom-10 lg:left-auto lg:right-6 justify-center'>
 						<article className='flex flex-col justify-center items-center text-center bg-violet-400 p-3 shadow-lg'>
 							<AiFillHeart fontSize={30} />
-							<p>Help The Children</p>
+							<p className="text-xs md:text-sm">Help The Children</p>
 						</article>
-						<article className='flex flex-col justify-center items-center text-center bg-green-400 p-3 shadow-lg'>
+						<article className='flex flex-col justify-center items-center text-center bg-green-400 p-3 shadow-lg '>
 							<FaDonate fontSize={30} />
-							<p>Please Donate</p>
+							<p className="text-xs md:text-sm">Please Donate</p>
 						</article>
 						<article className='flex flex-col justify-center items-center text-center bg-amber-400 p-3 shadow-lg'>
 							<FaHandHoldingHeart fontSize={30} />
-							<p>Became Volunteer</p>
+							<p className="text-xs md:text-sm">Became Volunteer</p>
 						</article>
 						<article className='flex flex-col justify-center items-center text-center bg-blue-400 p-3 shadow-lg'>
 							<BiWorld fontSize={30} />
-							<p>World Poverty</p>
+							<p className="text-xs md:text-sm">World Poverty</p>
 						</article>
 					</div>
 				</div>

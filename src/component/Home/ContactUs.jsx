@@ -6,8 +6,8 @@ import { Map, Marker } from "pigeon-maps";
 
 function ContactUs() {
   return (
-    <div className="w-10/12 my-20 container">
-      <h1 className="text-center text-orange-500 font-bold text-3xl drop-shadow-lg">
+    <div className="p-2 md:p-0 my-20 container">
+      <h1 className="text-center text-orange-500 font-bold text-2xl md:text-3xl drop-shadow-lg">
         Get In Touch With Us
       </h1>
       <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
@@ -27,7 +27,7 @@ function ContactUs() {
           </div>
           <div className="flex items-center mt-2">
             <MdMarkEmailUnread fontSize={30} className="mr-4 text-orange-500" />
-            <p className="text-sm">contact@hearttoSave.com</p>
+            <p className="text-sm">KiloBonfire@gmail.com</p>
           </div>
           <div className="flex items-center mt-2">
             <FaLocationArrow fontSize={30} className="mr-4 text-orange-500" />

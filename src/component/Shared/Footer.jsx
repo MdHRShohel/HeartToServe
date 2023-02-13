@@ -1,19 +1,21 @@
 import Image from "next/image";
+import Link from "next/link";
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { useSelector } from "react-redux";
-import footerLogo from "../../asset/logofooter-01.png";
+import logo from "../../asset/a.png";
 
 function Footer() {
 	const state = useSelector((state) => state.formData);
 	return (
-		<div className='bg-[#020202eb] text-white cursor-pointer'>
-			<div className='container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 items-start p-12 justify-center'>
+		<div className='bg-[#020202eb] text-white '>
+			<div className='container mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 items-start p-12 justify-center'>
 				<div className=''>
-					<Image
-						className='w-[150px] mb-8'
-						src={footerLogo}
-						alt=''
-					/>
+					<Link href={"/"} className="flex mb-4 md:mb-0 items-center">
+            <Image className="w-[60px]" src={logo} alt="" />
+            <p className="uppercase leading-4 ml-1">
+              Heart <br /> To <br /> Serve
+            </p>
+          </Link>
 				</div>
 				<div className='mb-5'>
 					<h2 className='text-lg font-bold mb-3'>Company</h2>
