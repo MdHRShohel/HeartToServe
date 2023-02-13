@@ -81,7 +81,7 @@ const UrgentHelp = () => {
             <div className="grid grid-cols-1 justify-center md:grid-cols-2 gap-4 pt-0 p-2 pb-6 lg:p-6 lg:gap-8 mb-10">
                 <div className="md:flex items-center gap-6 shadow-lg p-2 lg:p-12 rounded-lg">
                     <div className="md:-ml-4 lg:-ml-8">
-                        <img src="https://i.ibb.co/N39SGyD/one.png" alt="" />
+                        <img src="https://i.ibb.co/N39SGyD/one.png" className="w-20 md:w-full" alt="" />
 
                     </div>
                     <div>
@@ -91,7 +91,7 @@ const UrgentHelp = () => {
                 </div>
                 <div className="md:flex items-center gap-6 shadow-lg p-2 lg:p-12 rounded-lg">
                     <div className="md:-ml-4 lg:-ml-8">
-                        <img src="https://i.ibb.co/KK1YHy3/two.png" alt="" />
+                        <img src="https://i.ibb.co/KK1YHy3/two.png" className="w-20 md:w-full" alt="" />
 
                     </div>
                     <div>
