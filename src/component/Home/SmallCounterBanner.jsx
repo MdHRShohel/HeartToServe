@@ -1,7 +1,7 @@
-import { MdBloodtype } from "react-icons/md";
-import { HiEmojiHappy } from "react-icons/hi";
-import { RiHandCoinFill, RiBook2Fill } from "react-icons/ri";
 import CountUp from "react-countup";
+import { HiEmojiHappy } from "react-icons/hi";
+import { MdBloodtype } from "react-icons/md";
+import { RiBook2Fill, RiHandCoinFill } from "react-icons/ri";
 
 function SmallCounterBanner() {
 	return (
@@ -21,7 +21,7 @@ function SmallCounterBanner() {
 						<MdBloodtype fontSize={50} />
 						<CountUp
 							end={15876}
-							duration={5}
+							duration={7}
 						/>
 					</span>
 					<p className='text-xs lg:text-lg text-center font-bold text-white items-center'>
@@ -34,7 +34,7 @@ function SmallCounterBanner() {
 						<HiEmojiHappy fontSize={50} />
 						<CountUp
 							end={65742}
-							duration={5}
+							duration={7}
 						/>
 					</span>
 					<p className='text-xs lg:text-lg text-center font-semibold md:font-bold text-white'>
@@ -47,7 +47,7 @@ function SmallCounterBanner() {
 						<RiHandCoinFill fontSize={50} />
 						<CountUp
 							end={5082}
-							duration={5}
+							duration={7}
 						/>
 					</span>
 					<p className='text-xs lg:text-lg text-center font-semibold md:font-bold text-white'>
@@ -60,7 +60,7 @@ function SmallCounterBanner() {
 						<RiBook2Fill fontSize={50} />
 						<CountUp
 							end={47895}
-							duration={5}
+							duration={7}
 						/>
 					</span>
 					<p className='text-xs lg:text-lg text-center font-bold text-white'>
