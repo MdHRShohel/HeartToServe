@@ -1,5 +1,4 @@
 import CountUp from "react-countup";
- import { MdBloodtype } from "react-icons/md";
 import { HiEmojiHappy } from "react-icons/hi";
 import { MdBloodtype } from "react-icons/md";
 import { RiBook2Fill, RiHandCoinFill } from "react-icons/ri";
