@@ -26,7 +26,7 @@ const UrgentHelp = () => {
                             <div>
                                 <img src="https://i.ibb.co/wCn9wPF/abuidda1.jpg" className="w-full md:w-16 md:h-16" alt="" />
                             </div>
-                            <div className="flex flex-col items-start">
+                            <div className="flex flex-col items-start p-2 md:p-0">
                                 <h1 className="font-semibold">Water For All</h1>
                                 <div className="flex gap-2">
                                    <p className="text-sm">Goal:320000$</p> 
@@ -42,7 +42,7 @@ const UrgentHelp = () => {
                             <div>
                                 <img src="https://i.ibb.co/z5kK4mT/abuidda2.jpg" className="w-full md:w-16 md:h-16" alt="" />
                             </div>
-                            <div className="flex flex-col  items-start">
+                            <div className="flex flex-col  items-start p-2 md:p-0">
                                 <h1 className="font-semibold">Water Wells</h1>
                                 <div className="flex gap-2">
                                    <p className="text-sm">Raised:55600$</p>
@@ -58,7 +58,7 @@ const UrgentHelp = () => {
                             <div>
                                 <img src="https://i.ibb.co/n7n3CbG/fani.jpg" className="w-full md:w-16 md:h-16" alt="" />
                             </div>
-                            <div className="flex flex-col  items-start">
+                            <div className="flex flex-col  items-start p-2 md:p-0">
                                 <h1 className="font-semibold">Child Support</h1>
                                 <div className="flex gap-2">
                                    <p className="text-sm">Goal:150000$</p> 
@@ -81,7 +81,7 @@ const UrgentHelp = () => {
             <div className="grid grid-cols-1 justify-center md:grid-cols-2 gap-4 pt-0 p-2 pb-6 lg:p-6 lg:gap-8 mb-10">
                 <div className="md:flex items-center gap-6 shadow-lg p-2 lg:p-12 rounded-lg">
                     <div className="md:-ml-4 lg:-ml-8">
-                        <img src="https://i.ibb.co/N39SGyD/one.png" alt="" />
+                        <img src="https://i.ibb.co/N39SGyD/one.png" className="w-20 md:w-full" alt="" />
 
                     </div>
                     <div>
@@ -91,7 +91,7 @@ const UrgentHelp = () => {
                 </div>
                 <div className="md:flex items-center gap-6 shadow-lg p-2 lg:p-12 rounded-lg">
                     <div className="md:-ml-4 lg:-ml-8">
-                        <img src="https://i.ibb.co/KK1YHy3/two.png" alt="" />
+                        <img src="https://i.ibb.co/KK1YHy3/two.png" className="w-20 md:w-full" alt="" />
 
                     </div>
                     <div>
