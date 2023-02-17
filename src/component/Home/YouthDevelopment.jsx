@@ -50,7 +50,7 @@ const YouthDevelopment = () => {
                                         </div>
                                     </div>
                                     <div className="w-full">
-                                        <button className=' bg-[#ffe2da] hover:bg-[#ffae97] text-[#fe8158] hover:text-white font-semibold py-3 mt-6 px-3 rounded w-full duration-300'>View Details</button>
+                                        <button className='  bg-[#ffae97] hover:bg-[#ffe2da]  text-white hover:text-[#fe8158] font-semibold py-3 mt-6 px-3 rounded w-full duration-300'>View Details</button>
                                     </div>
                                 </div>
 
