@@ -1,7 +1,9 @@
+"user-client"
 import HomeContainer from "@/component/Home/HomeContainer";
 import { Poppins } from "@next/font/google";
 import Head from "next/head";
 import { Toaster } from "react-hot-toast";
+
 
 const poppins = Poppins({ weight: ["700", "400"], preload: false });
 
@@ -20,11 +22,16 @@ export default function Home() {
           rel="stylesheet"
         />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
       </Head>
       <main className={`${poppins.className} overflow-x-hidden`}>
         <Toaster />
         <HomeContainer />
       </main>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
     </>
   );
 }
