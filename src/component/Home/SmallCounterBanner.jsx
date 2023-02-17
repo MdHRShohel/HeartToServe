@@ -1,4 +1,4 @@
-import { MdBloodtype } from "react-icons/md";
+ import { MdBloodtype } from "react-icons/md";
 import { HiEmojiHappy } from "react-icons/hi";
 import { RiHandCoinFill, RiBook2Fill } from "react-icons/ri";
 import CountUp from "react-countup";
