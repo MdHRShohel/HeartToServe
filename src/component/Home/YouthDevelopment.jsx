@@ -17,9 +17,9 @@ const YouthDevelopment = () => {
     }, [])
     return (
       <m.div
-        initial={{ x: -500, y: 0, scale: 1, rotate: 0 }}
+        initial={{ x: "-100%", y: 0, scale: 1, rotate: 0 }}
         whileInView={{
-          x: 0,
+          x: "0%",
           y: 0,
           scale: 1,
           rotate: 0,
