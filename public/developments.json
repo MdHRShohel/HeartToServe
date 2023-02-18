@@ -2,37 +2,49 @@
     {
         "name" : "Leadership Training Program",
         "img" : "https://i.ibb.co/MpPpKrw/what-is-leadership.jpg",
-        "description": "6 Months",
-        "rating": 4.5
+        "duration": "6 Months",
+        "description": "Leadership and management training courses are specialized programs designed to help you learn new leadership techniques and refine old skills to run your team, including assertive communication, motivation methods, and coaching.",
+        "rating": 4.5,
+        "seats": 30
     },
     {
         "name" : "Entrepreneurship Program",
         "img": "https://i.ibb.co/7tjZrx9/getty-179693799-970805970450083-46949.jpg",
-        "description": "3 Months",
-        "rating": 4.0
+        "duration": "3 Months",
+        "description": "Campus entrepreneurship programs provide training for students, faculty, researchers and business leaders to drive positive, disruptive change to society by building scalable enterprises",
+        "rating": 4.0,
+        "seats": 28
     },
     {
         "name" : "Sports Program",
         "img": "https://i.ibb.co/gP88Jdk/swimmers-g22d2e8fd7-1920.jpg",
-        "description": "2 Months",
-        "rating": 4.8
+        "duration": "2 Months",
+        "description": "sports program means a program or portion of a program of an institution of higher education or of a public or nonpublic school that is organized for intramural or interschool recreational purposes with activities that include basketball, baseball, football, soccer, track, or any other competitive sports.",
+        "rating": 4.8,
+        "seats": 35
     },
     {
         "name" : "Creative Arts Program",
         "img": "https://i.ibb.co/K7SSZQs/brushes-g3581d6f84-1920.jpg",
-        "description": "6 Months",
-        "rating": 4.8
+        "duration": "6 Months",
+        "description": "This concentration provides a comprehensive groundwork for visual artists through a set of studio courses in drawing, painting, book arts, printmaking, and graphic design.",
+        "rating": 4.8,
+        "seats": 30
     },
     {
         "name" : "Career Development Program",
         "img": "https://i.ibb.co/Jq839mr/bulletin-board-gab044567f-1920.jpg",
-        "description": "3 Months",
-        "rating": 4.5
+        "duration": "3 Months",
+        "description": "Career development programs are plans designed to match employees' abilities, needs and career goals to current and future opportunities within an organization. It is a way to set your employees up for success and long-term progression in your company.",
+        "rating": 4.5,
+        "seats": 25
     },
     {
         "name" : "Technology Program",
         "img": "https://i.ibb.co/LtjTyFM/technology.jpg",
-        "description": "5 Months",
-        "rating": 4.1
+        "duration": "5 Months",
+        "description": "Majors in technology study the ways that we use computers and other electronic devices to solve human problems. Often blended with courses in engineering, technology degree programs provide students with skills and knowledge in a wide array of technical areas.",
+        "rating": 4.1,
+        "seats": 28
     }
 ]
