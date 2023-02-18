@@ -4,6 +4,7 @@ import { toast } from "react-hot-toast";
 import { BsCheckLg } from "react-icons/bs";
 import { useDispatch, useSelector } from "react-redux";
 import BecomeVolunteerDrawer from "../Others/BecomeVolunteerDrawer";
+import { motion as m } from "framer-motion";
 
 export default () => {
   const dispatch = useDispatch();
@@ -35,8 +36,16 @@ export default () => {
   };
 
   return (
-    <div className='container px-3 md:px-0 my-12' id="volunteer">
-      <div
+    <div className='container px-3 md:px-0 my-12' id='volunteer'>
+      <m.div
+        initial={{ x: "-100%", scale: 1, rotate: 0 }}
+        whileInView={{
+          x: "0%",
+        }}
+        transition={{
+          duration: 0.8,
+          ease: "easeInOut",
+        }}
         className='flex items-center justify-center md:h-[500px] h-[300px]'
         style={{
           background:
@@ -49,7 +58,7 @@ export default () => {
         <h1 className=' text-white text-center font-bold text-2xl sm:text-5xl'>
           Become a Volunteer
         </h1>
-      </div>
+      </m.div>
       <div className='flex gap-4 m-10 lg:flex-row flex-col items-center container mx-auto'>
         <div className='lg:w-[50%]'>
           <h1 className='sm:text-5xl uppercase font-semibold'>Requirements</h1>
@@ -63,42 +72,137 @@ export default () => {
             <div className=' mt-4 md:flex gap-8'>
               <div>
                 <ul className='flex flex-col gap-5'>
-                  <li className='flex items-center gap-2'>
+                  <m.li
+                    initial={{ x: "-100%", scale: 1, rotate: 0 }}
+                    whileInView={{
+                      x: "0%",
+                    }}
+                    transition={{
+                      duration: 0.8,
+                      ease: "easeInOut",
+                      delay: 0.1,
+                    }}
+                    className='flex items-center gap-2'>
                     <BsCheckLg className='text-sm' /> Positive attitude
-                  </li>
-                  <li className='flex items-center gap-2'>
+                  </m.li>
+                  <m.li
+                    initial={{ x: "-100%", y: 0, scale: 1, rotate: 0 }}
+                    whileInView={{
+                      x: "0%",
+                      y: 0,
+                      scale: 1,
+                      rotate: 0,
+                    }}
+                    transition={{
+                      duration: 0.8,
+                      ease: "easeInOut",
+                      delay: 0.2,
+                    }}
+                    className='flex items-center gap-2'>
                     <BsCheckLg className='text-sm' /> Time management
-                  </li>
-                  <li className='flex items-center gap-2'>
+                  </m.li>
+                  <m.li
+                    initial={{ x: "-100%", y: 0, scale: 1, rotate: 0 }}
+                    whileInView={{
+                      x: "0%",
+                      y: 0,
+                      scale: 1,
+                      rotate: 0,
+                    }}
+                    transition={{
+                      duration: 0.8,
+                      ease: "easeInOut",
+                      delay: 0.3,
+                    }}
+                    className='flex items-center gap-2'>
                     <BsCheckLg className='text-sm' /> Willingness to help
-                  </li>
-                  <li className='flex items-center gap-2'>
+                  </m.li>
+                  <m.li
+                    initial={{ x: "-100%", y: 0, scale: 1, rotate: 0 }}
+                    whileInView={{
+                      x: "0%",
+                      y: 0,
+                      scale: 1,
+                      rotate: 0,
+                    }}
+                    transition={{
+                      duration: 0.8,
+                      ease: "easeInOut",
+                      delay: 0.4,
+                    }}
+                    className='flex items-center gap-2'>
                     <BsCheckLg className='text-sm' /> Strong work ethic
-                  </li>
+                  </m.li>
                 </ul>
               </div>
 
               <div className='md:p-0 pt-3'>
                 <ul className='flex flex-col gap-5'>
-                  <li className='flex items-center gap-2'>
+                  <m.li
+                    initial={{ x: "-90%", scale: 1, rotate: 0 }}
+                    whileInView={{
+                      x: "0%",
+                    }}
+                    transition={{
+                      duration: 0.8,
+                      ease: "easeInOut",
+                      delay: 0.1,
+                    }}
+                    className='flex items-center gap-2'>
                     <BsCheckLg className='text-sm' /> Compassion
-                  </li>
-                  <li className='flex items-center gap-2'>
+                  </m.li>
+                  <m.li
+                    initial={{ x: "-80%", scale: 1, rotate: 0 }}
+                    whileInView={{
+                      x: "0%",
+                    }}
+                    transition={{
+                      duration: 0.8,
+                      ease: "easeInOut",
+                      delay: 0.2,
+                    }}
+                    className='flex items-center gap-2'>
                     <BsCheckLg className='text-sm ' /> Leadership
-                  </li>
-                  <li className='flex items-center gap-2'>
+                  </m.li>
+                  <m.li
+                    initial={{ x: "-80%", scale: 1, rotate: 0 }}
+                    whileInView={{
+                      x: "0%",
+                    }}
+                    transition={{
+                      duration: 0.8,
+                      ease: "easeInOut",
+                      delay: 0.3,
+                    }}
+                    className='flex items-center gap-2'>
                     <BsCheckLg className='text-sm' /> Be 18 years or older
-                  </li>
-                  <li className='flex items-center gap-2'>
+                  </m.li>
+                  <m.li
+                    initial={{ x: "-80%", scale: 1, rotate: 0 }}
+                    whileInView={{
+                      x: "0%",
+                    }}
+                    transition={{
+                      duration: 0.8,
+                      ease: "easeInOut",
+                      delay: 0.4,
+                    }}
+                    className='flex items-center gap-2'>
                     <BsCheckLg className='text-sm' /> Sign an oath of
                     confidentiality
-                  </li>
+                  </m.li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
-        <div className='bg-[#ffe2da] lg:w-[50%] w-full lg:mt-0 mt-6'>
+        <m.div
+          initial={{ scale: 0.2 }}
+          whileInView={{
+            scale: 1,
+          }}
+          transition={{ duration: 0.8, ease: "easeInOut" }}
+          className='bg-[#ffe2da] lg:w-[50%] w-full lg:mt-0 mt-6'>
           <div className='flex items-center justify-center sm:p-10 p-4'>
             <div className='mx-auto w-full'>
               {/* <h1 className='uppercase font-bold sm:text-5xl'>JOIN US NOW</h1> */}
@@ -170,7 +274,7 @@ export default () => {
               </form>
             </div>
           </div>
-        </div>
+        </m.div>
       </div>
       {state?.name === "" &&
       state?.email === "" &&
