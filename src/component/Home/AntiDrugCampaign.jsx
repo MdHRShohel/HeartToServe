@@ -31,7 +31,7 @@ const AntiDrugCampaign = () => {
               whileInView={{
                 scale: 1,
               }}
-              transition={{ duration: 0.8, ease: "easeInOut" }}
+              transition={{ duration: 0.3, ease: "easeInOut" }}
               key={i}
               className='overflow-hidden transition-shadow duration-300 bg-white rounded  h-full relative'>
               <div className='relative'>
