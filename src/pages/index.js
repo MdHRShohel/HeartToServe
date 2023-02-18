@@ -22,16 +22,11 @@ export default function Home() {
           rel="stylesheet"
         />
         <link rel="icon" href="/favicon.ico" />
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
       </Head>
       <main className={`${poppins.className} overflow-x-hidden`}>
         <Toaster />
         <HomeContainer />
       </main>
-      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-      <script>
-        AOS.init();
-      </script>
     </>
   );
 }
