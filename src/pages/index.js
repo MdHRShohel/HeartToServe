@@ -17,10 +17,6 @@ export default function Home() {
         {/* google font */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
-          rel="stylesheet"
-        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${poppins.className} overflow-x-hidden w-11/12 mx-auto`}>
