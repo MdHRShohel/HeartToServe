@@ -3,6 +3,7 @@ import Navbar from "@/component/Shared/Navbar";
 import store from "@/redux/store";
 import "@/styles/globals.css";
 import { Provider } from "react-redux";
+import "@/styles/Text.modules.css"
 
 export default function App({ Component, pageProps }) {
 

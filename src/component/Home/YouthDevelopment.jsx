@@ -4,6 +4,8 @@ import { useEffect, useState } from "react";
 import { PhotoProvider, PhotoView } from 'react-photo-view';
 import 'react-photo-view/dist/react-photo-view.css';
 
+
+
 const YouthDevelopment = () => {
     const [programmes, setProgrammes] = useState([])
     useEffect(() => {
@@ -31,27 +33,28 @@ const YouthDevelopment = () => {
                                         </PhotoView>
                                     </PhotoProvider>
 
-                                    <div className="py-5">
+                                    <div className="pt-5">
 
                                         <a
                                             href="/"
                                             aria-label="Article"
                                             className="inline-block mb-3 text-black transition-colors duration-200 hover:text-deep-purple-accent-700"
                                         >
-                                            <p className="text-lg font-bold leading-5 p-2 xl:px-6 xl:mb-4">{programme.name}</p>
+                                            <p className="text-lg font-bold leading-5 p-2 xl:px-6 xl:mb-2">{programme.name}</p>
                                         </a>
                                         <div className="flex justify-between p-2 xl:p-0">
                                             <p className="text-gray-700 xl:px-6">
-                                                Duration: {programme.duration}
+                                            <span className="font-bold">Duration</span>: {programme.duration}
                                             </p>
                                             <p className="text-gray-700 xl:px-6">
-                                                Rating: {programme.rating}
+                                            <span className="font-bold">Rating</span>: {programme.rating}
                                             </p>
                                         </div>
+                                      
                                     </div>
-                                    <div className="w-full">
-                                        <button className='  bg-[#ffae97] hover:bg-[#ffe2da]  text-white hover:text-[#fe8158] font-semibold py-3 mt-6 px-3 rounded w-full duration-300'>View Details</button>
-                                    </div>
+                                    
+                                        <button className='bg-[#ffae97] hover:bg-[#ffe2da]  text-white hover:text-[#fe8158] font-semibold py-3 mt-6 px-3 rounded w-full duration-300'>View Details</button>
+                                    
                                 </div>
 
 
