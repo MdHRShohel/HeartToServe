@@ -42,7 +42,7 @@ const YouthDevelopment = () => {
                                         </a>
                                         <div className="flex justify-between p-2 xl:p-0">
                                             <p className="text-gray-700 xl:px-6">
-                                                Duration: {programme.description}
+                                                Duration: {programme.duration}
                                             </p>
                                             <p className="text-gray-700 xl:px-6">
                                                 Rating: {programme.rating}
