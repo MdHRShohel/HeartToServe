@@ -5,7 +5,7 @@ import { RiBook2Fill, RiHandCoinFill } from "react-icons/ri";
 
 function SmallCounterBanner() {
 	return (
-		<div className='container'>
+		<div className='container' data-aos="fade-up" data-aos-duration="1000">
 			<div
 				className='px-8 py-6 lg:px-16 lg:py-8 flex justify-between flex-wrap items-center'
 				style={{
@@ -55,7 +55,7 @@ function SmallCounterBanner() {
 					</p>
 				</div>
 
-				<div  className="hidden md:block">
+				<div className="hidden md:block">
 					<span className='flex text-orange-400 font-bold text-sm md:text-3xl items-center justify-center'>
 						<RiBook2Fill fontSize={50} />
 						<CountUp

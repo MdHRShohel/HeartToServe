@@ -1,6 +1,5 @@
 [
     {
-        "id" : 1,
         "name" : "Leadership Training Program",
         "img" : "https://i.ibb.co/MpPpKrw/what-is-leadership.jpg",
         "duration": "6 Months",
@@ -9,7 +8,6 @@
         "seats": 30
     },
     {
-        "id" : 2,
         "name" : "Entrepreneurship Program",
         "img": "https://i.ibb.co/7tjZrx9/getty-179693799-970805970450083-46949.jpg",
         "duration": "3 Months",
@@ -18,7 +16,6 @@
         "seats": 28
     },
     {
-        "id" : 3,
         "name" : "Sports Program",
         "img": "https://i.ibb.co/gP88Jdk/swimmers-g22d2e8fd7-1920.jpg",
         "duration": "2 Months",
@@ -27,7 +24,6 @@
         "seats": 35
     },
     {
-        "id" : 4,
         "name" : "Creative Arts Program",
         "img": "https://i.ibb.co/K7SSZQs/brushes-g3581d6f84-1920.jpg",
         "duration": "6 Months",
@@ -36,7 +32,6 @@
         "seats": 30
     },
     {
-        "id" : 5,
         "name" : "Career Development Program",
         "img": "https://i.ibb.co/Jq839mr/bulletin-board-gab044567f-1920.jpg",
         "duration": "3 Months",
@@ -45,7 +40,6 @@
         "seats": 25
     },
     {
-        "id" : 6,
         "name" : "Technology Program",
         "img": "https://i.ibb.co/LtjTyFM/technology.jpg",
         "duration": "5 Months",

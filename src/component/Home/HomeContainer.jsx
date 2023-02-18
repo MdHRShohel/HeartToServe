@@ -12,6 +12,7 @@ import Team from "./Team";
 import UrgentHelp from "./UrgentHelp";
 import YouthDevelopment from "./YouthDevelopment";
 
+
 function HomeContainer() {
 	return (
 		<>
@@ -26,7 +27,7 @@ function HomeContainer() {
 			<DoNotNeedTrash />
 			<Team />
 			<UrgentHelp />
-			<OurCorporatePartners/>
+			<OurCorporatePartners />
 			<ContactUs />
 		</>
 	);
