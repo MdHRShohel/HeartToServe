@@ -22,5 +22,33 @@
         "month":"June",
         "year":"2022",
         "desc":"26 June is the international day against drug-abuse and illicit trafficking. We arranged a seminar where some international guests are invited. They keep there important speech to make people aware from drugs and illicit trafficking."
+    },
+
+    {
+        "title":"A healthy me is drug free.",
+        "img":"https://i.ibb.co/KLpNP9B/pexels-photo-1547248.jpg",
+        "date":"21",
+        "month":"July",
+        "year":"2021",
+        "desc":"The campaign focuses on the importance of successful prevention activities reaching all segments of the community to reduce the demand for drugs, such as parents, community groups, human service agencies, churches, youth, schools, businesses, law enforcement agencies, governments, senior citizens, service organizations ."
+    },
+
+
+    {
+        "title":"Be a chooser, not a loser.",
+        "img":"https://i.ibb.co/bPDZBxL/pexels-photo-944737.jpg",
+        "date":"21",
+        "month":"August",
+        "year":"2022",
+        "desc":" a person or thing that loses especially consistently. The team had a reputation for being a loser year after year. : a person who is incompetent or unable to succeed. Don't waste your time on that loser. also : something doomed to fail or disappoint."
+    },
+
+    {
+        "title":"Drugs are a grave mistake.",
+        "img":"https://i.ibb.co/VMZYKxH/pexels-photo-7230192.webp",
+        "date":"18",
+        "month":"February",
+        "year":"2020",
+        "desc":"The use of illegal drugs or the use of prescription or over-the-counter drugs for purposes other than those for which they are meant to be used, or in excessive amounts. Drug abuse may lead to social, physical, emotional, and job-related problems."
     }
 ]
