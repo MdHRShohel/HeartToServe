@@ -9,7 +9,7 @@
         "id": 2,
         "name": "Family Counseling",
         "description": "Family Counseling is a type of psychological counseling (psychotherapy) that can help family members improve communication and resolve conflicts.",
-        "img": "https://i.ibb.co/YTJHzrQ/family-counseling-session-home-with-therapist-pshycologist-showing-pictures-emotions-girl-african-am.jpg"
+        "img": "https://i.ibb.co/CpjPBDf/familyOp.png"
     },
     {
         "id": 3,
@@ -20,8 +20,8 @@
     {
         "id": 4,
         "name": "Anxiety",
-        "description": "Anxiety is a feeling of unease, such as worry or fear, that can be mild or severe. Everyone has feelings of anxiety at some point in their life.",
-        "img": "https://i.ibb.co/mGCMrHr/tired-businessman-suffering-from-headache.jpg"
+        "description": "Anxiety is a feeling of unease, such as worry or fear, that can be mild or severe. Everyone has feelings of anxiety at some point in their life. So, please take care of them.",
+        "img": "https://i.ibb.co/1bXxYHQ/anexity-01.png"
     },
     {
         "id": 5,
@@ -33,6 +33,6 @@
         "id": 6,
         "name": "Insomnia",
         "description": "Insomnia is a common sleep disorder that can make it hard to fall asleep, it's cause you to wake up too early and not be able to get back to sleep.",
-        "img": "https://i.ibb.co/HNq3FbP/What-is-insomnia-Trouble-Sleeping-Blog-1024x576.png"
+        "img": "https://i.ibb.co/fvrvt5w/young-female-sleep-bedroom-insomnia-sleeping-worried-stressed-01.png"
     }
 ]
