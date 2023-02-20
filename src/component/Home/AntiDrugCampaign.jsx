@@ -12,7 +12,7 @@ const AntiDrugCampaign = () => {
   }, []);
   return (
     <m.div
-      initial={{ scale: 0.2 }}
+      initial={{ scale: 0.8 }}
       whileInView={{
         scale: 1,
       }}
@@ -27,11 +27,11 @@ const AntiDrugCampaign = () => {
         <div className='grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
           {campaigns.map((campaign, i) => (
             <m.div
-              initial={{ scale: 0.2 }}
+              initial={{ scale: 0.8 }}
               whileInView={{
                 scale: 1,
               }}
-              transition={{ duration: 0.3, ease: "easeInOut" }}
+              transition={{ duration: 0.8, ease: "easeInOut" }}
               key={i}
               className='overflow-hidden transition-shadow duration-300 bg-white rounded  h-full relative'>
               <div className='relative'>

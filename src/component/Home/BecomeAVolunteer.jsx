@@ -38,7 +38,7 @@ export default () => {
   return (
     <div className='container px-3 md:px-0 my-12' id='volunteer'>
       <m.div
-        initial={{ x: "-100%", scale: 1, rotate: 0 }}
+        initial={{ x: "-20%", scale: 1, rotate: 0 }}
         whileInView={{
           x: "0%",
         }}
@@ -197,7 +197,7 @@ export default () => {
           </div>
         </div>
         <m.div
-          initial={{ scale: 0.2 }}
+          initial={{ scale: 0.8 }}
           whileInView={{
             scale: 1,
           }}

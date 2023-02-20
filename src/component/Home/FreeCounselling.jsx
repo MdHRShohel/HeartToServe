@@ -15,9 +15,12 @@ const FreeCounselling = () => {
 
   return (
     <m.div
-      initial={{ scale: 0.2 }}
+      initial={{ x: "-20%", y: 0, scale: 1, rotate: 0 }}
       whileInView={{
+        x: "0%",
+        y: 0,
         scale: 1,
+        rotate: 0,
       }}
       transition={{ duration: 0.8, ease: "easeInOut" }}
       className="mb-16 p-2 md:p-0">
@@ -36,9 +39,9 @@ const FreeCounselling = () => {
                 </div>
 
                 <div className='p-2 max-w-[350px]'>
-                <h1 className='text-xl font-bold leading-5 my-3 text-[#303030]'>
+                  <h1 className='text-xl font-bold leading-5 my-3 text-[#303030]'>
                     {consult.name}
-                </h1>
+                  </h1>
 
                   <p className='mb-4 text-gray-700 text-sm leading-7'>
                     {consult.description.slice(0, 180)}
