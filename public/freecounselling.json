@@ -1,36 +1,30 @@
 [
     {
-        "id": 1,
         "name": "Career Counseling",
         "description": "Career Counseling is a process that will help you to know and understand yourself and the world of work in order to make career, educational, and life decisions.",
         "img": "https://i.ibb.co/YLrv9w2/office-meeting.jpg"
     },
     {
-        "id": 2,
         "name": "Family Counseling",
         "description": "Family Counseling is a type of psychological counseling (psychotherapy) that can help family members improve communication and resolve conflicts.",
         "img": "https://i.ibb.co/CpjPBDf/familyOp.png"
     },
     {
-        "id": 3,
         "name": "Mood Disorders",
         "description": "If you have a mood disorder, your general emotional state or mood is distorted or inconsistent with your circumstances and interferes with your ability to function.",
         "img": "https://i.ibb.co/qJc1PCF/face-expression-emotional-people-concept.jpg"
     },
     {
-        "id": 4,
         "name": "Anxiety",
         "description": "Anxiety is a feeling of unease, such as worry or fear, that can be mild or severe. Everyone has feelings of anxiety at some point in their life. So, please take care of them.",
         "img": "https://i.ibb.co/1bXxYHQ/anexity-01.png"
     },
     {
-        "id": 5,
         "name": "Disability",
         "description": "The term is used to refer to individual functioning, including physical impairment, sensory impairment, cognitive impairment, intellectual impairment mental illness.",
         "img": "https://i.ibb.co/187xyKM/medium-shot-woman-listening-music.jpg"
     },
     {
-        "id": 6,
         "name": "Insomnia",
         "description": "Insomnia is a common sleep disorder that can make it hard to fall asleep, it's cause you to wake up too early and not be able to get back to sleep.",
         "img": "https://i.ibb.co/fvrvt5w/young-female-sleep-bedroom-insomnia-sleeping-worried-stressed-01.png"
