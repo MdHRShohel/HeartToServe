@@ -35,18 +35,15 @@ const FreeCounselling = () => {
                   />
                 </div>
 
-                <div className='p-2'>
-                  <div>
-
-                  </div>
-                  <h1 className='text-xl font-bold leading-5 my-3 text-[#303030]'>
+                <div className='p-2 max-w-[350px]'>
+                <h1 className='text-xl font-bold leading-5 my-3 text-[#303030]'>
                     {consult.name}
-                  </h1>
+                </h1>
 
                   <p className='mb-4 text-gray-700 text-sm leading-7'>
                     {consult.description.slice(0, 180)}
                   </p>
-                  <button className=' items-center font-semibold text-orange-500 hover:underline hover:text-[#f52d05] duration-300 my-2 '>
+                  <button className=' items-center font-semibold text-orange-500 hover:underline hover:text-[#f52d05] duration-300 '>
                     Book Now
                   </button>
                 </div>
@@ -55,8 +52,8 @@ const FreeCounselling = () => {
           }
         </div>
       </div>
-      <div className='flex items-center justify-center'>
-        <button className='font-semibold mx-auto text-center text-lg text-[#f52d05] mt-6 border-b border-b-[#f52d05]'>
+      <div className='flex items-center justify-center mt-6'>
+        <button className='font-semibold mx-auto text-center text-lg text-[#f52d05] border-b border-b-[#f52d05]'>
           See More
         </button>
       </div>
