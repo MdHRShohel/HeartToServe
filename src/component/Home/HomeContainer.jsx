@@ -4,6 +4,7 @@ import BecomeAVolunteer from "./BecomeAVolunteer";
 import BloodDonation from "./BloodDonation";
 import ContactUs from "./ContactUs";
 import DoNotNeedTrash from "./DoNotNeedTrash";
+import FindDonor from "./FindDonor";
 import FreeCounselling from "./FreeCounselling";
 import FundRaising from "./FundRaising";
 import OurCorporatePartners from "./OurCorporatePartners";
@@ -22,6 +23,7 @@ function HomeContainer() {
 			<AntiDrugCampaign />
 			<FundRaising />
 			<FreeCounselling />
+			<FindDonor />
 			<BloodDonation />
 			<BecomeAVolunteer />
 			<DoNotNeedTrash />

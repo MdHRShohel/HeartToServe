@@ -237,6 +237,20 @@ export default () => {
                 </div>
                 <div className='mb-5'>
                   <label
+                    htmlFor='email'
+                    className='mb-1 block text-base font-semibold text-[#c2513b]'>
+                    Phone Number
+                  </label>
+                  <input
+                    type='phone'
+                    name='phone'
+                    id='phone'
+                    placeholder='+008-000-000-0000'
+                    className='w-full  border-transparent border-2 border-b-[#F36A4F] bg-transparent py-3 sm:px-6 text-base font-medium text-[#6B7280] outline-none focus:border-b-[#6A64F1] focus:shadow-md'
+                  />
+                </div>
+                <div className='mb-5'>
+                  <label
                     htmlFor='address'
                     className='mb-3 block text-base font-semibold text-[#c2513b]'>
                     Location
@@ -277,9 +291,9 @@ export default () => {
         </m.div>
       </div>
       {state?.name === "" &&
-      state?.email === "" &&
-      state?.address === "" &&
-      state?.bloodGroup === "" ? (
+        state?.email === "" &&
+        state?.address === "" &&
+        state?.bloodGroup === "" ? (
         toast.error("Please Fill Your Details")
       ) : (
         <BecomeVolunteerDrawer
