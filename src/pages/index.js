@@ -1,9 +1,8 @@
-"user-client"
+"user-client";
 import HomeContainer from "@/component/Home/HomeContainer";
 import { Poppins } from "@next/font/google";
 import Head from "next/head";
 import { Toaster } from "react-hot-toast";
-
 
 const poppins = Poppins({ weight: ["700", "400"], preload: false });
 
@@ -17,13 +16,12 @@ export default function Home() {
         {/* google font */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
-          rel="stylesheet"
-        />
+
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={`${poppins.className} overflow-x-hidden w-11/12 mx-auto`}>
+      <main
+        className={`${poppins.className} overflow-x-hidden w-11/12 mx-auto`}
+      >
         <Toaster />
         <HomeContainer />
       </main>

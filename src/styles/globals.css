@@ -1,3 +1,6 @@
+/* google font anton */
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -85,9 +88,7 @@
   font-family: anton;
 }
 
-
 /* Donor's Section */
-
 
 .non-active-donor {
   background-color: #18a66f;
@@ -116,8 +117,7 @@
   transition: 300ms;
 }
 
-@media screen and (max-width:576px) {
-
+@media screen and (max-width: 576px) {
   .active-donor,
   .non-active-donor {
     font-size: 12px;
