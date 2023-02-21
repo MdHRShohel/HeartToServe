@@ -11,6 +11,7 @@
   "dependencies": {
     "@next/font": "13.1.6",
     "@redux-devtools/extension": "^3.2.5",
+    "@tanstack/react-query": "^4.24.9",
     "framer-motion": "^9.0.4",
     "next": "^13.1.6",
     "pigeon-maps": "^0.21.3",
