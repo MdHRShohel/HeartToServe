@@ -2,11 +2,11 @@ import Link from "next/link";
 import { TfiTrash } from "react-icons/tfi";
 import { motion as m } from "framer-motion";
 function DoNotNeedTrash() {
-	return (
+  return (
     <div className='container my-20 w-10/12'>
       <div className='grid grid-cols-1 lg:grid-cols-2 items-center'>
         <m.div
-          initial={{ scale: 0.2 }}
+          initial={{ scale: 0.8 }}
           whileInView={{
             scale: 1,
           }}
@@ -35,7 +35,7 @@ function DoNotNeedTrash() {
         <div className=''>
           <m.div
             whileInView={{
-              y: ["-200%", "0%"],
+              y: ["-20%", "0%"],
             }}
             transition={{
               y: {
@@ -47,7 +47,7 @@ function DoNotNeedTrash() {
             <TfiTrash fontSize={120} className='w-full h-full' />
           </m.div>
           <m.div
-            initial={{ scale: 0.2 }}
+            initial={{ scale: 0.8 }}
             whileInView={{
               scale: 1,
             }}

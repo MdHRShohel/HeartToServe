@@ -6,18 +6,18 @@ import { Typewriter } from "react-simple-typewriter";
 import { useSelector } from "react-redux";
 import { motion as m } from "framer-motion";
 function FundRaising() {
-	const [fundMoney, setFundMoney] = useState("");
+  const [fundMoney, setFundMoney] = useState("");
 
-	const state = useSelector((state) => state.formData);
+  const state = useSelector((state) => state.formData);
 
-	return (
+  return (
     <div className='p-2 md:p-0 mb-20 container'>
       <h1 className='text-center text-orange-500 font-bold text-2xl md:text-3xl drop-shadow-lg'>
         Funding Poor People
       </h1>
       <div className='mt-10 grid lg:grid-cols-2 gap-20 items-center'>
         <m.div
-          initial={{ x: "-100%", y: 0, scale: 1, rotate: 0 }}
+          initial={{ x: "-20%", y: 0, scale: 1, rotate: 0 }}
           whileInView={{
             x: "0%",
             y: 0,
@@ -112,7 +112,7 @@ function FundRaising() {
           </div>
         </m.div>
         <m.div
-          initial={{ x: "100%", y: 0, scale: 1, rotate: 0 }}
+          initial={{ x: "20%", y: 0, scale: 1, rotate: 0 }}
           whileInView={{
             x: "0%",
             y: 0,
@@ -127,11 +127,11 @@ function FundRaising() {
             className='w-full h-full'
           />
           <m.div
-            initial={{ y: "100%", scale: 1, rotate: 0 }}
+            initial={{ y: "40%", scale: 1, rotate: 0 }}
             whileInView={{
               y: "0%",
             }}
-            transition={{ duration: 0.3, ease: "easeInOut", delay:0.2 }}
+            transition={{ duration: 0.3, ease: "easeInOut", delay: 0.2 }}
             className='grid grid-cols-4 gap-2 text-sm lg:w-11/12 uppercase text-white absolute -bottom-10 lg:-bottom-10 lg:left-auto lg:right-6 justify-center'>
             <article className='flex flex-col justify-center items-center text-center bg-violet-400 p-3 shadow-lg'>
               <AiFillHeart fontSize={30} />

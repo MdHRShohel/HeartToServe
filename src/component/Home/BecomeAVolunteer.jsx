@@ -38,7 +38,7 @@ export default () => {
   return (
     <div className='container px-3 md:px-0 my-12' id='volunteer'>
       <m.div
-        initial={{ x: "-100%", scale: 1, rotate: 0 }}
+        initial={{ x: "-20%", scale: 1, rotate: 0 }}
         whileInView={{
           x: "0%",
         }}
@@ -197,7 +197,7 @@ export default () => {
           </div>
         </div>
         <m.div
-          initial={{ scale: 0.2 }}
+          initial={{ scale: 0.8 }}
           whileInView={{
             scale: 1,
           }}
@@ -232,6 +232,20 @@ export default () => {
                     name='email'
                     id='email'
                     placeholder='example@domain.com'
+                    className='w-full  border-transparent border-2 border-b-[#F36A4F] bg-transparent py-3 sm:px-6 text-base font-medium text-[#6B7280] outline-none focus:border-b-[#6A64F1] focus:shadow-md'
+                  />
+                </div>
+                <div className='mb-5'>
+                  <label
+                    htmlFor='email'
+                    className='mb-1 block text-base font-semibold text-[#c2513b]'>
+                    Phone Number
+                  </label>
+                  <input
+                    type='phone'
+                    name='phone'
+                    id='phone'
+                    placeholder='+008-000-000-0000'
                     className='w-full  border-transparent border-2 border-b-[#F36A4F] bg-transparent py-3 sm:px-6 text-base font-medium text-[#6B7280] outline-none focus:border-b-[#6A64F1] focus:shadow-md'
                   />
                 </div>
@@ -277,9 +291,9 @@ export default () => {
         </m.div>
       </div>
       {state?.name === "" &&
-      state?.email === "" &&
-      state?.address === "" &&
-      state?.bloodGroup === "" ? (
+        state?.email === "" &&
+        state?.address === "" &&
+        state?.bloodGroup === "" ? (
         toast.error("Please Fill Your Details")
       ) : (
         <BecomeVolunteerDrawer
