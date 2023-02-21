@@ -84,3 +84,34 @@
 .navbar a {
   font-family: anton;
 }
+
+
+/* Donor's Section */
+
+
+.non-active-donor {
+  background-color: #18a66f;
+  color: white;
+  font-size: 18px;
+  width: 50px;
+  border-radius: 4px;
+  font-weight: 600;
+  padding: 8px 0px;
+  transition: 300ms;
+}
+
+.non-active-donor:hover {
+  background-color: white;
+  color: rgb(234 88 12);
+}
+
+.active-donor {
+  background-color: white;
+  color: rgb(234 88 12);
+  font-size: 18px;
+  width: 50px;
+  border-radius: 4px;
+  font-weight: 600;
+  padding: 8px 0px;
+  transition: 300ms;
+}
