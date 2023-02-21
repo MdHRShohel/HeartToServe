@@ -8,7 +8,7 @@ import { motion as m } from "framer-motion";
 const YouthDevelopment = () => {
     const [programmes, setProgrammes] = useState([])
     useEffect(() => {
-        fetch("developments.json")
+        fetch("http://localhost:5000/programs")
             .then(res => res.json())
             .then(data => {
                 setProgrammes(data)
