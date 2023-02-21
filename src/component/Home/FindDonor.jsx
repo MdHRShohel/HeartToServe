@@ -11,6 +11,7 @@ import "swiper/css/pagination";
 // import required modules
 import { Pagination, Autoplay } from "swiper";
 import { useQuery } from '@tanstack/react-query';
+import Loader from '../Shared/Loader';
 
 const FindDonor = () => {
 
@@ -135,6 +136,9 @@ const FindDonor = () => {
         setON(false)
         setABP(false)
         refetch()
+    }
+    if (isLoading) {
+        return <Loader />
     }
 
     return (
