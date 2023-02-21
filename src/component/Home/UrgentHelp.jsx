@@ -4,12 +4,7 @@ const UrgentHelp = () => {
   return (
     <div className='container mx-auto p-2 md:p-0 overflow-hidden'>
       <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center items-center'>
-        <m.div
-          initial={{ scale: 0.2 }}
-          whileInView={{
-            scale: 1,
-          }}
-          transition={{ duration: 0.8, ease: "easeOut" }}
+        <div
           className='text-center lg:text-left'>
           <p className='text-[#303030] text-xl'>URGENT HELP</p>
           <h1 className='text-3xl font-bold leading-5 my-3 text-[#303030]'>
@@ -34,7 +29,7 @@ const UrgentHelp = () => {
             />
             <p className='font-mono text-xl'>Jenna Ortega</p>
           </div>
-        </m.div>
+        </div>
         <div className='mb-6 md:flex items-center md:justify-center lg:justify-between overflow-hidden'>
           <div className=''>
             <img

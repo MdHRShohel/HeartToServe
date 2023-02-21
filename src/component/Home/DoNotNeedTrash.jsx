@@ -5,12 +5,7 @@ function DoNotNeedTrash() {
   return (
     <div className='container my-20 w-10/12'>
       <div className='grid grid-cols-1 lg:grid-cols-2 items-center'>
-        <m.div
-          initial={{ scale: 0.8 }}
-          whileInView={{
-            scale: 1,
-          }}
-          transition={{ duration: 0.8, ease: "easeInOut" }}
+        <div
           className='relative w-[75%] hidden lg:block'>
           <img
             src='https://images.unsplash.com/photo-1607536143324-9ea8ceaecdbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80'
@@ -31,11 +26,11 @@ function DoNotNeedTrash() {
               className='absolute top-28 border-4 border-white rounded-full right-[-80px] w-6/12 '
             />
           </div>
-        </m.div>
+        </div>
         <div className=''>
           <m.div
             whileInView={{
-              y: ["-20%", "0%"],
+              y: ["-30%", "0%"],
             }}
             transition={{
               y: {
@@ -46,12 +41,7 @@ function DoNotNeedTrash() {
             className='w-12 h-12 rounded-full mb-8 text-[#F36A4F]'>
             <TfiTrash fontSize={120} className='w-full h-full' />
           </m.div>
-          <m.div
-            initial={{ scale: 0.8 }}
-            whileInView={{
-              scale: 1,
-            }}
-            transition={{ duration: 0.8, ease: "easeInOut" }}>
+          <div>
             <h1 className='text-5xl leading-[60px] font-bold text-slate-900'>
               If nature doesn't need trash
             </h1>
@@ -67,7 +57,7 @@ function DoNotNeedTrash() {
             <button className='tracking-wider px-6 py-2 mt-8 rounded-lg border border-black hover:bg-[#F36A4F] cursor-pointer hover:text-white hover:border-current transition-all duration-200'>
               <Link href={"#"}>Learn More</Link>
             </button>
-          </m.div>
+          </div>
         </div>
       </div>
     </div>

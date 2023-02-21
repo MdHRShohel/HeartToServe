@@ -37,15 +37,7 @@ export default () => {
 
   return (
     <div className='container px-3 md:px-0 my-12' id='volunteer'>
-      <m.div
-        initial={{ x: "-20%", scale: 1, rotate: 0 }}
-        whileInView={{
-          x: "0%",
-        }}
-        transition={{
-          duration: 0.8,
-          ease: "easeInOut",
-        }}
+      <div
         className='flex items-center justify-center md:h-[500px] h-[300px]'
         style={{
           background:
@@ -58,7 +50,7 @@ export default () => {
         <h1 className=' text-white text-center font-bold text-2xl sm:text-5xl'>
           Become a Volunteer
         </h1>
-      </m.div>
+      </div>
       <div className='flex gap-4 m-10 lg:flex-row flex-col items-center container mx-auto'>
         <div className='lg:w-[50%]'>
           <h1 className='sm:text-5xl uppercase font-semibold'>Requirements</h1>
@@ -196,12 +188,7 @@ export default () => {
             </div>
           </div>
         </div>
-        <m.div
-          initial={{ scale: 0.8 }}
-          whileInView={{
-            scale: 1,
-          }}
-          transition={{ duration: 0.8, ease: "easeInOut" }}
+        <div
           className='bg-[#ffe2da] lg:w-[50%] w-full lg:mt-0 mt-6'>
           <div className='flex items-center justify-center sm:p-10 p-4'>
             <div className='mx-auto w-full'>
@@ -288,7 +275,7 @@ export default () => {
               </form>
             </div>
           </div>
-        </m.div>
+        </div>
       </div>
       {state?.name === "" &&
         state?.email === "" &&

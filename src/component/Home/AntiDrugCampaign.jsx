@@ -1,7 +1,6 @@
 "use-client";
 
 import { useEffect, useState } from "react";
-import { motion as m } from "framer-motion";
 
 const AntiDrugCampaign = () => {
   const [campaigns, setCampaigns] = useState([]);
@@ -11,12 +10,7 @@ const AntiDrugCampaign = () => {
       .then((data) => setCampaigns(data));
   }, []);
   return (
-    <m.div
-      initial={{ scale: 0.8 }}
-      whileInView={{
-        scale: 1,
-      }}
-      transition={{ duration: 0.8, ease: "easeInOut" }}
+    <div
       className='container'>
       <div className='px-4 py-16'>
         <div>
@@ -26,12 +20,7 @@ const AntiDrugCampaign = () => {
         </div>
         <div className='grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
           {campaigns.map((campaign, i) => (
-            <m.div
-              initial={{ scale: 0.8 }}
-              whileInView={{
-                scale: 1,
-              }}
-              transition={{ duration: 0.8, ease: "easeInOut" }}
+            <div
               key={i}
               className='overflow-hidden transition-shadow duration-300 bg-white rounded  h-full relative'>
               <div className='relative'>
@@ -64,7 +53,7 @@ const AntiDrugCampaign = () => {
                   </button>
                 </div>
               </div>
-            </m.div>
+            </div>
           ))}
         </div>
         <div className='flex items-center justify-center'>
@@ -73,7 +62,7 @@ const AntiDrugCampaign = () => {
           </button>
         </div>
       </div>
-    </m.div>
+    </div>
   );
 };
 

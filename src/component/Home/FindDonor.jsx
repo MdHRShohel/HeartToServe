@@ -231,7 +231,7 @@ const FindDonor = () => {
                         className='mySwiper'>
                         {
                             donors.map(donor => (
-                                <SwiperSlide className="px-5 py-6 bg-[#00000030] text-[#f8f8ff] border rounded shadow-sm  text-center font-semibold mb-4 hover:scale-95 duration-300">
+                                <SwiperSlide className="px-5 py-6 bg-[#00000030] text-[#f8f8ff] border rounded shadow-sm  text-center font-semibold mb-4 cursor-pointer">
                                     <h6 className="text-xl mb-3 font-bold leading-5">
                                         {donor.name}
                                     </h6>

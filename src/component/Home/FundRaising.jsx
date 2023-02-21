@@ -16,15 +16,7 @@ function FundRaising() {
         Funding Poor People
       </h1>
       <div className='mt-10 grid lg:grid-cols-2 gap-20 items-center'>
-        <m.div
-          initial={{ x: "-20%", y: 0, scale: 1, rotate: 0 }}
-          whileInView={{
-            x: "0%",
-            y: 0,
-            scale: 1,
-            rotate: 0,
-          }}
-          transition={{ duration: 0.8, ease: "easeInOut" }}
+        <div
           className='w-full'>
           <div className='text-center text-md md:text-2xl text-red-500 font-bold mb-2'>
             <Typewriter
@@ -110,16 +102,8 @@ function FundRaising() {
               </button>
             </form>
           </div>
-        </m.div>
-        <m.div
-          initial={{ x: "20%", y: 0, scale: 1, rotate: 0 }}
-          whileInView={{
-            x: "0%",
-            y: 0,
-            scale: 1,
-            rotate: 0,
-          }}
-          transition={{ duration: 0.8, ease: "easeInOut" }}
+        </div>
+        <div
           className='w-full relative'>
           <img
             src='https://i.ibb.co/2WDdsWp/a.jpg'
@@ -150,7 +134,7 @@ function FundRaising() {
               <p className='text-xs md:text-sm'>World Poverty</p>
             </article>
           </m.div>
-        </m.div>
+        </div>
       </div>
     </div>
   );

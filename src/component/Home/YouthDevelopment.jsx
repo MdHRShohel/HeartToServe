@@ -3,7 +3,6 @@
 import { useEffect, useState } from "react";
 import { PhotoProvider, PhotoView } from 'react-photo-view';
 import 'react-photo-view/dist/react-photo-view.css';
-import { motion as m } from "framer-motion";
 
 const YouthDevelopment = () => {
   const [programmes, setProgrammes] = useState([])
@@ -16,15 +15,7 @@ const YouthDevelopment = () => {
 
   }, [])
   return (
-    <m.div
-      initial={{ x: "-20%", y: 0, scale: 1, rotate: 0 }}
-      whileInView={{
-        x: "0%",
-        y: 0,
-        scale: 1,
-        rotate: 0,
-      }}
-      transition={{ duration: 0.8, ease: "easeInOut" }}
+    <div
       className='container py-16'>
       <h2
         className='text-center text-orange-500 font-bold text-2xl md:text-3xl drop-shadow-lg mb-10'>
@@ -34,7 +25,7 @@ const YouthDevelopment = () => {
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
         {programmes?.map((programme) => (
           <>
-            <m.div className='px-4 py-3 lg:px-3'>
+            <div className='px-4 py-3 lg:px-3'>
               <div className='grid gap-5 sm:max-w-sm sm:mx-auto lg:max-w-full hover:scale-105 duration-300'>
                 <div className='overflow-hidden bg-slate-50 hover:bg-slate-100  transition-shadow duration-300  rounded-lg'>
                   <PhotoProvider>
@@ -72,11 +63,11 @@ const YouthDevelopment = () => {
                   </div>
                 </div>
               </div>
-            </m.div>
+            </div>
           </>
         ))}
       </div>
-    </m.div>
+    </div>
   );
 };
 

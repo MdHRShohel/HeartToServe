@@ -20,7 +20,7 @@ function Navbar() {
       <Link className="navHover" href={"#"}>
         EVENTS
       </Link>
-      <Link href={'/Blog'}  className="navHover">
+      <Link className="navHover" href={'/Blog'}>
         BLOG
       </Link>
       <Link className="navHover" href={"#"}>
@@ -126,9 +126,8 @@ function Navbar() {
 
           {/* custom hamburger button */}
           <div
-            className={`mobileBtn lg:hidden ${
-              mobileBtn ? "mobileBtn" : "active"
-            } `}
+            className={`mobileBtn lg:hidden ${mobileBtn ? "mobileBtn" : "active"
+              } `}
             onClick={() => setMobileBtn(!mobileBtn)}
           >
             <span></span>
@@ -136,9 +135,8 @@ function Navbar() {
 
           {/* mobile menu */}
           <div
-            className={` ${
-              mobileBtn ? "hidden" : "block top-16"
-            } absolute  flex gap-3 flex-col text-md text-[#303030]  lg:hidden bg-white w-full py-5 px-5 border-b-4 transition-all duration-500`}
+            className={` ${mobileBtn ? "hidden" : "block top-16"
+              } absolute  flex gap-3 flex-col text-md text-[#303030]  lg:hidden bg-white w-full py-5 px-5 border-b-4 transition-all duration-500`}
           >
             {menuItems}
           </div>

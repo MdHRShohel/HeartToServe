@@ -2,13 +2,9 @@ import CountUp from "react-countup";
 import { HiEmojiHappy } from "react-icons/hi";
 import { MdBloodtype } from "react-icons/md";
 import { RiBook2Fill, RiHandCoinFill } from "react-icons/ri";
-import { motion as m } from "framer-motion";
 function SmallCounterBanner() {
   return (
-    <m.div
-      initial={{ x: "20%" }}
-      whileInView={{ x: "0%" }}
-      transition={{ duration: 1, ease: "easeInOut" }}
+    <div
       className='container'>
       <div
         className='px-8 py-6 lg:px-16 lg:py-8 flex justify-between flex-wrap items-center'
@@ -60,7 +56,7 @@ function SmallCounterBanner() {
           </p>
         </div>
       </div>
-    </m.div>
+    </div>
   );
 }
 
