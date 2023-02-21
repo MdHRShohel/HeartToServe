@@ -6,15 +6,6 @@ import 'react-photo-view/dist/react-photo-view.css';
 import { motion as m } from "framer-motion";
 
 const YouthDevelopment = () => {
-<<<<<<< HEAD
-    const [programmes, setProgrammes] = useState([])
-    useEffect(() => {
-        fetch("http://localhost:5000/programs")
-            .then(res => res.json())
-            .then(data => {
-                setProgrammes(data)
-            })
-=======
   const [programmes, setProgrammes] = useState([])
   useEffect(() => {
     fetch("developments.json")
@@ -22,7 +13,6 @@ const YouthDevelopment = () => {
       .then(data => {
         setProgrammes(data)
       })
->>>>>>> 95a341cd96bbe480db206430877423438c98994e
 
   }, [])
   return (

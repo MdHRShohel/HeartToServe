@@ -13,34 +13,6 @@ const FreeCounselling = () => {
     }, [])
 
 
-<<<<<<< HEAD
-    return (
-        <m.div
-            initial={{ scale: 0.2 }}
-            whileInView={{
-                scale: 1,
-            }}
-            transition={{ duration: 0.8, ease: "easeInOut" }}
-            className="mb-16 p-2 md:p-0">
-            <h1 className="text-center text-orange-500 font-bold text-3xl drop-shadow-lg mb-12">Free Counselling</h1>
-            <div className="container">
-                <div className='grid xl:grid-cols-2 gap-8 container'>
-                    {
-                        consults?.map(consult => (
-                            <div className='md:flex  gap-3 bg-gray-50 hover:-translate-y-1 duration-500 '>
-                                <div className='w-full md:w-[900px] '>
-                                    <img
-                                        src={consult.img}
-                                        className='h-56'
-                                        alt=''
-                                    />
-                                </div>
-
-                                <div className='p-2 max-w-[350px]'>
-                                    <h1 className='text-xl font-bold leading-5 my-3 text-[#303030]'>
-                                        {consult.name}
-                                    </h1>
-=======
   return (
     <m.div
       initial={{ x: "-20%", y: 0, scale: 1, rotate: 0 }}
@@ -70,7 +42,6 @@ const FreeCounselling = () => {
                   <h1 className='text-xl font-bold leading-5 my-3 text-[#303030]'>
                     {consult.name}
                   </h1>
->>>>>>> 95a341cd96bbe480db206430877423438c98994e
 
                                     <p className='mb-4 text-gray-700 text-sm leading-7'>
                                         {consult.description.slice(0, 180)}
