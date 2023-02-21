@@ -34,28 +34,28 @@ const FindDonor = () => {
                 <h2 className='text-center text-white font-bold text-5xl md:text-3xl drop-shadow-lg mb-10'>Find Donor's
                 </h2>
                 <div className='flex items-center justify-center gap-8'>
-                    <button className='px-3 py-2 text-white text-lg bg-orange-600 rounded hover:bg-white hover:text-orange-600 duration-300'>
+                    <button className='px-3 py-2 font-semibold text-white text-lg bg-[#18a66f] rounded hover:bg-white  hover:text-orange-600 duration-300'>
                         A+
                     </button>
-                    <button className='px-3 py-2 text-white text-lg bg-orange-600 rounded hover:bg-white hover:text-orange-600 duration-300'>
+                    <button className='px-3 py-2 font-semibold text-white text-lg bg-[#18a66f] rounded hover:bg-white  hover:text-orange-600 duration-300'>
                         A-
                     </button>
-                    <button className='px-3 py-2 text-white text-lg bg-orange-600 rounded hover:bg-white hover:text-orange-600 duration-300'>
+                    <button className='px-3 py-2 font-semibold text-white text-lg bg-[#18a66f] rounded hover:bg-white  hover:text-orange-600 duration-300'>
                         B+
                     </button>
-                    <button className='px-3 py-2 text-white text-lg bg-orange-600 rounded hover:bg-white hover:text-orange-600 duration-300'>
+                    <button className='px-3 py-2 font-semibold text-white text-lg bg-[#18a66f] rounded hover:bg-white  hover:text-orange-600 duration-300'>
                         B-
                     </button>
-                    <button className='px-3 py-2 text-white text-lg bg-orange-600 rounded hover:bg-white hover:text-orange-600 duration-300'>
+                    <button className='px-3 py-2 font-semibold text-white text-lg bg-[#18a66f] rounded hover:bg-white  hover:text-orange-600 duration-300'>
                         O+
                     </button>
-                    <button className='px-3 py-2 text-white text-lg bg-orange-600 rounded hover:bg-white hover:text-orange-600 duration-300'>
+                    <button className='px-3 py-2 font-semibold text-white text-lg bg-[#18a66f] rounded hover:bg-white  hover:text-orange-600 duration-300'>
                         O-
                     </button>
-                    <button className='px-3 py-2 text-white text-lg bg-orange-600 rounded hover:bg-white hover:text-orange-600 duration-300'>
+                    <button className='px-3 py-2 font-semibold text-white text-lg bg-[#18a66f] rounded hover:bg-white  hover:text-orange-600 duration-300'>
                         AB+
                     </button>
-                    <button className='px-3 py-2 text-white text-lg bg-orange-600 rounded hover:bg-white hover:text-orange-600 duration-300'>
+                    <button className='px-3 py-2 font-semibold text-white text-lg bg-[#18a66f] rounded hover:bg-white  hover:text-orange-600 duration-300'>
                         AB-
                     </button>
                 </div>
