@@ -154,9 +154,9 @@ const FindDonor = () => {
                     height: "500px",
                     borderRadius: "8px"
                 }}>
-                <h2 className='text-center text-white font-bold text-5xl md:text-3xl drop-shadow-lg mb-10'>Find Donor's
+                <h2 className='text-center text-white font-bold text-3xl lg:text-5xl md:text-3xl drop-shadow-lg mb-10'>Find Donor's
                 </h2>
-                <div className='flex items-center justify-center gap-8'>
+                <div className='flex items-center justify-center gap-[5px] md:gap-5 lg:gap-8 px-1 md:px-0'>
                     <button
                         onClick={handleAPositive}
                         className={AP ? "active-donor" : "non-active-donor"}>
@@ -212,9 +212,14 @@ const FindDonor = () => {
                                 spaceBetween: 40,
                             },
                             1024: {
+                                slidesPerView: 3,
+                                spaceBetween: 50,
+                            },
+                            1280: {
                                 slidesPerView: 4,
                                 spaceBetween: 50,
                             },
+
                         }}
                         speed={1000}
                         loop={true}

@@ -115,3 +115,11 @@
   padding: 8px 0px;
   transition: 300ms;
 }
+
+@media screen and (max-width:576px) {
+
+  .active-donor,
+  .non-active-donor {
+    font-size: 12px;
+  }
+}
