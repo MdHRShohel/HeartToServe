@@ -11,7 +11,7 @@ function Navbar() {
 
   const menuItems = (
     <>
-      <Link className="navHover" href={"#"}>
+      <Link className="navHover" href={"/"}>
         HOME
       </Link>
       <Link className="navHover" href={"#"}>
@@ -20,7 +20,7 @@ function Navbar() {
       <Link className="navHover" href={"#"}>
         EVENTS
       </Link>
-      <Link className="navHover" href={"#"}>
+      <Link href={'/Blog'}  className="navHover">
         BLOG
       </Link>
       <Link className="navHover" href={"#"}>

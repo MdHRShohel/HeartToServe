@@ -10,14 +10,137 @@ import "swiper/css/pagination";
 
 // import required modules
 import { Pagination, Autoplay } from "swiper";
+import { useQuery } from '@tanstack/react-query';
+import Loader from '../Shared/Loader';
 
 const FindDonor = () => {
-    const [donors, setDonors] = useState([])
-    useEffect(() => {
-        fetch('donor.json')
-            .then(res => res.json())
-            .then(data => setDonors(data))
-    }, [])
+
+    const [group, setGroup] = useState("AP")
+    const { data: donors = [], refetch, isLoading } = useQuery({
+        queryKey: ['donors', group],
+        queryFn: async () => {
+            const res = await fetch(`http://localhost:5000/donors?group=${group}`)
+            const data = await res.json()
+            return data
+        }
+    })
+
+    const [AP, setAP] = useState(true)
+    const [AN, setAN] = useState(false)
+    const [BP, setBP] = useState(false)
+    const [BN, setBN] = useState(false)
+    const [OP, setOP] = useState(false)
+    const [ON, setON] = useState(false)
+    const [ABP, setABP] = useState(false)
+    const [ABN, setABN] = useState(false)
+
+    const handleAPositive = () => {
+        setGroup("AP");
+        setAP(true)
+        setAN(false)
+        setBP(false)
+        setBN(false)
+        setOP(false)
+        setON(false)
+        setABP(false)
+        setABN(false)
+        refetch()
+    }
+
+    const handleANegitive = () => {
+        setGroup("AN");
+        setAN(true)
+        setAP(false)
+        setBP(false)
+        setBN(false)
+        setOP(false)
+        setON(false)
+        setABP(false)
+        setABN(false)
+        refetch()
+    }
+
+    const handleBPositive = () => {
+        setGroup("BP");
+        setBP(true)
+        setAP(false)
+        setAN(false)
+        setBN(false)
+        setOP(false)
+        setON(false)
+        setABP(false)
+        setABN(false)
+        refetch()
+    }
+
+    const handleBNegitive = () => {
+        setGroup("BN");
+        setBN(true)
+        setAP(false)
+        setAN(false)
+        setBP(false)
+        setOP(false)
+        setON(false)
+        setABP(false)
+        setABN(false)
+        refetch()
+    }
+
+    const handleOPositive = () => {
+        setGroup("OP");
+        setOP(true)
+        setAP(false)
+        setAN(false)
+        setBP(false)
+        setBN(false)
+        setON(false)
+        setABP(false)
+        setABN(false)
+        refetch()
+    }
+
+    const handleONegitive = () => {
+        setGroup("ON");
+        setON(true)
+        setAP(false)
+        setAN(false)
+        setBP(false)
+        setBN(false)
+        setOP(false)
+        setABP(false)
+        setABN(false)
+        refetch()
+    }
+
+    const handleABPositive = () => {
+        setGroup("ABP");
+        setABP(true)
+        setAP(false)
+        setAN(false)
+        setBP(false)
+        setBN(false)
+        setOP(false)
+        setON(false)
+        setABN(false)
+        refetch()
+    }
+
+    const handleABNegitive = () => {
+        setGroup("ABN");
+        setABN(true)
+        setAP(false)
+        setAN(false)
+        setBP(false)
+        setBN(false)
+        setOP(false)
+        setON(false)
+        setABP(false)
+        refetch()
+    }
+    if (isLoading) {
+        return <Loader />
+    }
+
     return (
         <div className='container mx-auto'>
             <div className='py-16'
@@ -31,31 +154,47 @@ const FindDonor = () => {
                     height: "500px",
                     borderRadius: "8px"
                 }}>
-                <h2 className='text-center text-white font-bold text-5xl md:text-3xl drop-shadow-lg mb-10'>Find Donor's
+                <h2 className='text-center text-white font-bold text-3xl lg:text-5xl md:text-3xl drop-shadow-lg mb-10'>Find Donor's
                 </h2>
-                <div className='flex items-center justify-center gap-8'>
-                    <button className='px-3 py-2 font-semibold text-white text-lg bg-[#18a66f] rounded hover:bg-white  hover:text-orange-600 duration-300'>
+                <div className='flex items-center justify-center gap-[5px] md:gap-5 lg:gap-8 px-1 md:px-0'>
+                    <button
+                        onClick={handleAPositive}
+                        className={AP ? "active-donor" : "non-active-donor"}>
                         A+
                     </button>
-                    <button className='px-3 py-2 font-semibold text-white text-lg bg-[#18a66f] rounded hover:bg-white  hover:text-orange-600 duration-300'>
+                    <button
+                        onClick={handleANegitive}
+                        className={AN ? "active-donor" : "non-active-donor"}>
                         A-
                     </button>
-                    <button className='px-3 py-2 font-semibold text-white text-lg bg-[#18a66f] rounded hover:bg-white  hover:text-orange-600 duration-300'>
+                    <button
+                        onClick={handleBPositive}
+                        className={BP ? "active-donor" : "non-active-donor"}>
                         B+
                     </button>
-                    <button className='px-3 py-2 font-semibold text-white text-lg bg-[#18a66f] rounded hover:bg-white  hover:text-orange-600 duration-300'>
+                    <button
+                        onClick={handleBNegitive}
+                        className={BN ? "active-donor" : "non-active-donor"}>
                         B-
                     </button>
-                    <button className='px-3 py-2 font-semibold text-white text-lg bg-[#18a66f] rounded hover:bg-white  hover:text-orange-600 duration-300'>
+                    <button
+                        onClick={handleOPositive}
+                        className={OP ? "active-donor" : "non-active-donor"}>
                         O+
                     </button>
-                    <button className='px-3 py-2 font-semibold text-white text-lg bg-[#18a66f] rounded hover:bg-white  hover:text-orange-600 duration-300'>
+                    <button
+                        onClick={handleONegitive}
+                        className={ON ? "active-donor" : "non-active-donor"}>
                         O-
                     </button>
-                    <button className='px-3 py-2 font-semibold text-white text-lg bg-[#18a66f] rounded hover:bg-white  hover:text-orange-600 duration-300'>
+                    <button
+                        onClick={handleABPositive}
+                        className={ABP ? "active-donor" : "non-active-donor"}>
                         AB+
                     </button>
-                    <button className='px-3 py-2 font-semibold text-white text-lg bg-[#18a66f] rounded hover:bg-white  hover:text-orange-600 duration-300'>
+                    <button
+                        onClick={handleABNegitive}
+                        className={ABN ? "active-donor" : "non-active-donor"}>
                         AB-
                     </button>
                 </div>
@@ -73,9 +212,14 @@ const FindDonor = () => {
                                 spaceBetween: 40,
                             },
                             1024: {
+                                slidesPerView: 3,
+                                spaceBetween: 50,
+                            },
+                            1280: {
                                 slidesPerView: 4,
                                 spaceBetween: 50,
                             },
+
                         }}
                         speed={1000}
                         loop={true}

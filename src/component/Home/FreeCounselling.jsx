@@ -4,13 +4,13 @@ import { useEffect, useState } from "react";
 import { motion as m } from "framer-motion";
 
 const FreeCounselling = () => {
-  const [consults, setConsults] = useState([])
-  useEffect(() => {
-    fetch(`freecounselling.json`)
-      .then(res => res.json())
-      .then(data => setConsults(data.slice(0, 4)))
+    const [consults, setConsults] = useState([])
+    useEffect(() => {
+        fetch(`http://localhost:5000/counseling`)
+            .then(res => res.json())
+            .then(data => setConsults(data.slice(0, 4)))
 
-  }, [])
+    }, [])
 
 
   return (
@@ -43,25 +43,25 @@ const FreeCounselling = () => {
                     {consult.name}
                   </h1>
 
-                  <p className='mb-4 text-gray-700 text-sm leading-7'>
-                    {consult.description.slice(0, 180)}
-                  </p>
-                  <button className=' items-center font-semibold text-orange-500 hover:underline hover:text-[#f52d05] duration-300 '>
-                    Book Now
-                  </button>
+                                    <p className='mb-4 text-gray-700 text-sm leading-7'>
+                                        {consult.description.slice(0, 180)}
+                                    </p>
+                                    <button className=' items-center font-semibold text-orange-500 hover:underline hover:text-[#f52d05] duration-300 '>
+                                        Book Now
+                                    </button>
+                                </div>
+                            </div>
+                        ))
+                    }
                 </div>
-              </div>
-            ))
-          }
-        </div>
-      </div>
-      <div className='flex items-center justify-center mt-6'>
-        <button className='font-semibold mx-auto text-center text-lg text-[#f52d05] border-b border-b-[#f52d05]'>
-          See More
-        </button>
-      </div>
-    </m.div>
-  );
+            </div>
+            <div className='flex items-center justify-center mt-6'>
+                <button className='font-semibold mx-auto text-center text-lg text-[#f52d05] border-b border-b-[#f52d05]'>
+                    See More
+                </button>
+            </div>
+        </m.div>
+    );
 };
 
 export default FreeCounselling;
