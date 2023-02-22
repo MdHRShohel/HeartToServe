@@ -15,19 +15,19 @@ function Navbar() {
         HOME
       </Link>
       <Link className="navHover" href={"#"}>
-        DONATIONS
+        PROGRAMS
       </Link>
       <Link className="navHover" href={"#"}>
         EVENTS
+      </Link>
+      <Link className="navHover" href={"#"}>
+        COUNSELING
       </Link>
       <Link className="navHover" href={'/Blog'}>
         BLOG
       </Link>
       <Link className="navHover" href={"#"}>
-        FAQs
-      </Link>
-      <Link className="navHover" href={"#"}>
-        ABOUT
+        ABOUT US
       </Link>
       <Link className="navHover" href={"#"}>
         CONTACT US
