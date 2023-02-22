@@ -1,5 +1,6 @@
 "use client"
 
+import Link from "next/link";
 import { useEffect, useState } from "react"
 
 const FreeCounselling = () => {
@@ -47,9 +48,9 @@ const FreeCounselling = () => {
         </div>
       </div>
       <div className='flex items-center justify-center mt-6'>
-        <button className='font-semibold mx-auto text-center text-lg text-[#f52d05] border-b border-b-[#f52d05]'>
+        <Link href={"/Counselling"} className='font-semibold mx-auto text-center text-lg text-[#f52d05] border-b border-b-[#f52d05]'>
           See More
-        </button>
+        </Link>
       </div>
     </div>
   );

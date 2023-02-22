@@ -14,13 +14,10 @@ function Navbar() {
       <Link className="navHover" href={"/"}>
         HOME
       </Link>
-      <Link className="navHover" href={"#"}>
+      <Link className="navHover" href={"/Programs"}>
         PROGRAMS
       </Link>
-      <Link className="navHover" href={"#"}>
-        EVENTS
-      </Link>
-      <Link className="navHover" href={"#"}>
+      <Link className="navHover" href={"/Counselling"}>
         COUNSELING
       </Link>
       <Link className="navHover" href={'/Blog'}>
