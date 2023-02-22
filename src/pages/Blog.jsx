@@ -25,7 +25,7 @@ const Blog = () => {
                     <div className="mb-6">
                        <div className="lg:grid lg:grid-cols-12 gap-4">
                        <div className="lg:col-span-4">
-                            <img className="w-full" src={blog.img} alt="" />
+                            <img className="w-full h-full" src={blog.img} alt="" />
                         </div>
                         <div className="lg:col-span-8">
                             <h1 className="text-2xl md:text-4xl font-semibold py-2">{blog.title}</h1>
