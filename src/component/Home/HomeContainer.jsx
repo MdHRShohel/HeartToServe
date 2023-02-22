@@ -19,13 +19,13 @@ function HomeContainer() {
 		<>
 			<Banner />
 			<YouthDevelopment />
-			<SmallCounterBanner />
-			<AntiDrugCampaign />
 			<FundRaising />
+			<AntiDrugCampaign />
+			<SmallCounterBanner />
 			<FreeCounselling />
-			<FindDonor />
 			{/* <BloodDonation /> */}
 			<BecomeAVolunteer />
+			<FindDonor />
 			<DoNotNeedTrash />
 			<Team />
 			<UrgentHelp />

@@ -15,7 +15,7 @@ const FreeCounselling = () => {
 
   return (
     <div
-      className="mb-16 p-2 md:p-0">
+      className="my-16 p-2 md:p-0">
       <h1 className="text-center text-orange-500 font-bold text-3xl drop-shadow-lg mb-12">Free Counselling</h1>
       <div className="container">
         <div className='grid xl:grid-cols-2 gap-8 container'>

@@ -223,9 +223,8 @@ const FindDonor = () => {
 
                                 }}
                                 speed={1000}
-                                loop={true}
                                 autoplay={{
-                                    delay: 2500,
+                                    delay: 1500,
                                     disableOnInteraction: false,
                                 }}
                                 modules={[Pagination, Autoplay]}

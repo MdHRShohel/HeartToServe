@@ -1,3 +1,4 @@
+"use-client"
 import { addToForm } from "@/redux/actions/formActions";
 import { useState } from "react";
 import { toast } from "react-hot-toast";
@@ -18,17 +19,40 @@ export default () => {
     const form = e.target;
     const name = form.name.value;
     const email = form.email.value;
+    const phone = form.phone.value;
     const address = form.address.value;
     const bloodGroup = form.bloodGroup.value;
+    const bloodName = bloodGroup.split(' ')
 
-    const formValue = {
+    const userBloodGroup = `${bloodName[0]}${bloodName[1].slice(0, 1)}`
+    const donors = {
       name,
       email,
+      phone,
       address,
-      bloodGroup,
+      blood: bloodGroup,
+      group: userBloodGroup
     };
-    dispatch(addToForm(formValue));
-    form.reset();
+
+    console.log(donors);
+
+    // fetch('http://localhost:5000/donors', {
+    //   method: "POST",
+    //   headers: {
+    //     "content-type": "application/json"
+    //   },
+    //   body: JSON.stringify(donors)
+    // })
+    //   .then(res => res.json())
+    //   .then(data => {
+    //     if (data.acknowledged) {
+    //       console.log(data)
+    //       form.reset();
+    //     }
+    //   })
+
+
+    dispatch(addToForm(donors));
   };
 
   const toggleDrawer = () => {
@@ -201,6 +225,7 @@ export default () => {
                     Full Name
                   </label>
                   <input
+                    required
                     type='text'
                     name='name'
                     id='name'
@@ -215,6 +240,7 @@ export default () => {
                     Email Address
                   </label>
                   <input
+                    required
                     type='email'
                     name='email'
                     id='email'
@@ -229,6 +255,7 @@ export default () => {
                     Phone Number
                   </label>
                   <input
+                    required
                     type='phone'
                     name='phone'
                     id='phone'
@@ -243,6 +270,7 @@ export default () => {
                     Location
                   </label>
                   <input
+                    required
                     type='text'
                     name='address'
                     id='address'
@@ -257,10 +285,11 @@ export default () => {
                     Blood Group
                   </label>
                   <input
+                    required
                     type='text'
                     name='bloodGroup'
                     id='bloodGroup'
-                    placeholder='A+..'
+                    placeholder='A Positive...(Writing Positive/Negative Required)'
                     className='w-full  border-transparent border-2 border-b-[#F36A4F] bg-transparent py-3 sm:px-6 text-base font-medium text-[#6B7280] outline-none focus:border-b-[#6A64F1] focus:shadow-md'
                   />
                 </div>
