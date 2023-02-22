@@ -137,9 +137,6 @@ const FindDonor = () => {
         setABP(false)
         refetch()
     }
-    if (isLoading) {
-        return <Loader />
-    }
 
     return (
         <div className='container mx-auto'>
@@ -199,55 +196,60 @@ const FindDonor = () => {
                     </button>
                 </div>
                 <div className='px-5 pt-8'>
-                    <Swiper
-                        slidesPerView={1}
-                        spaceBetween={10}
-                        breakpoints={{
-                            640: {
-                                slidesPerView: 1,
-                                spaceBetween: 20,
-                            },
-                            768: {
-                                slidesPerView: 2,
-                                spaceBetween: 40,
-                            },
-                            1024: {
-                                slidesPerView: 3,
-                                spaceBetween: 50,
-                            },
-                            1280: {
-                                slidesPerView: 4,
-                                spaceBetween: 50,
-                            },
+                    {
+                        isLoading ?
+                            <Loader />
+                            :
+                            <Swiper
+                                slidesPerView={1}
+                                spaceBetween={10}
+                                breakpoints={{
+                                    640: {
+                                        slidesPerView: 1,
+                                        spaceBetween: 20,
+                                    },
+                                    768: {
+                                        slidesPerView: 2,
+                                        spaceBetween: 40,
+                                    },
+                                    1024: {
+                                        slidesPerView: 3,
+                                        spaceBetween: 50,
+                                    },
+                                    1280: {
+                                        slidesPerView: 4,
+                                        spaceBetween: 50,
+                                    },
 
-                        }}
-                        speed={1000}
-                        loop={true}
-                        autoplay={{
-                            delay: 2500,
-                            disableOnInteraction: false,
-                        }}
-                        modules={[Pagination, Autoplay]}
-                        className='mySwiper'>
-                        {
-                            donors.map(donor => (
-                                <SwiperSlide className="px-5 py-6 bg-[#00000030] text-[#f8f8ff] border rounded shadow-sm  text-center font-semibold mb-4 cursor-pointer">
-                                    <h6 className="text-xl mb-3 font-bold leading-5">
-                                        {donor.name}
-                                    </h6>
-                                    <p className="text-sm text-neutral mb-2">
-                                        {donor.email}
-                                    </p>
-                                    <p className="text-sm text-neutral mb-2">
-                                        Phone:{' '}{donor.phone}
-                                    </p>
-                                    <p className="text-sm text-neutral">
-                                        Blood Group:{' '}{donor.blood}
-                                    </p>
-                                </SwiperSlide>
-                            ))
-                        }
-                    </Swiper>
+                                }}
+                                speed={1000}
+                                loop={true}
+                                autoplay={{
+                                    delay: 2500,
+                                    disableOnInteraction: false,
+                                }}
+                                modules={[Pagination, Autoplay]}
+                                className='mySwiper'>
+                                {
+                                    donors.map(donor => (
+                                        <SwiperSlide className="px-5 py-6 bg-[#00000030] text-[#f8f8ff] border rounded shadow-sm  text-center font-semibold mb-4 cursor-pointer">
+                                            <h6 className="text-xl mb-3 font-bold leading-5">
+                                                {donor.name}
+                                            </h6>
+                                            <p className="text-sm text-neutral mb-2">
+                                                {donor.email}
+                                            </p>
+                                            <p className="text-sm text-neutral mb-2">
+                                                Phone:{' '}{donor.phone}
+                                            </p>
+                                            <p className="text-sm text-neutral">
+                                                Blood Group:{' '}{donor.blood}
+                                            </p>
+                                        </SwiperSlide>
+                                    ))
+                                }
+                            </Swiper>
+                    }
                 </div>
             </div>
         </div >
