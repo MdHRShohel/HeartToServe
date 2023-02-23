@@ -85,7 +85,8 @@
 .banner h1,
 .banner button,
 .navbar a {
-  font-family: anton;
+  /* font-family: anton; */
+  font-weight: 700;
 }
 
 /* Donor's Section */

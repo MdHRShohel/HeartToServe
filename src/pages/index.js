@@ -1,6 +1,6 @@
 "user-client";
 import HomeContainer from "@/component/Home/HomeContainer";
-import { Poppins } from "@next/font/google";
+import { Anton, Poppins } from "@next/font/google";
 import Head from "next/head";
 import { Toaster } from "react-hot-toast";
 
@@ -20,7 +20,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main
-        className={`${poppins.className} overflow-x-hidden w-11/12 mx-auto`}
+        className={`${poppins.className}  overflow-x-hidden w-11/12 mx-auto`}
       >
         <Toaster />
         <HomeContainer />
