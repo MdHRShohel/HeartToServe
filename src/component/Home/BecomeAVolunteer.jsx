@@ -36,20 +36,20 @@ export default () => {
 
     console.log(donors);
 
-    // fetch('https://heart-to-serve-server.vercel.app/donors', {
-    //   method: "POST",
-    //   headers: {
-    //     "content-type": "application/json"
-    //   },
-    //   body: JSON.stringify(donors)
-    // })
-    //   .then(res => res.json())
-    //   .then(data => {
-    //     if (data.acknowledged) {
-    //       console.log(data)
-    //       form.reset();
-    //     }
-    //   })
+    fetch('https://heart-to-serve-server.vercel.app/donors', {
+      method: "POST",
+      headers: {
+        "content-type": "application/json"
+      },
+      body: JSON.stringify(donors)
+    })
+      .then(res => res.json())
+      .then(data => {
+        if (data.acknowledged) {
+          console.log(data)
+          form.reset();
+        }
+      })
 
     dispatch(addToForm(donors));
   };
@@ -320,9 +320,9 @@ export default () => {
         </div>
       </div>
       {state?.name === "" &&
-      state?.email === "" &&
-      state?.address === "" &&
-      state?.bloodGroup === "" ? (
+        state?.email === "" &&
+        state?.address === "" &&
+        state?.bloodGroup === "" ? (
         toast.error("Please Fill Your Details")
       ) : (
         <BecomeVolunteerDrawer
